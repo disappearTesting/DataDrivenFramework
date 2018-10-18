@@ -4,6 +4,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterSuite;
@@ -13,6 +14,7 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Properties;
+import java.util.concurrent.TimeUnit;
 
 public class TestBase {
     /*
@@ -26,10 +28,10 @@ public class TestBase {
     * Mail
      */
 
-    private WebDriver driver;
+    public WebDriver driver;
 
-    private Properties config = new Properties();
-    private Properties OR = new Properties();
+    public Properties config = new Properties();
+    public Properties OR = new Properties();
 
     private FileInputStream sourceStreamConfig;
     private FileInputStream sourceStreamOR;
@@ -81,6 +83,6 @@ public class TestBase {
 
     @AfterSuite
     public void tearDown() {
-
+        driver.quit();
     }
 }
