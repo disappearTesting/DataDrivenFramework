@@ -9,3 +9,6 @@
 		
 		//	Java Event Listeners
 		https://docs.oracle.com/javase/tutorial/uiswing/events/index.html
+		
+		//	Selenium API
+		https://seleniumhq.github.io/selenium/docs/api/java/

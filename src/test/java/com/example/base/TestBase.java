@@ -2,6 +2,8 @@ package com.example.base;
 
 import org.apache.log4j.BasicConfigurator;
 import org.apache.log4j.PropertyConfigurator;
+import org.openqa.selenium.By;
+import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -48,8 +50,8 @@ public class TestBase {
     @BeforeSuite
     public void setUp() {
         if(driver == null) {
-            PropertyConfigurator.configure("./src/test/log4j.properties");
-            log.info("WebDriver initiated.");
+            PropertyConfigurator.configure("./src/test/resources/properties/log4j.properties");
+            log.info("WebDriver init.");
 
             try {
                 sourceStreamConfig = new FileInputStream(filePathConfig);
@@ -78,15 +80,15 @@ public class TestBase {
             if(config.getProperty("browser").equals("firefox")) {
                 System.setProperty("webdriver.gecko.driver", "\\src\\test\\resources\\executables\\geckodriver.exe");
                 driver = new FirefoxDriver();
-                log.info("Firefox browser launched!");
+                log.info("Launch Firefox browser!");
             } else if(config.getProperty("browser").equals("chrome")) {
                 System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "\\src\\test\\resources\\executables\\chromedriver.exe");
                 driver = new ChromeDriver();
-                log.info("Chrome browser launched!");
+                log.info("Launch Chrome browser!");
             } else if(config.getProperty("browser").equals("ie")) {
                 System.setProperty("webdriver.ie.driver", System.getProperty("user.dir") + "\\src\\test\\resources\\executables\\IEDriverServer.exe");
                 driver = new InternetExplorerDriver();
-                log.info("IE browser launched!");
+                log.info("Launch IE browser!");
             }
 
             driver.get(config.getProperty("testsiteurl"));
@@ -101,5 +103,15 @@ public class TestBase {
     public void tearDown() {
         driver.quit();
         log.info("WebDriver quit.");
+    }
+
+    public boolean isElementPresent(By by) {
+        try{
+            driver.findElement(by);
+            return true;
+        } catch(NoSuchElementException nsee) {
+            nsee.printStackTrace();
+            return false;
+        }
     }
 }

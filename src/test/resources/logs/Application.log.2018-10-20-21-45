@@ -1,6 +1,0 @@
-[INFO] 10-20-2018 21:45:38 TestBase.java setUp - Load Config.properties file.
-[INFO] 10-20-2018 21:45:38 TestBase.java setUp - Load OR.properties file.
-[INFO] 10-20-2018 21:45:41 TestBase.java setUp - Chrome browser launched!
-[INFO] 10-20-2018 21:45:43 TestBase.java setUp - Navigate to:http://www.way2automation.com/angularjs-protractor/banking/#/login
-[INFO] 10-20-2018 21:45:43 LoginTest.java loginAsBankManager - Test inited.
-[INFO] 10-20-2018 21:45:43 LoginTest.java loginAsBankManager - Success. Test passed.
