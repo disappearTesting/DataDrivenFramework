@@ -73,6 +73,20 @@
             <version>4.0.0</version>
         </dependency>
 
+        <!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml -->
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi-ooxml</artifactId>
+            <version>3.9</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml-schemas -->
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi-ooxml-schemas</artifactId>
+            <version>4.0.0</version>
+        </dependency>
+
         <!-- https://mvnrepository.com/artifact/dom4j/dom4j -->
         <dependency>
             <groupId>dom4j</groupId>
@@ -87,19 +101,19 @@
             <version>3.0.1</version>
         </dependency>
 
-        <!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml-schemas -->
-        <dependency>
-            <groupId>org.apache.poi</groupId>
-            <artifactId>poi-ooxml-schemas</artifactId>
-            <version>4.0.0</version>
-        </dependency>
-
         <!-- https://mvnrepository.com/artifact/org.testng/testng -->
         <dependency>
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
             <version>6.8</version>
             <scope>test</scope>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/com.google.inject/guice -->
+        <dependency>
+            <groupId>com.google.inject</groupId>
+            <artifactId>guice</artifactId>
+            <version>4.0</version>
         </dependency>
 
     </dependencies>

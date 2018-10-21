@@ -1,8 +1,8 @@
 package com.example.base;
 
-import org.apache.log4j.BasicConfigurator;
 import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.By;
+import org.openqa.selenium.NoAlertPresentException;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -17,7 +17,6 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Properties;
-import java.util.concurrent.TimeUnit;
 
 import org.apache.log4j.Logger;
 
@@ -36,6 +35,7 @@ public class TestBase {
      */
 
     public WebDriver driver;
+    public WebDriverWait explicitWait;
 
     public Properties config = new Properties();
     public Properties OR = new Properties();
@@ -92,9 +92,8 @@ public class TestBase {
             }
 
             driver.get(config.getProperty("testsiteurl"));
-            // driver.manage().window().maximize();
-            // driver.manage().timeouts().implicitlyWait(Integer.parseInt(config.getProperty("implicit.wait")), TimeUnit.SECONDS);
-            new WebDriverWait(driver, 5).until(ExpectedConditions.urlContains(config.getProperty("testsiteurl")));
+            explicitWait = new WebDriverWait(driver, 5);
+            explicitWait.until(ExpectedConditions.urlContains(config.getProperty("testsiteurl")));
             log.info("Navigate to:" + config.getProperty("testsiteurl"));
         }
     }
@@ -111,6 +110,16 @@ public class TestBase {
             return true;
         } catch(NoSuchElementException nsee) {
             nsee.printStackTrace();
+            return false;
+        }
+    }
+
+    public boolean isAlertPresent() {
+        try {
+            driver.switchTo().alert();
+            return true;
+        } catch (NoAlertPresentException nape) {
+            nape.printStackTrace();
             return false;
         }
     }
