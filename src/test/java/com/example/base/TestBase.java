@@ -17,6 +17,7 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Properties;
+import java.util.concurrent.TimeUnit;
 
 import org.apache.log4j.Logger;
 
@@ -34,18 +35,17 @@ public class TestBase {
     * Jenkins
      */
 
-    public WebDriver driver;
-    public WebDriverWait explicitWait;
+    protected WebDriver driver;
+    protected WebDriverWait explicitWait;
 
-    public Properties config = new Properties();
-    public Properties OR = new Properties();
+    protected Properties config = new Properties();
+    protected Properties OR = new Properties();
 
     private FileInputStream sourceStreamConfig;
     private FileInputStream sourceStreamOR;
     private String filePathConfig = System.getProperty("user.dir") + "\\src\\test\\resources\\properties\\Config.properties";
     private String filePathOR = System.getProperty("user.dir") + "\\src\\test\\resources\\properties\\OR.properties";
-
-    public Logger log = Logger.getLogger("rootLogger");
+    protected Logger log = Logger.getLogger("rootLogger");
 
     @BeforeSuite
     public void setUp() {
@@ -73,28 +73,35 @@ public class TestBase {
             try {
                 OR.load(sourceStreamOR);
                 log.info("Load OR.properties file.");
-            } catch (IOException ioe){
+            } catch (IOException ioe) {
                 ioe.printStackTrace();
             }
 
-            if(config.getProperty("browser").equals("firefox")) {
-                System.setProperty("webdriver.gecko.driver", "\\src\\test\\resources\\executables\\geckodriver.exe");
-                driver = new FirefoxDriver();
-                log.info("Launch Firefox browser!");
-            } else if(config.getProperty("browser").equals("chrome")) {
-                System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "\\src\\test\\resources\\executables\\chromedriver.exe");
-                driver = new ChromeDriver();
-                log.info("Launch Chrome browser!");
-            } else if(config.getProperty("browser").equals("ie")) {
-                System.setProperty("webdriver.ie.driver", System.getProperty("user.dir") + "\\src\\test\\resources\\executables\\IEDriverServer.exe");
-                driver = new InternetExplorerDriver();
-                log.info("Launch IE browser!");
+            String browser = config.getProperty("browser");
+            switch (browser) {
+                case "firefox":
+                    System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir") + "\\src\\test\\resources\\executables\\geckodriver.exe");
+                    driver = new FirefoxDriver();
+                    log.info("Launch Firefox browser!");
+                    break;
+                case "chrome":
+                    System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "\\src\\test\\resources\\executables\\chromedriver.exe");
+                    driver = new ChromeDriver();
+                    log.info("Launch Chrome browser!");
+                    break;
+                case "ie":
+                    System.setProperty("webdriver.ie.driver", System.getProperty("user.dir") + "\\src\\test\\resources\\executables\\IEDriverServer.exe");
+                    driver = new InternetExplorerDriver();
+                    log.info("Launch IE browser!");
+                    break;
             }
 
             driver.get(config.getProperty("testsiteurl"));
+            log.debug("Navigated to:" + config.getProperty("testsiteurl"));
             explicitWait = new WebDriverWait(driver, 5);
             explicitWait.until(ExpectedConditions.urlContains(config.getProperty("testsiteurl")));
-            log.info("Navigate to:" + config.getProperty("testsiteurl"));
+            //driver.manage().window().maximize();
+            //driver.manage().timeouts().implicitlyWait(Integer.parseInt(config.getProperty("implicit.wait")), TimeUnit.SECONDS);
         }
     }
 
@@ -104,7 +111,7 @@ public class TestBase {
         log.info("WebDriver quit.");
     }
 
-    public boolean isElementPresent(By by) {
+    protected boolean isElementPresent(By by) {
         try{
             driver.findElement(by);
             return true;
@@ -114,7 +121,7 @@ public class TestBase {
         }
     }
 
-    public boolean isAlertPresent() {
+    protected boolean isAlertPresent() {
         try {
             driver.switchTo().alert();
             return true;

@@ -1,0 +1,3 @@
+[INFO] 10-22-2018 23:23:00 BankManagerLoginTest.java loginAsBankManager - Test start.
+[INFO] 10-22-2018 23:23:01 BankManagerLoginTest.java loginAsBankManager - Success. Test Pass.
+[INFO] 10-22-2018 23:23:01 TestBase.java tearDown - WebDriver quit.

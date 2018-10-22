@@ -12,3 +12,5 @@
 		
 		//	Selenium API
 		https://seleniumhq.github.io/selenium/docs/api/java/
+		
+		https://developers.perfectomobile.com/display/TT/Manage+TestNG+execution+and+Data
