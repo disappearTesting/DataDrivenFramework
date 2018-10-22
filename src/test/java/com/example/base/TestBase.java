@@ -15,6 +15,8 @@ import java.io.IOException;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
+import org.apache.log4j.Logger;
+
 public class TestBase {
     /*
     * Will initializing:
@@ -27,15 +29,17 @@ public class TestBase {
     * Mail
      */
 
-    private WebDriver driver;
+    public WebDriver driver;
 
-    private Properties config = new Properties();
-    private Properties OR = new Properties();
+    public Properties config = new Properties();
+    public Properties OR = new Properties();
 
     private FileInputStream sourceStreamConfig;
     private FileInputStream sourceStreamOR;
     private String filePathConfig = System.getProperty("user.dir") + "\\src\\test\\resources\\properties\\Config.properties";
     private String filePathOR = System.getProperty("user.dir") + "\\src\\test\\resources\\properties\\OR.properties";
+
+    public Logger log = Logger.getLogger("devpinoyLogger");
 
     @BeforeSuite
     public void setUp() {
@@ -47,6 +51,7 @@ public class TestBase {
             }
             try {
                 config.load(sourceStreamConfig);
+                log.debug("Config.properties file loaded!");
             } catch (IOException ioe) {
                 ioe.printStackTrace();
             }
@@ -58,6 +63,7 @@ public class TestBase {
             }
             try {
                 OR.load(sourceStreamOR);
+                log.debug("OR.properties file loaded!");
             } catch (IOException ioe){
                 ioe.printStackTrace();
             }
@@ -65,16 +71,20 @@ public class TestBase {
             if(config.getProperty("browser").equals("firefox")) {
                 System.setProperty("webdriver.gecko.driver", "\\src\\test\\resources\\executables\\geckodriver.exe");
                 driver = new FirefoxDriver();
+                log.debug("Firefox launched!");
             } else if(config.getProperty("browser").equals("chrome")) {
                 System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "\\src\\test\\resources\\executables\\chromedriver.exe");
                 driver = new ChromeDriver();
+                log.debug("Chrome launched!");
             } else if(config.getProperty("browser").equals("ie")) {
                 System.setProperty("webdriver.ie.driver", System.getProperty("user.dir") + "\\src\\test\\resources\\executables\\IEDriverServer.exe");
                 driver = new InternetExplorerDriver();
+                log.debug("InternetExplorer launched!");
             }
 
             driver.get(config.getProperty("testsiteurl"));
-            driver.manage().window().maximize();
+            log.debug("Navigated to:" + config.getProperty("testsiteurl"));
+            //driver.manage().window().maximize();
             // driver.manage().timeouts().implicitlyWait(Integer.parseInt(config.getProperty("implicit.wait")), TimeUnit.SECONDS);
             new WebDriverWait(driver, 5).until(ExpectedConditions.urlContains(config.getProperty("testsiteurl")));
         }
@@ -82,6 +92,6 @@ public class TestBase {
 
     @AfterSuite
     public void tearDown() {
-
+        driver.quit();
     }
 }
