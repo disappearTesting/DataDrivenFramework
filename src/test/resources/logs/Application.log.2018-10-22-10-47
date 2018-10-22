@@ -1,0 +1,9 @@
+[INFO] 10-22-2018 10:47:03 BankManagerLoginTest.java loginAsBankManager - Test start.
+[INFO] 10-22-2018 10:47:05 BankManagerLoginTest.java loginAsBankManager - Success. Test Pass.
+[INFO] 10-22-2018 10:47:05 TestBase.java tearDown - WebDriver quit.
+[INFO] 10-22-2018 10:47:22 TestBase.java setUp - WebDriver init.
+[INFO] 10-22-2018 10:47:22 TestBase.java setUp - Load Config.properties file.
+[INFO] 10-22-2018 10:47:22 TestBase.java setUp - Load OR.properties file.
+[INFO] 10-22-2018 10:47:27 BankManagerLoginTest.java loginAsBankManager - Test start.
+[INFO] 10-22-2018 10:47:28 BankManagerLoginTest.java loginAsBankManager - Success. Test Pass.
+[INFO] 10-22-2018 10:47:29 TestBase.java tearDown - WebDriver quit.

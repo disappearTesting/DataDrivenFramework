@@ -1,5 +1,9 @@
 package com.example.base;
 
+import org.apache.log4j.PropertyConfigurator;
+import org.openqa.selenium.By;
+import org.openqa.selenium.NoAlertPresentException;
+import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -13,7 +17,6 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Properties;
-import java.util.concurrent.TimeUnit;
 
 import org.apache.log4j.Logger;
 
@@ -27,23 +30,28 @@ public class TestBase {
     * DB
     * Excel
     * Mail
+    * ReportNG, ExtendReport
+    * Jenkins
      */
 
-    public WebDriver driver;
+    protected WebDriver driver;
+    protected WebDriverWait explicitWait;
 
-    public Properties config = new Properties();
-    public Properties OR = new Properties();
+    protected Properties config = new Properties();
+    protected Properties OR = new Properties();
 
     private FileInputStream sourceStreamConfig;
     private FileInputStream sourceStreamOR;
     private String filePathConfig = System.getProperty("user.dir") + "\\src\\test\\resources\\properties\\Config.properties";
     private String filePathOR = System.getProperty("user.dir") + "\\src\\test\\resources\\properties\\OR.properties";
-
-    public Logger log = Logger.getLogger("devpinoyLogger");
+    protected Logger log = Logger.getLogger("rootLogger");
 
     @BeforeSuite
     public void setUp() {
         if(driver == null) {
+            PropertyConfigurator.configure("./src/test/resources/properties/log4j.properties");
+            log.info("WebDriver init.");
+
             try {
                 sourceStreamConfig = new FileInputStream(filePathConfig);
             } catch (FileNotFoundException fe) {
@@ -51,7 +59,7 @@ public class TestBase {
             }
             try {
                 config.load(sourceStreamConfig);
-                log.debug("Config.properties file loaded!");
+                log.info("Load Config.properties file.");
             } catch (IOException ioe) {
                 ioe.printStackTrace();
             }
@@ -63,35 +71,62 @@ public class TestBase {
             }
             try {
                 OR.load(sourceStreamOR);
-                log.debug("OR.properties file loaded!");
-            } catch (IOException ioe){
+                log.info("Load OR.properties file.");
+            } catch (IOException ioe) {
                 ioe.printStackTrace();
             }
 
-            if(config.getProperty("browser").equals("firefox")) {
-                System.setProperty("webdriver.gecko.driver", "\\src\\test\\resources\\executables\\geckodriver.exe");
-                driver = new FirefoxDriver();
-                log.debug("Firefox launched!");
-            } else if(config.getProperty("browser").equals("chrome")) {
-                System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "\\src\\test\\resources\\executables\\chromedriver.exe");
-                driver = new ChromeDriver();
-                log.debug("Chrome launched!");
-            } else if(config.getProperty("browser").equals("ie")) {
-                System.setProperty("webdriver.ie.driver", System.getProperty("user.dir") + "\\src\\test\\resources\\executables\\IEDriverServer.exe");
-                driver = new InternetExplorerDriver();
-                log.debug("InternetExplorer launched!");
+            String browser = config.getProperty("browser");
+            switch (browser) {
+                case "firefox":
+                    System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir") + "\\src\\test\\resources\\executables\\geckodriver.exe");
+                    driver = new FirefoxDriver();
+                    log.info("Launch Firefox browser!");
+                    break;
+                case "chrome":
+                    System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "\\src\\test\\resources\\executables\\chromedriver.exe");
+                    driver = new ChromeDriver();
+                    log.info("Launch Chrome browser!");
+                    break;
+                case "ie":
+                    System.setProperty("webdriver.ie.driver", System.getProperty("user.dir") + "\\src\\test\\resources\\executables\\IEDriverServer.exe");
+                    driver = new InternetExplorerDriver();
+                    log.info("Launch IE browser!");
+                    break;
             }
 
             driver.get(config.getProperty("testsiteurl"));
             log.debug("Navigated to:" + config.getProperty("testsiteurl"));
+            explicitWait = new WebDriverWait(driver, 5);
+            explicitWait.until(ExpectedConditions.urlContains(config.getProperty("testsiteurl")));
             //driver.manage().window().maximize();
             // driver.manage().timeouts().implicitlyWait(Integer.parseInt(config.getProperty("implicit.wait")), TimeUnit.SECONDS);
-            new WebDriverWait(driver, 5).until(ExpectedConditions.urlContains(config.getProperty("testsiteurl")));
         }
     }
 
     @AfterSuite
     public void tearDown() {
         driver.quit();
+        log.info("WebDriver quit.");
+    }
+
+    protected boolean isElementPresent(By by) {
+        try{
+            driver.findElement(by);
+            return true;
+        } catch(NoSuchElementException nsee) {
+            nsee.printStackTrace();
+            return false;
+        }
+    }
+
+    protected boolean isAlertPresent() {
+        try {
+            driver.switchTo().alert();
+            return true;
+        } catch (NoAlertPresentException nape) {
+            nape.printStackTrace();
+            return false;
+        }
     }
 }
