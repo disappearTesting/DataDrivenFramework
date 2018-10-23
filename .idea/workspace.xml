@@ -2,51 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9dac2461-e7d1-4aa7-aedf-2e1a46e1246f" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_inject_guice_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_3_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_beanshell_bsh_2_0b4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_testng_testng_6_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/testcases/AddCustomerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/testcases/BankManagerLoginTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/runner/testng.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/excel/~$testdata.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/runner/testng.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/html/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/html/overview.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/html/reportng.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/html/reportng.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/html/sorttable.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/html/suite1_groups.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/html/suite1_test1_results.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/html/suite1_test2_results.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/html/suites.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/xml/com.example.testcases.AddCustomerTest_results.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/xml/com.example.testcases.BankManagerLoginTest_results.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/xml/com.example.testcases.TestAddCustomerTest_results.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/xml/com.example.testcases.TestBankManagerLoginTest_results.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_72.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_27.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_12.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_api_3_14_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_api_3_14_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_testng_testng_7_0_0_beta1.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataDrivenFramework.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs.txt" beforeDir="false" afterPath="$PROJECT_DIR$/docs.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/base/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/base/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/testcases/LoginTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/excel/testdata.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/properties/Config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/properties/Config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/properties/OR.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/properties/OR.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/properties/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/properties/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/excel/testdata.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/properties/OR.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/properties/OR.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/properties/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/properties/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Usershookie.ssh" beforeDir="false" afterPath="$PROJECT_DIR$/Usershookie.ssh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/logs/Application.log.2018-10-22-10-47" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/logs/Application.log.2018-10-22-10-59" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/logs/Application.log.2018-10-22-11-00" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/logs/Application.log.2018-10-22-11-01" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/logs/Application.log.2018-10-22-11-03" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/logs/Application.log.2018-10-22-11-04" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -62,11 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TestBase.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TestBase.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/example/base/TestBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
-              <caret line="78" column="59" lean-forward="true" selection-start-line="78" selection-start-column="59" selection-end-line="78" selection-end-column="59" />
+            <state relative-caret-position="1458">
+              <caret line="99" column="53" selection-start-line="99" selection-start-column="53" selection-end-line="99" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -74,11 +36,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BankManagerLoginTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="BankManagerLoginTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/example/testcases/BankManagerLoginTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
-              <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+              <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -95,17 +57,8 @@
       <file leaf-file-name="Config.properties" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/resources/properties/Config.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="15" selection-start-column="15" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="log4j.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/properties/log4j.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+            <state relative-caret-position="36">
+              <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -114,7 +67,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/resources/properties/OR.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="51" lean-forward="true" selection-start-column="51" selection-end-column="51" />
+              <caret column="51" selection-start-column="51" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -182,6 +135,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -276,13 +230,17 @@
               <item name="DataDrivenFramework" type="462c0819:PsiDirectoryNode" />
               <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="DataDrivenFramework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DataDrivenFramework" type="462c0819:PsiDirectoryNode" />
+              <item name="test-output" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -456,17 +414,12 @@
       <workItem from="1540141984260" duration="3716000" />
       <workItem from="1540146073060" duration="1822000" />
       <workItem from="1540147916886" duration="279000" />
-      <workItem from="1540194162756" duration="1238000" />
+      <workItem from="1540194162756" duration="2869000" />
+      <workItem from="1540278811546" duration="604000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BankManagerLoginTest_loginAsBankManager - 2018.10.22 at 10h 43m 44s.xml">
-      <configuration name="BankManagerLoginTest.loginAsBankManager" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="BankManagerLoginTest_loginAsBankManager - 2018.10.22 at 10h 44m 06s.xml">
-      <configuration name="BankManagerLoginTest.loginAsBankManager" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="BankManagerLoginTest_loginAsBankManager - 2018.10.22 at 10h 44m 36s.xml">
       <configuration name="BankManagerLoginTest.loginAsBankManager" configurationId="TestNG" />
     </history-entry>
@@ -491,9 +444,15 @@
     <history-entry file="BankManagerLoginTest_loginAsBankManager - 2018.10.22 at 11h 03m 14s.xml">
       <configuration name="BankManagerLoginTest.loginAsBankManager" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="BankManagerLoginTest_loginAsBankManager - 2018.10.22 at 11h 04m 44s.xml">
+      <configuration name="BankManagerLoginTest.loginAsBankManager" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="BankManagerLoginTest_loginAsBankManager - 2018.10.22 at 11h 05m 37s.xml">
+      <configuration name="BankManagerLoginTest.loginAsBankManager" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33266000" />
+    <option name="totallyTimeSpent" value="35501000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="98" y="2" width="1813" height="1080" extended-state="0" />
@@ -501,19 +460,18 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.32952183" />
       <window_info anchor="right" id="Palette&#9;" order="9" />
       <window_info id="Image Layers" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="bottom" x="115" y="381" width="1728" height="317" id="Event Log" order="7" side_tool="true" type="WINDOWED" weight="0.32952183" />
       <window_info anchor="right" id="Maven Projects" order="4" weight="0.15598412" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info active="true" anchor="bottom" x="115" y="87" width="1546" height="885" id="Run" order="2" type="WINDOWED" visible="true" weight="0.26091477" />
+      <window_info anchor="bottom" x="115" y="87" width="1546" height="885" id="Run" order="2" type="WINDOWED" weight="0.26091477" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32848233" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1894498" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17526942" />
       <window_info anchor="right" id="Database" order="5" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -521,13 +479,14 @@
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" x="123" y="48" width="1763" height="990" id="Debug" order="3" type="WINDOWED" weight="0.3991684" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Coverage" order="10" side_tool="true" weight="0.3295519" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.32952183" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="Coverage" order="10" side_tool="true" weight="0.3295519" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" id="SciView" order="7" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
@@ -743,8 +702,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/logs/Application.log.2018-10-21-21-51" />
     <entry file="file://$PROJECT_DIR$/src/test/resources/logs/Application.log">
-      <provider selected="true" editor-type-id="LogFileEditorProvider" />
       <provider editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="LogFileEditorProvider" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/base/TestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1458">
+          <caret line="99" column="53" selection-start-line="99" selection-start-column="53" selection-end-line="99" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/runner/testng.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -756,7 +725,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/resources/properties/OR.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="51" lean-forward="true" selection-start-column="51" selection-end-column="51" />
+          <caret column="51" selection-start-column="51" selection-end-column="51" />
         </state>
       </provider>
     </entry>
@@ -767,6 +736,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/properties/Config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/example/testcases/AddCustomerTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -774,27 +750,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/properties/Config.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="15" selection-start-column="15" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/example/testcases/BankManagerLoginTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/base/TestBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="78" column="59" lean-forward="true" selection-start-line="78" selection-start-column="59" selection-end-line="78" selection-end-column="59" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
         </state>
       </provider>
     </entry>
