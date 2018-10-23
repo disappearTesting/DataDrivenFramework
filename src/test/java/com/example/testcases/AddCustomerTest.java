@@ -19,7 +19,6 @@ public class AddCustomerTest extends TestBase{
 
     @Test(dataProvider = "getTestData")
     public void addCustomer(String firstName, String lastName, String postCode) {
-        System.setProperty("org.uncommons.reportng.escape-output","false");
         log.info("Test start.");
         explicitWait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector(OR.getProperty("ButtonAddCustomer"))));
 
@@ -42,7 +41,5 @@ public class AddCustomerTest extends TestBase{
         driver.switchTo().alert().accept();
         log.info("Alert do Accept.");
         log.info("Success. Test Pass.");
-        Reporter.log("Success. Test Pass.");
-        Reporter.log("<a href=\"G:\\images\\others\\bomb.png\"><img src=\"G:\\images\\others\\bomb.png\" height=150 width=150></img></a>");
     }
 }

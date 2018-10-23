@@ -1,0 +1,18 @@
+[INFO] 10-23-2018 21:31:12 TestBase.java setUp - WebDriver init.
+[INFO] 10-23-2018 21:31:12 TestBase.java setUp - Load Config.properties file.
+[INFO] 10-23-2018 21:31:12 TestBase.java setUp - Load OR.properties file.
+[INFO] 10-23-2018 21:31:14 TestBase.java setUp - Launch Chrome browser!
+[INFO] 10-23-2018 21:31:16 AddCustomerTest.java addCustomer - Test start.
+[INFO] 10-23-2018 21:31:22 TestBase.java tearDown - WebDriver quit.
+[INFO] 10-23-2018 21:31:46 TestBase.java setUp - WebDriver init.
+[INFO] 10-23-2018 21:31:46 TestBase.java setUp - Load Config.properties file.
+[INFO] 10-23-2018 21:31:46 TestBase.java setUp - Load OR.properties file.
+[INFO] 10-23-2018 21:31:49 TestBase.java setUp - Launch Chrome browser!
+[INFO] 10-23-2018 21:31:50 AddCustomerTest.java addCustomer - Test start.
+[INFO] 10-23-2018 21:31:54 AddCustomerTest.java addCustomer - Set the First Name.
+[INFO] 10-23-2018 21:31:54 AddCustomerTest.java addCustomer - Set the Last Name.
+[INFO] 10-23-2018 21:31:54 AddCustomerTest.java addCustomer - Set the Post Code.
+[INFO] 10-23-2018 21:31:54 AddCustomerTest.java addCustomer - Alert is present.
+[INFO] 10-23-2018 21:31:54 AddCustomerTest.java addCustomer - Alert do Accept.
+[INFO] 10-23-2018 21:31:54 AddCustomerTest.java addCustomer - Success. Test Pass.
+[INFO] 10-23-2018 21:31:55 TestBase.java tearDown - WebDriver quit.
