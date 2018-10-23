@@ -1,9 +1,12 @@
 package com.example.listeners;
 
+import com.example.utilities.TestUtil;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
 import org.testng.Reporter;
+
+import java.io.IOException;
 
 public class CustomListeners implements ITestListener {
 
@@ -15,9 +18,9 @@ public class CustomListeners implements ITestListener {
     @Override
     public void onTestSuccess(ITestResult iTestResult) {
         System.setProperty("org.uncommons.reportng.escape-output","false");
-        Reporter.log("Success. Test Pass.");
+        TestUtil.captureScreenshot();
         Reporter.log("Capturing screenshot.");
-        Reporter.log("<a href=\"G:\\images\\others\\bomb.png\"><img src=\"G:\\images\\others\\bomb.png\" height=150 width=150></img></a>");
+        Reporter.log("<a href="+TestUtil.screenshotName+">Screenshot</a>");
     }
 
     @Override
@@ -25,7 +28,7 @@ public class CustomListeners implements ITestListener {
         System.setProperty("org.uncommons.reportng.escape-output","false");
         Reporter.log("Failure. Test fail.");
         Reporter.log("Capturing screenshot.");
-        Reporter.log("<a href=\"G:\\images\\others\\bomb.png\"><img src=\"G:\\images\\others\\bomb.png\" height=150 width=150></img></a>");
+        Reporter.log("<a href="+TestUtil.screenshotName+"><img src="+TestUtil.screenshotName+"></img></a>");
     }
 
     @Override

@@ -35,17 +35,17 @@ public class TestBase {
     * Jenkins
      */
 
-    protected WebDriver driver;
-    protected WebDriverWait explicitWait;
+    protected static WebDriver driver;
+    protected static WebDriverWait explicitWait;
 
-    protected Properties config = new Properties();
-    protected Properties OR = new Properties();
+    public static Properties config = new Properties();
+    public static Properties OR = new Properties();
 
     private FileInputStream sourceStreamConfig;
     private FileInputStream sourceStreamOR;
     private String filePathConfig = System.getProperty("user.dir") + "\\src\\test\\resources\\properties\\Config.properties";
     private String filePathOR = System.getProperty("user.dir") + "\\src\\test\\resources\\properties\\OR.properties";
-    protected Logger log = Logger.getLogger("rootLogger");
+    protected static Logger log = Logger.getLogger("rootLogger");
 
     @BeforeSuite
     public void setUp() {

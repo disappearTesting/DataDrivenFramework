@@ -1,0 +1,9 @@
+[INFO] 10-23-2018 21:36:01 BankManagerLoginTest.java loginAsBankManager - Test start.
+[INFO] 10-23-2018 21:36:01 AddCustomerTest.java addCustomer - Test start.
+[INFO] 10-23-2018 21:36:04 AddCustomerTest.java addCustomer - Set the First Name.
+[INFO] 10-23-2018 21:36:04 AddCustomerTest.java addCustomer - Set the Last Name.
+[INFO] 10-23-2018 21:36:04 AddCustomerTest.java addCustomer - Set the Post Code.
+[INFO] 10-23-2018 21:36:04 AddCustomerTest.java addCustomer - Alert is present.
+[INFO] 10-23-2018 21:36:04 AddCustomerTest.java addCustomer - Alert do Accept.
+[INFO] 10-23-2018 21:36:04 AddCustomerTest.java addCustomer - Success. Test Pass.
+[INFO] 10-23-2018 21:36:05 TestBase.java tearDown - WebDriver quit.

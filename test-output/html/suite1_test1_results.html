@@ -12,7 +12,7 @@
 <body>
 <h1>Bank Manager Login</h1>
 <p>
-  Test duration: 0,003s
+  Test duration: 1,268s
 </p>
 
 
@@ -28,7 +28,7 @@
                   loginAsBankManager
       </td>
   <td class="duration">
-    0,003s
+    1,268s
   </td>
   <td class="result">
         
@@ -36,15 +36,17 @@
             <div class="testOutput">
                         Failure. Test fail.
                                 Capturing screenshot.
-                                <a href="G:\images\others\bomb.png"><img src="G:\images\others\bomb.png" height=150 width=150></img></a>
+                                <a href=null><img src=null></img></a>
                   </div>
     
 
-        <a href="javascript:toggleElement('exception-0', 'block')" title="Click to expand/collapse"><b>java.lang.IllegalArgumentException: Cannot find elements when the selector is null</b></a><br />
+        <a href="javascript:toggleElement('exception-0', 'block')" title="Click to expand/collapse"><b>java.lang.AssertionError: expected [Failure. Element isn&apos;t present!] but found [true]</b></a><br />
     <div class="stackTrace" id="exception-0">
-              org.openqa.selenium.By$ByCssSelector.&lt;init&gt;(By.java:422)<br />
-              org.openqa.selenium.By.cssSelector(By.java:116)<br />
-              com.example.testcases.BankManagerLoginTest.loginAsBankManager(BankManagerLoginTest.java:17)<br />
+              org.testng.Assert.fail(Assert.java:94)<br />
+              org.testng.Assert.failNotEquals(Assert.java:494)<br />
+              org.testng.Assert.assertEquals(Assert.java:123)<br />
+              org.testng.Assert.assertEquals(Assert.java:165)<br />
+              com.example.testcases.BankManagerLoginTest.loginAsBankManager(BankManagerLoginTest.java:19)<br />
               sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
               sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
               sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />

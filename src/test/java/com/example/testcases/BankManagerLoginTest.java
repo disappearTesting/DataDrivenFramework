@@ -5,8 +5,6 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.Assert;
 import org.testng.Reporter;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 public class BankManagerLoginTest extends TestBase {
@@ -21,5 +19,6 @@ public class BankManagerLoginTest extends TestBase {
         Assert.assertTrue(isElementPresent(By.cssSelector(OR.getProperty("ButtonAddCustomer"))), "Failure. Element isn't present!");
         log.info("Success. Test Pass.");
         Reporter.log("Success. Test Pass.");
+        Assert.fail();
     }
 }
