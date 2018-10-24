@@ -1,0 +1,7 @@
+[INFO] 10-22-2018 11:05:30 TestBase.java setUp - WebDriver init.
+[INFO] 10-22-2018 11:05:30 TestBase.java setUp - Load Config.properties file.
+[INFO] 10-22-2018 11:05:30 TestBase.java setUp - Load OR.properties file.
+[INFO] 10-22-2018 11:05:33 TestBase.java setUp - Launch Firefox browser!
+[INFO] 10-22-2018 11:05:35 BankManagerLoginTest.java loginAsBankManager - Test start.
+[INFO] 10-22-2018 11:05:36 BankManagerLoginTest.java loginAsBankManager - Success. Test Pass.
+[INFO] 10-22-2018 11:05:36 TestBase.java tearDown - WebDriver quit.

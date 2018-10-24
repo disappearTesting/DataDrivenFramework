@@ -17,6 +17,7 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Properties;
+import java.util.concurrent.TimeUnit;
 
 import org.apache.log4j.Logger;
 
@@ -100,7 +101,7 @@ public class TestBase {
             explicitWait = new WebDriverWait(driver, 5);
             explicitWait.until(ExpectedConditions.urlContains(config.getProperty("testsiteurl")));
             //driver.manage().window().maximize();
-            // driver.manage().timeouts().implicitlyWait(Integer.parseInt(config.getProperty("implicit.wait")), TimeUnit.SECONDS);
+            //driver.manage().timeouts().implicitlyWait(Integer.parseInt(config.getProperty("implicit.wait")), TimeUnit.SECONDS);
         }
     }
 

@@ -4,16 +4,16 @@
            failures="1"
            errors="0"
            skipped="0"
-           time="0,003">
+           time="0,004">
   <properties />
-            <testcase name="loginAsBankManager" time="0,003" classname="com.example.testcases.BankManagerLoginTest">
+            <testcase name="loginAsBankManager" time="0,004" classname="com.example.testcases.BankManagerLoginTest">
                 <failure type="java.lang.IllegalArgumentException"
                   message="Cannot find elements when the selector is null"
               >
 <![CDATA[java.lang.IllegalArgumentException: Cannot find elements when the selector is null
   org.openqa.selenium.By$ByCssSelector.<init>(By.java:422)
   org.openqa.selenium.By.cssSelector(By.java:116)
-  com.example.testcases.BankManagerLoginTest.loginAsBankManager(BankManagerLoginTest.java:14)
+  com.example.testcases.BankManagerLoginTest.loginAsBankManager(BankManagerLoginTest.java:15)
   sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
   sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
   sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)

@@ -2,13 +2,148 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9dac2461-e7d1-4aa7-aedf-2e1a46e1246f" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.metadata/.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.version" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.core.resources.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.m2e.logback.configuration/logback.1.8.2.20171007-0217.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/version.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/logs/Application.log.2018-10-22-21-20" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/logs/Application.log.2018-10-22-21-30" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/logs/Application.log.2018-10-22-21-31" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/logs/Application.log.2018-10-22-21-32" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/logs/Application.log.2018-10-22-22-06" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/logs/Application.log.2018-10-22-22-07" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/logs/Application.log.2018-10-22-22-11" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/logs/Application.log.2018-10-22-22-13" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/logs/Application.log.2018-10-22-22-14" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/logs/Application.log.2018-10-22-22-19" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/logs/Application.log.2018-10-22-22-20" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/logs/Application.log.2018-10-22-22-21" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/logs/Application.log.2018-10-22-22-22" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/logs/Application.log.2018-10-22-22-32" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/logs/Application.log.2018-10-22-22-33" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/logs/Application.log.2018-10-22-22-34" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/logs/Application.log.2018-10-22-22-36" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/logs/Application.log.2018-10-22-22-37" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/logs/Application.log.2018-10-22-22-39" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/logs/Application.log.2018-10-22-22-40" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/logs/Application.log.2018-10-22-22-41" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/logs/Application.log.2018-10-22-22-42" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/logs/Application.log.2018-10-22-22-43" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/logs/Application.log.2018-10-22-22-45" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/logs/Application.log.2018-10-22-22-46" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/logs/Application.log.2018-10-22-22-48" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/logs/Application.log.2018-10-22-22-49" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/logs/Application.log.2018-10-22-22-52" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/logs/Application.log.2018-10-22-22-53" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/logs/Application.log.2018-10-22-22-55" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/logs/Application.log.2018-10-22-22-56" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/logs/Application.log.2018-10-22-22-58" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/logs/Application.log.2018-10-22-22-59" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/logs/Application.log.2018-10-22-23-00" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/logs/Application.log.2018-10-22-23-01" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/logs/Application.log.2018-10-22-23-04" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/logs/Application.log.2018-10-22-23-06" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/logs/Application.log.2018-10-22-23-07" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/logs/Application.log.2018-10-22-23-10" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/logs/Application.log.2018-10-22-23-19" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/logs/Application.log.2018-10-22-23-20" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/logs/Application.log.2018-10-22-23-21" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/logs/Application.log.2018-10-22-23-22" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/logs/Application.log.2018-10-22-23-23" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/logs/Application.log.2018-10-22-23-31" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/logs/Application.log.2018-10-22-23-32" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/logs/Application.log.2018-10-22-23-33" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/logs/Application.log.2018-10-22-23-36" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/logs/Application.log.2018-10-22-23-37" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/logs/Application.log.2018-10-22-23-40" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/logs/Application.log.2018-10-22-23-41" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/logs/Application.log.2018-10-22-23-44" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/logs/Application.log.2018-10-22-23-45" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/logs/Application.log.2018-10-22-23-49" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/logs/Application.log.2018-10-22-23-51" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/logs/Application.log.2018-10-22-23-52" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-22-21-20" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-22-21-30" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-22-21-31" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-22-21-32" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-22-22-06" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-22-22-07" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-22-22-11" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-22-22-13" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-22-22-14" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-22-22-19" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-22-22-20" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-22-22-21" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-22-22-22" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-22-22-32" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-22-22-33" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-22-22-34" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-22-22-36" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-22-22-37" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-22-22-39" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-22-22-40" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-22-22-41" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-22-22-42" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-22-22-43" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-22-22-45" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-22-22-46" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-22-22-48" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-22-22-49" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-22-22-52" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-22-22-53" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-22-22-55" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-22-22-56" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-22-22-58" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-22-22-59" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-22-23-00" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-22-23-01" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-22-23-04" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-22-23-06" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-22-23-07" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-22-23-10" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-22-23-19" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-22-23-20" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-22-23-21" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-22-23-22" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-22-23-23" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-22-23-31" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-22-23-32" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-22-23-33" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-22-23-36" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-22-23-37" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-22-23-40" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-22-23-41" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-22-23-44" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-22-23-45" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-22-23-49" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-22-23-51" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/html/output.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/logs/Application.log.2018-10-22-10-47" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/logs/Application.log.2018-10-22-10-59" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/logs/Application.log.2018-10-22-11-00" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/logs/Application.log.2018-10-22-11-01" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/logs/Application.log.2018-10-22-11-03" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/logs/Application.log.2018-10-22-11-04" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataDrivenFramework.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DataDrivenFramework.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs.txt" beforeDir="false" afterPath="$PROJECT_DIR$/docs.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/base/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/base/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/testcases/AddCustomerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/testcases/AddCustomerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/testcases/BankManagerLoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/testcases/BankManagerLoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/properties/Config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/properties/Config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/properties/OR.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/properties/OR.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/runner/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/runner/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/excel/~$testdata.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-22-10-47" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-22-10-59" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-22-11-00" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-22-11-01" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-22-11-03" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/properties/Config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/properties/Config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/properties/OR.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/properties/OR.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/runner/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/runner/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/html/overview.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/html/overview.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/html/suite1_test1_results.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/html/suite1_test1_results.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/html/suite1_test2_results.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/html/suite1_test2_results.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/html/suites.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/html/suites.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/xml/com.example.testcases.AddCustomerTest_results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/xml/com.example.testcases.AddCustomerTest_results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/xml/com.example.testcases.BankManagerLoginTest_results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/xml/com.example.testcases.BankManagerLoginTest_results.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -27,8 +162,8 @@
       <file leaf-file-name="TestBase.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/example/base/TestBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1458">
-              <caret line="99" column="53" selection-start-line="99" selection-start-column="53" selection-end-line="99" selection-end-column="53" />
+            <state relative-caret-position="1476">
+              <caret line="100" column="53" selection-start-line="100" selection-start-column="53" selection-end-line="100" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -36,20 +171,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BankManagerLoginTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BankManagerLoginTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/example/testcases/BankManagerLoginTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+            <state relative-caret-position="396">
+              <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AddCustomerTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="AddCustomerTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/example/testcases/AddCustomerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="14" column="42" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
+            <state relative-caret-position="270">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
             </state>
           </provider>
         </entry>
@@ -67,7 +205,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/resources/properties/OR.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="51" selection-start-column="51" selection-end-column="51" />
+              <caret column="69" selection-start-column="69" selection-end-column="69" />
             </state>
           </provider>
         </entry>
@@ -75,8 +213,8 @@
       <file leaf-file-name="testng.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/resources/runner/testng.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="10" column="70" selection-start-line="10" selection-start-column="70" selection-end-line="10" selection-end-column="70" />
+            <state relative-caret-position="360">
+              <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -97,17 +235,18 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/test/java/com/example/rough/TestProperties.java" />
-        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/src/test/resources/properties/OR.properties" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/resources/properties/OR.properties" />
         <option value="$PROJECT_DIR$/src/test/java/com/example/testcases/BankManagerLoginTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/example/testcases/AddCustomerTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/example/testcases/TestAddCustomerTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/example/testcases/TestBankManagerLoginTest.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/runner/testng.xml" />
         <option value="$PROJECT_DIR$/src/test/resources/properties/Config.properties" />
         <option value="$PROJECT_DIR$/src/test/java/com/example/base/TestBase.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/example/listeners/CustomListeners.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/example/testcases/AddCustomerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/runner/testng.xml" />
+        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
       </list>
     </option>
   </component>
@@ -117,13 +256,30 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="DataDrivenFramework" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="DataDrivenFramework" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="DataDrivenFramework" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="PhpServers">
-    <servers />
-  </component>
-  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
     <option name="x" value="98" />
     <option name="y" value="2" />
@@ -191,6 +347,15 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="listeners" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DataDrivenFramework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DataDrivenFramework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
               <item name="rough" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -228,11 +393,6 @@
             <path>
               <item name="DataDrivenFramework" type="b2602c69:ProjectViewProjectNode" />
               <item name="DataDrivenFramework" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DataDrivenFramework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataDrivenFramework" type="462c0819:PsiDirectoryNode" />
               <item name="test-output" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -244,20 +404,18 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
+    <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
+    <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
+    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="datadrivenframework" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.3625" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Makarov_K\UdemyCources\DataDrivenFramework\src\test\resources\properties" />
-      <recent name="C:\Users\Makarov_K\UdemyCources\DataDrivenFramework\src\test\java" />
-    </key>
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -271,7 +429,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.BankManagerLoginTest.loginAsBankManager">
+  <component name="RunManager" selected="TestNG.C:/Users/hookie/UdemyCources/DataDrivenFramework/src/test/resources/runner/testng.xml">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -386,8 +544,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.BankManagerLoginTest.loginAsBankManager" />
         <item itemvalue="TestNG.C:/Users/hookie/UdemyCources/DataDrivenFramework/src/test/resources/runner/testng.xml" />
+        <item itemvalue="TestNG.BankManagerLoginTest.loginAsBankManager" />
         <item itemvalue="Application.TestProperties" />
       </list>
     </recent_temporary>
@@ -415,56 +573,32 @@
       <workItem from="1540146073060" duration="1822000" />
       <workItem from="1540147916886" duration="279000" />
       <workItem from="1540194162756" duration="2869000" />
-      <workItem from="1540278811546" duration="604000" />
+      <workItem from="1540278811546" duration="5342000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BankManagerLoginTest_loginAsBankManager - 2018.10.22 at 10h 44m 36s.xml">
-      <configuration name="BankManagerLoginTest.loginAsBankManager" configurationId="TestNG" />
+    <history-entry file="C__Users_hookie_UdemyCources_DataDrivenFramework_src_test_resources_runner_testng_xml - 2018.10.23 at 15h 44m 53s.xml">
+      <configuration name="C:/Users/hookie/UdemyCources/DataDrivenFramework/src/test/resources/runner/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="BankManagerLoginTest_loginAsBankManager - 2018.10.22 at 10h 46m 44s.xml">
-      <configuration name="BankManagerLoginTest.loginAsBankManager" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="BankManagerLoginTest_loginAsBankManager - 2018.10.22 at 10h 47m 06s.xml">
-      <configuration name="BankManagerLoginTest.loginAsBankManager" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="BankManagerLoginTest_loginAsBankManager - 2018.10.22 at 10h 47m 29s.xml">
-      <configuration name="BankManagerLoginTest.loginAsBankManager" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="BankManagerLoginTest_loginAsBankManager - 2018.10.22 at 10h 59m 20s.xml">
-      <configuration name="BankManagerLoginTest.loginAsBankManager" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="BankManagerLoginTest_loginAsBankManager - 2018.10.22 at 11h 01m 04s.xml">
-      <configuration name="BankManagerLoginTest.loginAsBankManager" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="BankManagerLoginTest_loginAsBankManager - 2018.10.22 at 11h 01m 46s.xml">
-      <configuration name="BankManagerLoginTest.loginAsBankManager" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="BankManagerLoginTest_loginAsBankManager - 2018.10.22 at 11h 03m 14s.xml">
-      <configuration name="BankManagerLoginTest.loginAsBankManager" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="BankManagerLoginTest_loginAsBankManager - 2018.10.22 at 11h 04m 44s.xml">
-      <configuration name="BankManagerLoginTest.loginAsBankManager" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="BankManagerLoginTest_loginAsBankManager - 2018.10.22 at 11h 05m 37s.xml">
-      <configuration name="BankManagerLoginTest.loginAsBankManager" configurationId="TestNG" />
+    <history-entry file="C__Users_hookie_UdemyCources_DataDrivenFramework_src_test_resources_runner_testng_xml - 2018.10.23 at 15h 45m 30s.xml">
+      <configuration name="C:/Users/hookie/UdemyCources/DataDrivenFramework/src/test/resources/runner/testng.xml" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35501000" />
+    <option name="totallyTimeSpent" value="40239000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="98" y="2" width="1813" height="1080" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.32952183" />
       <window_info anchor="right" id="Palette&#9;" order="9" />
       <window_info id="Image Layers" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="bottom" x="115" y="381" width="1728" height="317" id="Event Log" order="7" side_tool="true" type="WINDOWED" weight="0.32952183" />
-      <window_info anchor="right" id="Maven Projects" order="4" weight="0.15598412" />
+      <window_info active="true" anchor="right" id="Maven Projects" order="4" visible="true" weight="0.15598412" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" x="115" y="87" width="1546" height="885" id="Run" order="2" type="WINDOWED" weight="0.26091477" />
@@ -479,7 +613,6 @@
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" x="123" y="48" width="1763" height="990" id="Debug" order="3" type="WINDOWED" weight="0.3991684" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.32952183" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -496,26 +629,7 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <option name="time" value="7" />
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/resources/properties/OR.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/properties/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="76" selection-start-line="20" selection-start-column="76" selection-end-line="20" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/example/base/TestBase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -707,25 +821,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/example/base/TestBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1458">
-          <caret line="99" column="53" selection-start-line="99" selection-start-column="53" selection-end-line="99" selection-end-column="53" />
+        <state relative-caret-position="1476">
+          <caret line="100" column="53" selection-start-line="100" selection-start-column="53" selection-end-line="100" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/runner/testng.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="70" selection-start-line="10" selection-start-column="70" selection-end-line="10" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/properties/OR.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="51" selection-start-column="51" selection-end-column="51" />
+          <caret column="69" selection-start-column="69" selection-end-column="69" />
         </state>
       </provider>
     </entry>
@@ -736,6 +843,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/testcases/BankManagerLoginTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/properties/Config.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
@@ -743,17 +863,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/testcases/AddCustomerTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/runner/testng.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="14" column="42" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
+        <state relative-caret-position="360">
+          <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/testcases/BankManagerLoginTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/listeners/CustomListeners.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="666">
+          <caret line="37" column="25" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/testcases/AddCustomerTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
@@ -766,7 +896,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.3625" />
               </list>
             </option>
           </splitter-proportions>
@@ -778,7 +908,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.3625" />
               </list>
             </option>
           </splitter-proportions>
@@ -789,7 +919,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.3625" />
               </list>
             </option>
           </splitter-proportions>
@@ -801,7 +931,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.3625" />
               </list>
             </option>
           </splitter-proportions>
@@ -813,7 +943,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.3625" />
                 <option value="0.6" />
               </list>
             </option>
@@ -822,11 +952,11 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: com.aventstack:extentreports:3.1.5</last-edited>
+          <last-edited>Maven: aopalliance:aopalliance:1.0</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.3625" />
               </list>
             </option>
           </splitter-proportions>
