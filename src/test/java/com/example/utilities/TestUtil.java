@@ -7,14 +7,18 @@ import org.openqa.selenium.TakesScreenshot;
 
 import java.io.File;
 import java.io.IOException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 public class TestUtil extends TestBase {
-    public static String screenshotPath = "\\target\\surefire-reports\\html\\";
+    private static String screenshotPath = "\\target\\surefire-reports\\html\\";
     public static String screenshotName;
 
     public static void captureScreenshot() {
+        Date currentDate = new Date();
+        SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd-HH-mm");
         File screenshotFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-        screenshotName = "error.jpg";
+        screenshotName = dateFormat.format(currentDate) + ".jpg";
         try {
             // /will save the screenshot in the drive
             FileUtils.copyFile(screenshotFile, new File(System.getProperty("user.dir") + screenshotPath + screenshotName));

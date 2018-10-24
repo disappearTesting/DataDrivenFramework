@@ -6,8 +6,6 @@ import org.testng.ITestListener;
 import org.testng.ITestResult;
 import org.testng.Reporter;
 
-import java.io.IOException;
-
 public class CustomListeners implements ITestListener {
 
     @Override
@@ -18,7 +16,6 @@ public class CustomListeners implements ITestListener {
     @Override
     public void onTestSuccess(ITestResult iTestResult) {
         System.setProperty("org.uncommons.reportng.escape-output","false");
-        TestUtil.captureScreenshot();
         Reporter.log("Capturing screenshot.");
         Reporter.log("<a href="+TestUtil.screenshotName+">Screenshot</a>");
     }
@@ -27,6 +24,7 @@ public class CustomListeners implements ITestListener {
     public void onTestFailure(ITestResult iTestResult) {
         System.setProperty("org.uncommons.reportng.escape-output","false");
         Reporter.log("Failure. Test fail.");
+        TestUtil.captureScreenshot();
         Reporter.log("Capturing screenshot.");
         Reporter.log("<a href="+TestUtil.screenshotName+"><img src="+TestUtil.screenshotName+"></img></a>");
     }

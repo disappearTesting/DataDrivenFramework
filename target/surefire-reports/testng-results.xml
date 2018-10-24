@@ -11,7 +11,7 @@
       <![CDATA[Capturing screenshot.]]>
     </line>
     <line>
-      <![CDATA[<a href=null><img src=null></img></a>]]>
+      <![CDATA[<a href=error.jpg><img src=error.jpg></img></a>]]>
     </line>
     <line>
       <![CDATA[Failure. Test fail.]]>
@@ -20,15 +20,15 @@
       <![CDATA[Capturing screenshot.]]>
     </line>
     <line>
-      <![CDATA[<a href=null><img src=null></img></a>]]>
+      <![CDATA[<a href=error.jpg><img src=error.jpg></img></a>]]>
     </line>
   </reporter-output>
-  <suite name="Data Driven Basics" duration-ms="2168" started-at="2018-10-24T08:43:38Z" finished-at="2018-10-24T08:43:40Z">
+  <suite name="Data Driven Basics" duration-ms="2909" started-at="2018-10-24T13:11:18Z" finished-at="2018-10-24T13:11:21Z">
     <groups>
     </groups>
-    <test name="Bank Manager Login" duration-ms="1188" started-at="2018-10-24T08:43:38Z" finished-at="2018-10-24T08:43:39Z">
+    <test name="Bank Manager Login" duration-ms="1617" started-at="2018-10-24T13:11:18Z" finished-at="2018-10-24T13:11:19Z">
       <class name="com.example.testcases.BankManagerLoginTest">
-        <test-method status="FAIL" signature="loginAsBankManager()[pri:0, instance:com.example.testcases.BankManagerLoginTest@78c03f1f]" name="loginAsBankManager" duration-ms="1172" started-at="2018-10-24T11:43:38Z" finished-at="2018-10-24T11:43:39Z">
+        <test-method status="FAIL" signature="loginAsBankManager()[pri:0, instance:com.example.testcases.BankManagerLoginTest@78c03f1f]" name="loginAsBankManager" duration-ms="1299" started-at="2018-10-24T16:11:18Z" finished-at="2018-10-24T16:11:19Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[null]]>
@@ -80,19 +80,19 @@
               <![CDATA[Capturing screenshot.]]>
             </line>
             <line>
-              <![CDATA[<a href=null><img src=null></img></a>]]>
+              <![CDATA[<a href=error.jpg><img src=error.jpg></img></a>]]>
             </line>
           </reporter-output>
         </test-method> <!-- loginAsBankManager -->
       </class> <!-- com.example.testcases.BankManagerLoginTest -->
     </test> <!-- Bank Manager Login -->
-    <test name="Add Customer" duration-ms="964" started-at="2018-10-24T08:43:39Z" finished-at="2018-10-24T08:43:40Z">
+    <test name="Add Customer" duration-ms="1280" started-at="2018-10-24T13:11:19Z" finished-at="2018-10-24T13:11:21Z">
       <class name="com.example.testcases.AddCustomerTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.example.testcases.AddCustomerTest@61f8bee4]" name="setUp" is-config="true" duration-ms="7537" started-at="2018-10-24T11:43:30Z" finished-at="2018-10-24T11:43:38Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.example.testcases.AddCustomerTest@61f8bee4]" name="setUp" is-config="true" duration-ms="5655" started-at="2018-10-24T16:11:12Z" finished-at="2018-10-24T16:11:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="addCustomer(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.example.testcases.AddCustomerTest@61f8bee4]" name="addCustomer" duration-ms="962" started-at="2018-10-24T11:43:39Z" data-provider="getTestData" finished-at="2018-10-24T11:43:40Z">
+        <test-method status="FAIL" signature="addCustomer(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.example.testcases.AddCustomerTest@61f8bee4]" name="addCustomer" duration-ms="920" started-at="2018-10-24T16:11:19Z" data-provider="getTestData" finished-at="2018-10-24T16:11:20Z">
           <params>
             <param index="0">
               <value>
@@ -158,11 +158,11 @@
               <![CDATA[Capturing screenshot.]]>
             </line>
             <line>
-              <![CDATA[<a href=null><img src=null></img></a>]]>
+              <![CDATA[<a href=error.jpg><img src=error.jpg></img></a>]]>
             </line>
           </reporter-output>
         </test-method> <!-- addCustomer -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.example.testcases.AddCustomerTest@61f8bee4]" name="tearDown" is-config="true" duration-ms="579" started-at="2018-10-24T11:43:40Z" finished-at="2018-10-24T11:43:40Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.example.testcases.AddCustomerTest@61f8bee4]" name="tearDown" is-config="true" duration-ms="618" started-at="2018-10-24T16:11:21Z" finished-at="2018-10-24T16:11:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
