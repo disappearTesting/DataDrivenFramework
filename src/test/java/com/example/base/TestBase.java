@@ -1,5 +1,8 @@
 package com.example.base;
 
+import com.example.utilities.ExtentReportManager;
+import com.relevantcodes.extentreports.ExtentReports;
+import com.relevantcodes.extentreports.ExtentTest;
 import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoAlertPresentException;
@@ -46,6 +49,10 @@ public class TestBase {
     private String filePathConfig = System.getProperty("user.dir") + "\\src\\test\\resources\\properties\\Config.properties";
     private String filePathOR = System.getProperty("user.dir") + "\\src\\test\\resources\\properties\\OR.properties";
     protected static Logger log = Logger.getLogger("rootLogger");
+
+    public static ExtentReports report = ExtentReportManager.getInstanceOfReport();
+    // Defines a node in the report file.
+    public static ExtentTest test;
 
     @BeforeSuite
     public void setUp() {

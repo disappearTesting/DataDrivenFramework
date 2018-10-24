@@ -11,7 +11,7 @@
       <![CDATA[Capturing screenshot.]]>
     </line>
     <line>
-      <![CDATA[<a href="error.jpg"><img src="error.jpg"></img></a>]]>
+      <![CDATA[<a href=2018-10-24-23-06-48.jpg><img src=2018-10-24-23-06-48.jpg></img></a>]]>
     </line>
     <line>
       <![CDATA[Failure. Test fail.]]>
@@ -20,15 +20,15 @@
       <![CDATA[Capturing screenshot.]]>
     </line>
     <line>
-      <![CDATA[<a href="error.jpg"><img src="error.jpg"></img></a>]]>
+      <![CDATA[<a href=2018-10-24-23-06-50.jpg><img src=2018-10-24-23-06-50.jpg></img></a>]]>
     </line>
   </reporter-output>
-  <suite name="Data Driven Basics" duration-ms="2024" started-at="2018-10-23T20:33:08Z" finished-at="2018-10-23T20:33:10Z">
+  <suite name="Data Driven Basics" duration-ms="3034" started-at="2018-10-24T20:06:47Z" finished-at="2018-10-24T20:06:50Z">
     <groups>
     </groups>
-    <test name="Bank Manager Login" duration-ms="1181" started-at="2018-10-23T20:33:08Z" finished-at="2018-10-23T20:33:09Z">
+    <test name="Bank Manager Login" duration-ms="1687" started-at="2018-10-24T20:06:47Z" finished-at="2018-10-24T20:06:49Z">
       <class name="com.example.testcases.BankManagerLoginTest">
-        <test-method status="FAIL" signature="loginAsBankManager()[pri:0, instance:com.example.testcases.BankManagerLoginTest@78c03f1f]" name="loginAsBankManager" duration-ms="1172" started-at="2018-10-23T23:33:08Z" finished-at="2018-10-23T23:33:09Z">
+        <test-method status="FAIL" signature="loginAsBankManager()[pri:0, instance:com.example.testcases.BankManagerLoginTest@11758f2a]" name="loginAsBankManager" duration-ms="1199" started-at="2018-10-24T23:06:47Z" finished-at="2018-10-24T23:06:48Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[null]]>
@@ -80,19 +80,19 @@
               <![CDATA[Capturing screenshot.]]>
             </line>
             <line>
-              <![CDATA[<a href="error.jpg"><img src="error.jpg"></img></a>]]>
+              <![CDATA[<a href=2018-10-24-23-06-48.jpg><img src=2018-10-24-23-06-48.jpg></img></a>]]>
             </line>
           </reporter-output>
         </test-method> <!-- loginAsBankManager -->
       </class> <!-- com.example.testcases.BankManagerLoginTest -->
     </test> <!-- Bank Manager Login -->
-    <test name="Add Customer" duration-ms="833" started-at="2018-10-23T20:33:09Z" finished-at="2018-10-23T20:33:10Z">
+    <test name="Add Customer" duration-ms="1338" started-at="2018-10-24T20:06:49Z" finished-at="2018-10-24T20:06:50Z">
       <class name="com.example.testcases.AddCustomerTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.example.testcases.AddCustomerTest@61f8bee4]" name="setUp" is-config="true" duration-ms="4078" started-at="2018-10-23T23:33:04Z" finished-at="2018-10-23T23:33:08Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.example.testcases.AddCustomerTest@78ac1102]" name="setUp" is-config="true" duration-ms="4138" started-at="2018-10-24T23:06:43Z" finished-at="2018-10-24T23:06:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="addCustomer(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.example.testcases.AddCustomerTest@61f8bee4]" name="addCustomer" duration-ms="831" started-at="2018-10-23T23:33:09Z" data-provider="getTestData" finished-at="2018-10-23T23:33:10Z">
+        <test-method status="FAIL" signature="addCustomer(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.example.testcases.AddCustomerTest@78ac1102]" name="addCustomer" duration-ms="948" started-at="2018-10-24T23:06:49Z" data-provider="getTestData" finished-at="2018-10-24T23:06:50Z">
           <params>
             <param index="0">
               <value>
@@ -118,7 +118,7 @@
               <![CDATA[java.lang.AssertionError: null
 	at org.testng.Assert.fail(Assert.java:94)
 	at org.testng.Assert.fail(Assert.java:101)
-	at com.example.testcases.AddCustomerTest.addCustomer(AddCustomerTest.java:44)
+	at com.example.testcases.AddCustomerTest.addCustomer(AddCustomerTest.java:47)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -158,11 +158,11 @@
               <![CDATA[Capturing screenshot.]]>
             </line>
             <line>
-              <![CDATA[<a href="error.jpg"><img src="error.jpg"></img></a>]]>
+              <![CDATA[<a href=2018-10-24-23-06-50.jpg><img src=2018-10-24-23-06-50.jpg></img></a>]]>
             </line>
           </reporter-output>
         </test-method> <!-- addCustomer -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.example.testcases.AddCustomerTest@61f8bee4]" name="tearDown" is-config="true" duration-ms="609" started-at="2018-10-23T23:33:10Z" finished-at="2018-10-23T23:33:10Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.example.testcases.AddCustomerTest@78ac1102]" name="tearDown" is-config="true" duration-ms="581" started-at="2018-10-24T23:06:50Z" finished-at="2018-10-24T23:06:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

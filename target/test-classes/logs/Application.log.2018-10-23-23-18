@@ -1,6 +1,0 @@
-[INFO] 10-23-2018 23:18:00 AddCustomerTest.java addCustomer - Test start.
-[INFO] 10-23-2018 23:18:01 AddCustomerTest.java addCustomer - Set the First Name.
-[INFO] 10-23-2018 23:18:01 AddCustomerTest.java addCustomer - Set the Last Name.
-[INFO] 10-23-2018 23:18:01 AddCustomerTest.java addCustomer - Set the Post Code.
-[INFO] 10-23-2018 23:18:01 AddCustomerTest.java addCustomer - Alert is present.
-[INFO] 10-23-2018 23:18:02 TestBase.java tearDown - WebDriver quit.

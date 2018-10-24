@@ -1,0 +1,14 @@
+[INFO] 10-24-2018 22:06:33 TestBase.java setUp - WebDriver init.
+[INFO] 10-24-2018 22:06:33 TestBase.java setUp - Load Config.properties file.
+[INFO] 10-24-2018 22:06:33 TestBase.java setUp - Load OR.properties file.
+[INFO] 10-24-2018 22:06:36 TestBase.java setUp - Launch Chrome browser!
+[INFO] 10-24-2018 22:06:37 BankManagerLoginTest.java loginAsBankManager - Test start.
+[INFO] 10-24-2018 22:06:39 BankManagerLoginTest.java loginAsBankManager - Success. Test Pass.
+[INFO] 10-24-2018 22:06:39 AddCustomerTest.java addCustomer - Test start.
+[INFO] 10-24-2018 22:06:39 AddCustomerTest.java addCustomer - Set the First Name.
+[INFO] 10-24-2018 22:06:40 AddCustomerTest.java addCustomer - Set the Last Name.
+[INFO] 10-24-2018 22:06:40 AddCustomerTest.java addCustomer - Set the Post Code.
+[INFO] 10-24-2018 22:06:40 AddCustomerTest.java addCustomer - Alert is present.
+[INFO] 10-24-2018 22:06:40 AddCustomerTest.java addCustomer - Alert do Accept.
+[INFO] 10-24-2018 22:06:40 AddCustomerTest.java addCustomer - Success. Test Pass.
+[INFO] 10-24-2018 22:06:41 TestBase.java tearDown - WebDriver quit.

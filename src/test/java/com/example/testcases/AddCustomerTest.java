@@ -26,10 +26,13 @@ public class AddCustomerTest extends TestBase{
         explicitWait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector(OR.getProperty("ButtonAddCustomerSubmit"))));
 
         log.info("Set the First Name.");
+        driver.findElement(By.cssSelector(OR.getProperty("InputFirstName"))).clear();
         driver.findElement(By.cssSelector(OR.getProperty("InputFirstName"))).sendKeys(firstName);
         log.info("Set the Last Name.");
+        driver.findElement(By.cssSelector(OR.getProperty("InputLastName"))).clear();
         driver.findElement(By.cssSelector(OR.getProperty("InputLastName"))).sendKeys(lastName);
         log.info("Set the Post Code.");
+        driver.findElement(By.cssSelector(OR.getProperty("InputPostCode"))).clear();
         driver.findElement(By.cssSelector(OR.getProperty("InputPostCode"))).sendKeys(postCode);
 
         driver.findElement(By.cssSelector(OR.getProperty("ButtonAddCustomerSubmit"))).submit();

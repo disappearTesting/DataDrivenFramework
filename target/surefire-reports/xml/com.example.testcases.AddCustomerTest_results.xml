@@ -4,16 +4,16 @@
            failures="1"
            errors="0"
            skipped="0"
-           time="0,831">
+           time="0,948">
   <properties />
-            <testcase name="addCustomer" time="0,831" classname="com.example.testcases.AddCustomerTest">
+            <testcase name="addCustomer" time="0,948" classname="com.example.testcases.AddCustomerTest">
                 <failure type="java.lang.AssertionError"
                   message="null"
               >
 <![CDATA[java.lang.AssertionError: null
   org.testng.Assert.fail(Assert.java:94)
   org.testng.Assert.fail(Assert.java:101)
-  com.example.testcases.AddCustomerTest.addCustomer(AddCustomerTest.java:44)
+  com.example.testcases.AddCustomerTest.addCustomer(AddCustomerTest.java:47)
   sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
   sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
   sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
