@@ -4,26 +4,16 @@
            failures="1"
            errors="0"
            skipped="0"
-<<<<<<< HEAD
-           time="0,004">
+           time="1,172">
   <properties />
-            <testcase name="loginAsBankManager" time="0,004" classname="com.example.testcases.BankManagerLoginTest">
-                <failure type="java.lang.IllegalArgumentException"
-                  message="Cannot find elements when the selector is null"
-=======
-           time="1,268">
-  <properties />
-            <testcase name="loginAsBankManager" time="1,268" classname="com.example.testcases.BankManagerLoginTest">
+            <testcase name="loginAsBankManager" time="1,172" classname="com.example.testcases.BankManagerLoginTest">
                 <failure type="java.lang.AssertionError"
-                  message="expected [Failure. Element isn&apos;t present!] but found [true]"
->>>>>>> 06e2927c7fb68533a0f4b4ca04b2d7f79920f279
+                  message="null"
               >
-<![CDATA[java.lang.AssertionError: expected [Failure. Element isn't present!] but found [true]
+<![CDATA[java.lang.AssertionError: null
   org.testng.Assert.fail(Assert.java:94)
-  org.testng.Assert.failNotEquals(Assert.java:494)
-  org.testng.Assert.assertEquals(Assert.java:123)
-  org.testng.Assert.assertEquals(Assert.java:165)
-  com.example.testcases.BankManagerLoginTest.loginAsBankManager(BankManagerLoginTest.java:19)
+  org.testng.Assert.fail(Assert.java:101)
+  com.example.testcases.BankManagerLoginTest.loginAsBankManager(BankManagerLoginTest.java:22)
   sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
   sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
   sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -45,8 +35,13 @@
   org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
   org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
   org.testng.TestNG.run(TestNG.java:1031)
-  org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72)
-  org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+  org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+  org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+  org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+  org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+  org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+  org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+  org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
 ]]>
       </failure>
 

@@ -4,6 +4,7 @@
            failures="1"
            errors="0"
            skipped="0"
+<<<<<<< HEAD
            time="5,294">
   <properties />
             <testcase name="addCustomer" time="5,294" classname="com.example.testcases.AddCustomerTest">
@@ -50,6 +51,20 @@ Driver info: driver.version: unknown
   org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:180)
   org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)
   com.example.testcases.AddCustomerTest.addCustomer(AddCustomerTest.java:23)
+=======
+           time="0,884">
+  <properties />
+            <testcase name="addCustomer" time="0,884" classname="com.example.testcases.AddCustomerTest">
+                <failure type="java.lang.AssertionError"
+                  message="expected [Failure. Alert isn&apos;t contains expected text.] but found [true]"
+              >
+<![CDATA[java.lang.AssertionError: expected [Failure. Alert isn't contains expected text.] but found [true]
+  org.testng.Assert.fail(Assert.java:94)
+  org.testng.Assert.failNotEquals(Assert.java:494)
+  org.testng.Assert.assertEquals(Assert.java:123)
+  org.testng.Assert.assertEquals(Assert.java:165)
+  com.example.testcases.AddCustomerTest.addCustomer(AddCustomerTest.java:40)
+>>>>>>> 06e2927c7fb68533a0f4b4ca04b2d7f79920f279
   sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
   sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
   sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)

@@ -3,20 +3,16 @@
         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="" lang="">
 <head>
-  <title>Test Results Report - Bank Manager Login</title>
+  <title>Test Results Report - Add Customer</title>
   <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
   <meta name="description" content="TestNG unit test results." />
   <link href="reportng.css" rel="stylesheet" type="text/css" />
     <script type="text/javascript" src="reportng.js"></script>
 </head>
 <body>
-<h1>Bank Manager Login</h1>
+<h1>Add Customer</h1>
 <p>
-<<<<<<< HEAD
-  Test duration: 0,004s
-=======
-  Test duration: 1,268s
->>>>>>> 06e2927c7fb68533a0f4b4ca04b2d7f79920f279
+  Test duration: 9,078s
 </p>
 
 
@@ -24,42 +20,32 @@
   <table class="resultsTable">
     <tr><th colspan="3" class="header failed">Failed Tests</th></tr>
           <tr>
-        <td colspan="3" class="group">com.example.testcases.BankManagerLoginTest</td>
+        <td colspan="3" class="group">com.example.testcases.AddCustomerTest</td>
       </tr>
             
 <tr>
   <td class="method">
-                  loginAsBankManager
+                  addCustomer
       </td>
   <td class="duration">
-<<<<<<< HEAD
-    0,004s
-=======
-    1,268s
->>>>>>> 06e2927c7fb68533a0f4b4ca04b2d7f79920f279
+    0,962s
   </td>
   <td class="result">
         
+          <i>Method arguments: </i><span class="arguments">"Kyryl", "Makarov", "95W66S"</span><br />
     
             <div class="testOutput">
-<<<<<<< HEAD
-                        Capturing screenshot.
-                                <a href="G:\images\others\bomb.png"><img src="G:\images\others\bomb.png" height=150 width=150></img></a>
-=======
                         Failure. Test fail.
                                 Capturing screenshot.
                                 <a href=null><img src=null></img></a>
->>>>>>> 06e2927c7fb68533a0f4b4ca04b2d7f79920f279
                   </div>
     
 
-        <a href="javascript:toggleElement('exception-0', 'block')" title="Click to expand/collapse"><b>java.lang.AssertionError: expected [Failure. Element isn&apos;t present!] but found [true]</b></a><br />
+        <a href="javascript:toggleElement('exception-0', 'block')" title="Click to expand/collapse"><b>java.lang.AssertionError: null</b></a><br />
     <div class="stackTrace" id="exception-0">
               org.testng.Assert.fail(Assert.java:94)<br />
-              org.testng.Assert.failNotEquals(Assert.java:494)<br />
-              org.testng.Assert.assertEquals(Assert.java:123)<br />
-              org.testng.Assert.assertEquals(Assert.java:165)<br />
-              com.example.testcases.BankManagerLoginTest.loginAsBankManager(BankManagerLoginTest.java:19)<br />
+              org.testng.Assert.fail(Assert.java:101)<br />
+              com.example.testcases.AddCustomerTest.addCustomer(AddCustomerTest.java:47)<br />
               sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
               sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
               sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
@@ -81,8 +67,13 @@
               org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)<br />
               org.testng.TestNG.runSuitesLocally(TestNG.java:1123)<br />
               org.testng.TestNG.run(TestNG.java:1031)<br />
-              org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72)<br />
-              org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)<br />
+              org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)<br />
+              org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)<br />
+              org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)<br />
+              org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)<br />
+              org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)<br />
+              org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)<br />
+              org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)<br />
                 </div>
       </td>
 </tr>
