@@ -41,8 +41,8 @@ public class TestBase {
     protected static WebDriver driver;
     protected static WebDriverWait explicitWait;
 
-    public static Properties config = new Properties();
-    public static Properties OR = new Properties();
+    protected static Properties config = new Properties();
+    protected static Properties OR = new Properties();
 
     private FileInputStream sourceStreamConfig;
     private FileInputStream sourceStreamOR;

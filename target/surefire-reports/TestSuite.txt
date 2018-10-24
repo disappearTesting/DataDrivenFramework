@@ -1,12 +1,12 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 8.276 s <<< FAILURE! - in TestSuite
-loginAsBankManager(com.example.testcases.BankManagerLoginTest)  Time elapsed: 1.205 s  <<< FAILURE!
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 8.266 s <<< FAILURE! - in TestSuite
+loginAsBankManager(com.example.testcases.BankManagerLoginTest)  Time elapsed: 1.197 s  <<< FAILURE!
 java.lang.AssertionError: null
 	at com.example.testcases.BankManagerLoginTest.loginAsBankManager(BankManagerLoginTest.java:22)
 
-addCustomer(com.example.testcases.AddCustomerTest)  Time elapsed: 0.949 s  <<< FAILURE!
+addCustomer(com.example.testcases.AddCustomerTest)  Time elapsed: 0.946 s  <<< FAILURE!
 java.lang.AssertionError: null
 	at com.example.testcases.AddCustomerTest.addCustomer(AddCustomerTest.java:47)
 

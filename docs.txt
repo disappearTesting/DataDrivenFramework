@@ -14,3 +14,6 @@
 		https://seleniumhq.github.io/selenium/docs/api/java/
 		
 		https://developers.perfectomobile.com/display/TT/Manage+TestNG+execution+and+Data
+		
+		//	Creating Extent Reports in Selenium Using the Extent API
+		https://dzone.com/articles/creating-extent-reports-in-selenium-using-extent-a
