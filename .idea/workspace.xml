@@ -3,81 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="392a028a-ce65-4fa0-95c0-d70d3921fb23" name="Default" comment="Merge branch 'master' of github.com:disappearTesting/DataDrivenFramework&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/DataDrivenFramework.iml" afterPath="$PROJECT_DIR$/DataDrivenFramework.iml" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/base/TestBase.java" afterPath="$PROJECT_DIR$/src/test/java/com/example/base/TestBase.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/listeners/CustomListeners.java" afterPath="$PROJECT_DIR$/src/test/java/com/example/listeners/CustomListeners.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/testcases/AddCustomerTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/example/testcases/AddCustomerTest.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/testcases/BankManagerLoginTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/example/testcases/BankManagerLoginTest.java" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/excel/~$testdata.xlsx" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-22-21-20" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-22-21-30" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-22-21-31" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-22-21-32" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-22-22-06" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-22-22-07" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-22-22-11" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-22-22-13" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-22-22-14" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-22-22-19" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-22-22-20" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-22-22-21" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-22-22-22" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-22-22-32" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-22-22-33" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-22-22-34" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-22-22-36" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-22-22-37" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-22-22-39" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-22-22-40" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-22-22-41" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-22-22-42" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-22-22-43" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-22-22-45" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-22-22-46" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-22-22-48" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-22-22-49" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-22-22-52" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-22-22-53" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-22-22-55" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-22-22-56" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-22-22-58" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-22-22-59" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-22-23-00" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-22-23-01" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-22-23-04" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-22-23-06" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-22-23-07" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-22-23-10" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-22-23-19" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-22-23-20" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-22-23-21" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-22-23-22" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-22-23-23" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-22-23-31" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-22-23-32" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-22-23-33" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-22-23-36" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-22-23-37" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-22-23-40" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-22-23-41" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-22-23-44" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-22-23-45" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-22-23-49" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-22-23-51" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-22-23-52" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-22-23-54" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-23-21-30" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-23-21-31" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-23-21-32" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-23-21-33" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test-output/html/output.html" afterPath="$PROJECT_DIR$/test-output/html/output.html" />
-      <change beforePath="$PROJECT_DIR$/test-output/html/overview.html" afterPath="$PROJECT_DIR$/test-output/html/overview.html" />
-      <change beforePath="$PROJECT_DIR$/test-output/html/suite1_test1_results.html" afterPath="$PROJECT_DIR$/test-output/html/suite1_test1_results.html" />
-      <change beforePath="$PROJECT_DIR$/test-output/html/suite1_test2_results.html" afterPath="$PROJECT_DIR$/test-output/html/suite1_test2_results.html" />
-      <change beforePath="$PROJECT_DIR$/test-output/html/suites.html" afterPath="$PROJECT_DIR$/test-output/html/suites.html" />
-      <change beforePath="$PROJECT_DIR$/test-output/xml/com.example.testcases.AddCustomerTest_results.xml" afterPath="$PROJECT_DIR$/test-output/xml/com.example.testcases.AddCustomerTest_results.xml" />
-      <change beforePath="$PROJECT_DIR$/test-output/xml/com.example.testcases.BankManagerLoginTest_results.xml" afterPath="$PROJECT_DIR$/test-output/xml/com.example.testcases.BankManagerLoginTest_results.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -107,7 +32,7 @@
       <file leaf-file-name="BankManagerLoginTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/example/testcases/BankManagerLoginTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
+            <state relative-caret-position="336">
               <caret line="21" column="8" lean-forward="false" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -119,7 +44,7 @@
       <file leaf-file-name="AddCustomerTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/example/testcases/AddCustomerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="798">
+            <state relative-caret-position="777">
               <caret line="43" column="8" lean-forward="false" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -128,11 +53,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CustomListeners.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CustomListeners.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/example/listeners/CustomListeners.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="30" column="43" lean-forward="false" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="43" />
+            <state relative-caret-position="441">
+              <caret line="27" column="75" lean-forward="false" selection-start-line="27" selection-start-column="75" selection-end-line="27" selection-end-column="75" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -140,11 +65,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestUtil.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="TestUtil.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/example/utilities/TestUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+            <state relative-caret-position="462">
+              <caret line="22" column="9" lean-forward="false" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -216,10 +141,10 @@
         <option value="$PROJECT_DIR$/src/test/resources/runner/testng.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/example/base/TestBase.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/example/utilities/TestUtil.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/example/testcases/AddCustomerTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/example/testcases/BankManagerLoginTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/example/listeners/CustomListeners.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/example/utilities/TestUtil.java" />
       </list>
     </option>
   </component>
@@ -271,7 +196,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
@@ -354,6 +278,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="logs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DataDrivenFramework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DataDrivenFramework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="properties" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -391,6 +323,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -544,7 +477,8 @@
       <workItem from="1540240797254" duration="988000" />
       <workItem from="1540317316873" duration="5023000" />
       <workItem from="1540323113739" duration="2918000" />
-      <workItem from="1540326053784" duration="737000" />
+      <workItem from="1540326053784" duration="1496000" />
+      <workItem from="1540406054838" duration="151000" />
     </task>
     <servers />
   </component>
@@ -581,25 +515,24 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18347000" />
+    <option name="totallyTimeSpent" value="19257000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="35" y="2" width="1876" height="1080" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952183" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12322015" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="WINDOWED" visible="true" show_stripe_button="true" weight="0.32952183" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="94" y="51" width="1759" height="973" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952183" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="WINDOWED" visible="false" show_stripe_button="true" weight="0.32952183" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="94" y="51" width="1759" height="973" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32952183" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18017524" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18181819" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295519" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -612,6 +545,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952183" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28133863" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -630,6 +564,70 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/testcases/BankManagerLoginTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="21" column="8" lean-forward="false" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/testcases/AddCustomerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="777">
+          <caret line="43" column="8" lean-forward="false" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/listeners/CustomListeners.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="27" column="75" lean-forward="false" selection-start-line="27" selection-start-column="75" selection-end-line="27" selection-end-column="75" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/properties/Config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="16" lean-forward="false" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/properties/OR.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="53" lean-forward="false" selection-start-line="0" selection-start-column="53" selection-end-line="0" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/runner/testng.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="17" column="66" lean-forward="false" selection-start-line="17" selection-start-column="66" selection-end-line="17" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/utilities/TestUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/example/base/TestBase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="651">
@@ -971,7 +969,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/example/testcases/AddCustomerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="798">
+        <state relative-caret-position="777">
           <caret line="43" column="8" lean-forward="false" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -981,18 +979,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/example/testcases/BankManagerLoginTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
+        <state relative-caret-position="336">
           <caret line="21" column="8" lean-forward="false" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/utilities/TestUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1001,8 +989,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/example/listeners/CustomListeners.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="30" column="43" lean-forward="false" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="43" />
+        <state relative-caret-position="441">
+          <caret line="27" column="75" lean-forward="false" selection-start-line="27" selection-start-column="75" selection-end-line="27" selection-end-column="75" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/utilities/TestUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="22" column="9" lean-forward="false" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
