@@ -1,6 +1,5 @@
 package com.example.base;
 
-import com.example.utilities.ExtentReportManager;
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 import org.apache.log4j.PropertyConfigurator;
@@ -48,11 +47,12 @@ public class TestBase {
     private FileInputStream sourceStreamOR;
     private String filePathConfig = System.getProperty("user.dir") + "\\src\\test\\resources\\properties\\Config.properties";
     private String filePathOR = System.getProperty("user.dir") + "\\src\\test\\resources\\properties\\OR.properties";
+    private String driversPath = System.getProperty("user.dir") + "\\src\\test\\resources\\executables\\";
     protected static Logger log = Logger.getLogger("rootLogger");
 
-    public static ExtentReports report = ExtentReportManager.getInstanceOfReport();
+    protected static ExtentReports extentReports;
     // Defines a node in the report file.
-    public static ExtentTest test;
+    protected static ExtentTest extentTest;
 
     @BeforeSuite
     public void setUp() {
@@ -87,17 +87,17 @@ public class TestBase {
             String browser = config.getProperty("browser");
             switch (browser) {
                 case "firefox":
-                    System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir") + "\\src\\test\\resources\\executables\\geckodriver.exe");
+                    System.setProperty("webdriver.gecko.driver", driversPath + "geckodriver.exe");
                     driver = new FirefoxDriver();
                     log.info("Launch Firefox browser!");
                     break;
                 case "chrome":
-                    System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "\\src\\test\\resources\\executables\\chromedriver.exe");
+                    System.setProperty("webdriver.chrome.driver",  driversPath + "chromedriver.exe");
                     driver = new ChromeDriver();
                     log.info("Launch Chrome browser!");
                     break;
                 case "ie":
-                    System.setProperty("webdriver.ie.driver", System.getProperty("user.dir") + "\\src\\test\\resources\\executables\\IEDriverServer.exe");
+                    System.setProperty("webdriver.ie.driver",  driversPath + "IEDriverServer.exe");
                     driver = new InternetExplorerDriver();
                     log.info("Launch IE browser!");
                     break;
