@@ -4,21 +4,21 @@
   <listeners>
     <listener class-name="org.uncommons.reportng.HTMLReporter"/>
     <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
-    <listener class-name="com.example.listeners.CustomListeners"/>
+    <listener class-name="com.example.listeners.ExtentReportListener"/>
   </listeners>
   <test name="Bank Manager Login(failed)">
     <classes>
-      <class name="com.example.testcases.BankManagerLoginTest">
-        <methods>
-          <include name="loginAsBankManager"/>
-        </methods>
-      </class> <!-- com.example.testcases.BankManagerLoginTest -->
       <class name="com.example.testcases.AddCustomerTest">
         <methods>
           <include name="setUp"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.example.testcases.AddCustomerTest -->
+      <class name="com.example.testcases.BankManagerLoginTest">
+        <methods>
+          <include name="loginAsBankManager"/>
+        </methods>
+      </class> <!-- com.example.testcases.BankManagerLoginTest -->
     </classes>
   </test> <!-- Bank Manager Login(failed) -->
   <test name="Add Customer(failed)">

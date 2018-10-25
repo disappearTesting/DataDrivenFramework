@@ -1,7 +1,0 @@
-[INFO] 10-23-2018 15:45:20 TestBase.java setUp - WebDriver init.
-[INFO] 10-23-2018 15:45:20 TestBase.java setUp - Load Config.properties file.
-[INFO] 10-23-2018 15:45:20 TestBase.java setUp - Load OR.properties file.
-[INFO] 10-23-2018 15:45:23 TestBase.java setUp - Launch Chrome browser!
-[INFO] 10-23-2018 15:45:23 BankManagerLoginTest.java loginAsBankManager - Test start.
-[INFO] 10-23-2018 15:45:23 AddCustomerTest.java addCustomer - Test start.
-[INFO] 10-23-2018 15:45:29 TestBase.java tearDown - WebDriver quit.

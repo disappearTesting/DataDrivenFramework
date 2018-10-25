@@ -1,5 +1,8 @@
 package com.example.base;
 
+import com.example.utilities.ExtentReportManager;
+import com.relevantcodes.extentreports.ExtentReports;
+import com.relevantcodes.extentreports.ExtentTest;
 import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoAlertPresentException;
@@ -38,14 +41,21 @@ public class TestBase {
     protected static WebDriver driver;
     protected static WebDriverWait explicitWait;
 
-    public static Properties config = new Properties();
-    public static Properties OR = new Properties();
+    protected static Properties config = new Properties();
+    protected static Properties OR = new Properties();
 
     private FileInputStream sourceStreamConfig;
     private FileInputStream sourceStreamOR;
     private String filePathConfig = System.getProperty("user.dir") + "\\src\\test\\resources\\properties\\Config.properties";
     private String filePathOR = System.getProperty("user.dir") + "\\src\\test\\resources\\properties\\OR.properties";
     protected static Logger log = Logger.getLogger("rootLogger");
+
+    //public static ExtentReports report = ExtentReportManager.getInstanceOfReport();
+    // Defines a node in the report file.
+    //public static ExtentTest test;
+
+    public static ExtentReports extentReports;
+    public static ExtentTest extentTest;
 
     @BeforeSuite
     public void setUp() {
