@@ -37,8 +37,8 @@
       <file leaf-file-name="AddCustomerTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/example/testcases/AddCustomerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="556">
-              <caret line="46" column="22" lean-forward="false" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="22" />
+            <state relative-caret-position="670">
+              <caret line="43" column="43" lean-forward="true" selection-start-line="43" selection-start-column="43" selection-end-line="43" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -371,12 +371,12 @@
       <updated>1540406352569</updated>
       <workItem from="1540406353730" duration="5768000" />
       <workItem from="1540412851368" duration="31000" />
-      <workItem from="1540495991146" duration="7000" />
+      <workItem from="1540495991146" duration="73000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5806000" />
+    <option name="totallyTimeSpent" value="5872000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="35" y="2" width="1876" height="1080" extended-state="0" />
@@ -561,7 +561,7 @@
         <state relative-caret-position="294">
           <caret line="14" column="9" lean-forward="false" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -587,8 +587,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/example/testcases/AddCustomerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="556">
-          <caret line="46" column="22" lean-forward="false" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="22" />
+        <state relative-caret-position="670">
+          <caret line="43" column="43" lean-forward="true" selection-start-line="43" selection-start-column="43" selection-end-line="43" selection-end-column="43" />
           <folding />
         </state>
       </provider>
