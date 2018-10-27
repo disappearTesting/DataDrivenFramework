@@ -29,6 +29,7 @@ public class AddCustomerTest extends TestBase {
         log.info("Set the First Name.");
         driver.findElement(By.cssSelector(OR.getProperty("InputLastName_CSS"))).clear();
         driver.findElement(By.cssSelector(OR.getProperty("InputLastName_CSS"))).sendKeys(lastName);
+
         log.info("Set the Last Name.");
         driver.findElement(By.cssSelector(OR.getProperty("InputPostCode_CSS"))).clear();
         driver.findElement(By.cssSelector(OR.getProperty("InputPostCode_CSS"))).sendKeys(postCode);

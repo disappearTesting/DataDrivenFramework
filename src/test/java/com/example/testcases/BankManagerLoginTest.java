@@ -16,7 +16,6 @@ public class BankManagerLoginTest extends TestBase {
 
         explicitWait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector(OR.getProperty("ButtonAddCustomer_CSS"))));
         Assert.assertTrue(isElementPresent(By.cssSelector(OR.getProperty("ButtonAddCustomer_CSS"))), "Failure. Element isn't present!");
-        //Assert.fail();
         log.info("Success. Test is passed.");
     }
 }

@@ -24,6 +24,7 @@ public class OpenAccountTest extends TestBase {
         explicitWait.until(ExpectedConditions.presenceOfElementLocated(By.name(OR.getProperty("SelectCustomer_NAME"))));
         driver.findElement(By.name(OR.getProperty("SelectCustomer_NAME"))).click();
         log.info("Open a dropdown list 'Customer'.");
+
         Assert.assertTrue(isElementSelect(By.name(OR.getProperty("SelectCustomer_NAME")), customer));
         log.info("Select the Customer.");
 

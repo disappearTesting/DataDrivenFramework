@@ -1,9 +1,0 @@
-[INFO] 10-28-2018 01:03:42 TestBase.java setUp - WebDriver init.
-[INFO] 10-28-2018 01:03:42 TestBase.java setUp - Load Config.properties file.
-[INFO] 10-28-2018 01:03:42 TestBase.java setUp - Load OR.properties file.
-[INFO] 10-28-2018 01:03:45 TestBase.java setUp - Launch Chrome browser!
-[INFO] 10-28-2018 01:03:46 AddCustomerTest.java addCustomerTest - Test is started.
-[INFO] 10-28-2018 01:03:48 AddCustomerTest.java addCustomerTest - Set the First Name.
-[INFO] 10-28-2018 01:03:48 AddCustomerTest.java addCustomerTest - Set the Last Name.
-[INFO] 10-28-2018 01:03:49 AddCustomerTest.java addCustomerTest - Set the Post Code.
-[INFO] 10-28-2018 01:03:49 TestBase.java tearDown - WebDriver quit.
