@@ -3,14 +3,12 @@ package com.example.base;
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 import org.apache.log4j.PropertyConfigurator;
-import org.openqa.selenium.By;
-import org.openqa.selenium.NoAlertPresentException;
-import org.openqa.selenium.NoSuchElementException;
-import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
@@ -128,13 +126,32 @@ public class TestBase {
         }
     }
 
-    protected boolean isAlertPresent() {
+    protected boolean isAlertPresent(String textAlert) {
+        Alert alert;
         try {
-            driver.switchTo().alert();
-            return true;
+            alert = driver.switchTo().alert();
+            if(alert.getText().contains(textAlert)) {
+                alert.accept();
+                return true;
+            }
         } catch (NoAlertPresentException nape) {
             nape.printStackTrace();
-            return false;
         }
+        return false;
+    }
+
+    protected boolean isElementSelect(By by, String visibleText) {
+        try {
+            Select select = new Select(driver.findElement(by));
+            for(WebElement option : select.getOptions()) {
+                if(option.getText().equals(visibleText) && option.isEnabled()) {
+                    select.selectByVisibleText(visibleText);
+                    return true;
+                }
+            }
+        } catch (NoSuchElementException nsee) {
+            nsee.printStackTrace();
+        }
+        return false;
     }
 }

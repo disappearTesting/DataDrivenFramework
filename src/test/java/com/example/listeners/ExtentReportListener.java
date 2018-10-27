@@ -67,6 +67,7 @@ public class ExtentReportListener extends TestBase implements ITestListener {
 
     @Override
     public void onFinish(ITestContext context) {
+        extentTest.log(LogStatus.INFO, "Test is finished.");
         extentReports.endTest(extentTest);
         extentReports.flush();
     }
