@@ -127,11 +127,9 @@ public class TestBase {
     }
 
     protected boolean isAlertPresent(String textAlert) {
-        Alert alert;
         try {
-            alert = driver.switchTo().alert();
+            Alert alert = driver.switchTo().alert();
             if(alert.getText().contains(textAlert)) {
-                alert.accept();
                 return true;
             }
         } catch (NoAlertPresentException nape) {

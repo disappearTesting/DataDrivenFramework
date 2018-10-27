@@ -39,6 +39,7 @@ public class OpenAccountTest extends TestBase {
 
         explicitWait.until(ExpectedConditions.alertIsPresent());
         Assert.assertTrue(isAlertPresent(OR.getProperty("TextAlertOpenAccount")));
+        driver.switchTo().alert().accept();
         log.info("Alert is present. Alert do Accept.");
         log.info("Success. Test is passed.");
     }

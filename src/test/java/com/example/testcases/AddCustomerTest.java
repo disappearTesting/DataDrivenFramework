@@ -40,6 +40,7 @@ public class AddCustomerTest extends TestBase {
 
         explicitWait.until(ExpectedConditions.alertIsPresent());
         Assert.assertTrue(isAlertPresent(OR.getProperty("TextAlertAddCustomer")), "Failure. Alert isn't contains expected text.");
+        driver.switchTo().alert().accept();
         log.info("Alert is present. Alert do Accept.");
         log.info("Success. Test is passed.");
     }
