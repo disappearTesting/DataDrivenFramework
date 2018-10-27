@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="27f9e181-2141-49f0-9cfd-ff30063723a1" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/base/TestBase.java" afterPath="$PROJECT_DIR$/src/test/java/com/example/base/TestBase.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/testcases/AddCustomerTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/example/testcases/AddCustomerTest.java" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/example/testcases/OpenAccountTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/example/testcases/OpenAccountTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -17,10 +15,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TestBase.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TestBase.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/example/base/TestBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
+            <state relative-caret-position="1188">
               <caret line="131" column="53" lean-forward="false" selection-start-line="131" selection-start-column="53" selection-end-line="131" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -33,7 +31,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/com/example/testcases/BankManagerLoginTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="420">
-              <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+              <caret line="20" column="1" lean-forward="false" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -45,17 +43,17 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/com/example/testcases/AddCustomerTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="777">
-              <caret line="42" column="43" lean-forward="true" selection-start-line="42" selection-start-column="43" selection-end-line="42" selection-end-column="43" />
+              <caret line="42" column="43" lean-forward="false" selection-start-line="42" selection-start-column="43" selection-end-line="42" selection-end-column="43" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OpenAccountTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="OpenAccountTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/example/testcases/OpenAccountTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="747">
-              <caret line="41" column="43" lean-forward="true" selection-start-line="41" selection-start-column="43" selection-end-line="41" selection-end-column="43" />
+            <state relative-caret-position="243">
+              <caret line="20" column="55" lean-forward="true" selection-start-line="20" selection-start-column="55" selection-end-line="20" selection-end-column="55" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -99,8 +97,8 @@
         <option value="$PROJECT_DIR$/src/test/resources/runner/testng.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/example/testcases/BankManagerLoginTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/example/base/TestBase.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/example/testcases/OpenAccountTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/example/testcases/AddCustomerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/example/testcases/OpenAccountTest.java" />
       </list>
     </option>
   </component>
@@ -477,32 +475,11 @@
       <updated>1540496404453</updated>
       <workItem from="1540496405652" duration="4575000" />
       <workItem from="1540640925838" duration="13256000" />
-      <workItem from="1540675484480" duration="5119000" />
+      <workItem from="1540675484480" duration="5753000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AddCustomerTest_addCustomerTest - 2018.10.28 at 01h 03m 50s.xml">
-      <configuration name="AddCustomerTest.addCustomerTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="AddCustomerTest_addCustomerTest - 2018.10.28 at 01h 07m 42s.xml">
-      <configuration name="AddCustomerTest.addCustomerTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="AddCustomerTest_addCustomerTest - 2018.10.28 at 01h 08m 00s.xml">
-      <configuration name="AddCustomerTest.addCustomerTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="OpenAccountTest_openAccountTest - 2018.10.28 at 00h 44m 37s.xml">
-      <configuration name="OpenAccountTest.openAccountTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="OpenAccountTest_openAccountTest - 2018.10.28 at 00h 50m 05s.xml">
-      <configuration name="OpenAccountTest.openAccountTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="OpenAccountTest_openAccountTest - 2018.10.28 at 01h 04m 50s.xml">
-      <configuration name="OpenAccountTest.openAccountTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="OpenAccountTest_openAccountTest - 2018.10.28 at 01h 09m 52s.xml">
-      <configuration name="OpenAccountTest.openAccountTest" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="OpenAccountTest_openAccountTest - 2018.10.28 at 01h 15m 08s.xml">
       <configuration name="OpenAccountTest.openAccountTest" configurationId="TestNG" />
     </history-entry>
@@ -512,13 +489,33 @@
     <history-entry file="OpenAccountTest_openAccountTest - 2018.10.28 at 01h 16m 02s.xml">
       <configuration name="OpenAccountTest.openAccountTest" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="OpenAccountTest_openAccountTest - 2018.10.28 at 01h 58m 25s.xml">
+      <configuration name="OpenAccountTest.openAccountTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="OpenAccountTest_openAccountTest - 2018.10.28 at 01h 59m 07s.xml">
+      <configuration name="OpenAccountTest.openAccountTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="OpenAccountTest_openAccountTest - 2018.10.28 at 02h 01m 25s.xml">
+      <configuration name="OpenAccountTest.openAccountTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="OpenAccountTest_openAccountTest - 2018.10.28 at 02h 01m 39s.xml">
+      <configuration name="OpenAccountTest.openAccountTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="OpenAccountTest_openAccountTest - 2018.10.28 at 02h 03m 18s.xml">
+      <configuration name="OpenAccountTest.openAccountTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="OpenAccountTest_openAccountTest - 2018.10.28 at 02h 04m 37s.xml">
+      <configuration name="OpenAccountTest.openAccountTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="OpenAccountTest_openAccountTest - 2018.10.28 at 02h 05m 27s.xml">
+      <configuration name="OpenAccountTest.openAccountTest" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22950000" />
+    <option name="totallyTimeSpent" value="23584000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="35" y="2" width="1876" height="1080" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -529,7 +526,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.09200438" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="WINDOWED" visible="false" show_stripe_button="true" weight="0.32952183" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="60" y="48" width="1826" height="1004" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="WINDOWED" visible="true" show_stripe_button="true" weight="0.32952183" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="60" y="48" width="1826" height="1004" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952183" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -541,7 +538,7 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="WINDOWED" visible="true" show_stripe_button="true" weight="0.3991684" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="60" y="37" width="1826" height="987" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="WINDOWED" visible="false" show_stripe_button="true" weight="0.3991684" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="60" y="37" width="1826" height="987" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -558,7 +555,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="6" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -666,13 +663,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/example/utilities/ExtentReportManager.java" />
     <entry file="file://$PROJECT_DIR$/src/test/resources/extentconfig/ReportsConfig.xml" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.8/testng-6.8.jar!/org/testng/Assert.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/logs/Application.log.2018-10-27-15-17" />
     <entry file="file://$PROJECT_DIR$/src/test/resources/reports/2018-10-27 03-37-01_reports.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -765,7 +755,35 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/com/example/testcases/BankManagerLoginTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
-          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+          <caret line="20" column="1" lean-forward="false" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.8/testng-6.8.jar!/org/testng/Assert.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+          <folding>
+            <element signature="e#1316#1317#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/testcases/AddCustomerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="777">
+          <caret line="42" column="43" lean-forward="false" selection-start-line="42" selection-start-column="43" selection-end-line="42" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/base/TestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1188">
+          <caret line="131" column="53" lean-forward="false" selection-start-line="131" selection-start-column="53" selection-end-line="131" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -774,26 +792,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/example/testcases/OpenAccountTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="747">
-          <caret line="41" column="43" lean-forward="true" selection-start-line="41" selection-start-column="43" selection-end-line="41" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/testcases/AddCustomerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="777">
-          <caret line="42" column="43" lean-forward="true" selection-start-line="42" selection-start-column="43" selection-end-line="42" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/base/TestBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="131" column="53" lean-forward="false" selection-start-line="131" selection-start-column="53" selection-end-line="131" selection-end-column="53" />
+        <state relative-caret-position="243">
+          <caret line="20" column="55" lean-forward="true" selection-start-line="20" selection-start-column="55" selection-end-line="20" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

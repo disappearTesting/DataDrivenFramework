@@ -12,7 +12,9 @@ public class OpenAccountTest extends TestBase {
     @DataProvider
     public static Object[][] getTestData_OpenAccountTest() {
         return new Object[][] {
-                {"Hermoine Granger", "Dollar"}
+                {"Hermoine Granger", "Dollar"},
+                {"Harry Potter", "Pound"},
+                {"Ron Weasly", "Rupee"}
         };
     }
 
