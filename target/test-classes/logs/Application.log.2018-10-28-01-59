@@ -1,6 +1,0 @@
-[INFO] 10-28-2018 01:59:06 OpenAccountTest.java openAccountTest - Success. Test is passed.
-[INFO] 10-28-2018 01:59:06 OpenAccountTest.java openAccountTest - Test is started.
-[INFO] 10-28-2018 01:59:06 OpenAccountTest.java openAccountTest - Open a dropdown list 'Customer'.
-[INFO] 10-28-2018 01:59:06 OpenAccountTest.java openAccountTest - Select the Customer.
-[INFO] 10-28-2018 01:59:06 OpenAccountTest.java openAccountTest - Open a dropdown list 'Currency'.
-[INFO] 10-28-2018 01:59:07 TestBase.java tearDown - WebDriver quit.

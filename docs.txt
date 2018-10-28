@@ -17,3 +17,8 @@
 		
 		//	Creating Extent Reports in Selenium Using the Extent API
 		https://dzone.com/articles/creating-extent-reports-in-selenium-using-extent-a
+		
+		//	Scrum training
+		
+		https://scrumcrazy.wordpress.com/2018/09/06/scrum-org-professional-scrum-master-i-psm-i-exam-study-tips/
+	

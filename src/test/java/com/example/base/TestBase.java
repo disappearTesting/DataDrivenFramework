@@ -40,6 +40,7 @@ public class TestBase {
 
     protected static Properties config = new Properties();
     protected static Properties OR = new Properties();
+    protected static String browser;
 
     private FileInputStream sourceStreamConfig;
     private FileInputStream sourceStreamOR;
@@ -82,7 +83,16 @@ public class TestBase {
                 ioe.printStackTrace();
             }
 
-            String browser = config.getProperty("browser");
+            // Jenkins global Environment
+            if(System.getenv("browser") != null && !System.getenv("browser").isEmpty()) {
+                browser = System.getenv("browser");
+            } else {
+                browser = config.getProperty("browser");
+            }
+
+            // set the new value of browser property
+            config.setProperty("browser", browser);
+
             switch (browser) {
                 case "firefox":
                     System.setProperty("webdriver.gecko.driver", driversPath + "geckodriver.exe");
