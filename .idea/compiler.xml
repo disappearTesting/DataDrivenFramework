@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="DataDrivenFramework" target="1.7" />
+      <module name="DataDrivenFramework" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>

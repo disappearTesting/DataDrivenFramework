@@ -2,83 +2,42 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e72906c1-c377-4077-8d71-1b59a08cfa2c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/testcases/OpenAccountTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/logs/Application.log.2018-10-28-22-20" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/logs/Application.log.2018-10-28-22-39" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/reports/2018-10-28 10-39-53_reports.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/reports/2018-10-28 10-40-43_reports.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/reports/2018-10-28 10-40-44_reports.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/reports/2018-10-28 10-40-45_reports.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/screenshots/addCustomerTest.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/screenshots/loginAsBankManagerTest.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/screenshots/openAccountTest.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/Data Driven Basics/Open Account.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/Data Driven Basics/Open Account.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/html/suite1_test3_results.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.example.testcases.OpenAccountTest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/Data Driven Basics/Open Account.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/xml/com.example.testcases.OpenAccountTest_results.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-28-22-20" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/reports/2018-10-28 10-39-51_reports.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/reports/2018-10-28 10-39-52_reports.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/reports/2018-10-28 10-39-53_reports.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/screenshots/addCustomerTest.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/screenshots/loginAsBankManagerTest.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/screenshots/openAccountTest.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_mail_mail_1_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2018-10-25 06-35-30reports.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/reports/2018-10-28 10-39-51_reports.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2018-10-25 06-35-37reports.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/reports/2018-10-28 10-39-52_reports.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs.txt" beforeDir="false" afterPath="$PROJECT_DIR$/docs.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/base/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/base/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/listeners/ExtentReportListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/listeners/ExtentReportListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/testcases/AddCustomerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/testcases/AddCustomerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/testcases/BankManagerLoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/testcases/BankManagerLoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/utilities/ExtentReportManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/extentconfig/ReportsConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/properties/OR.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/properties/OR.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/runner/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/runner/testng.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataDrivenFramework.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DataDrivenFramework.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/Data Driven Basics/Add Customer.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/Data Driven Basics/Add Customer.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/Data Driven Basics/Add Customer.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/Data Driven Basics/Add Customer.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/Data Driven Basics/Bank Manager Login.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/Data Driven Basics/Bank Manager Login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/Data Driven Basics/Bank Manager Login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/Data Driven Basics/Bank Manager Login.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Data Driven Basics/testng-failed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Data Driven Basics/Open Account.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/Data Driven Basics/Open Account.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Data Driven Basics/Open Account.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/Data Driven Basics/Open Account.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/html/output.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/html/overview.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/html/overview.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/html/suite1_test1_results.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/html/suite1_test1_results.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/html/suite1_test2_results.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/html/suite1_test2_results.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/html/suites.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/html/suites.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/html/suite1_test3_results.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/html/suite1_test3_results.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.example.testcases.AddCustomerTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.example.testcases.AddCustomerTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.example.testcases.BankManagerLoginTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.example.testcases.BankManagerLoginTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Data Driven Basics/Add Customer.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Data Driven Basics/Add Customer.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Data Driven Basics/Bank Manager Login.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Data Driven Basics/Bank Manager Login.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Data Driven Basics/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Data Driven Basics/classes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.example.testcases.OpenAccountTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.example.testcases.OpenAccountTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Data Driven Basics/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Data Driven Basics/methods-alphabetical.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Data Driven Basics/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Data Driven Basics/methods.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Data Driven Basics/reporter-output.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Data Driven Basics/reporter-output.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Data Driven Basics/testng.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Data Driven Basics/testng.xml.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Data Driven Basics/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Data Driven Basics/toc.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-failed.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/xml/com.example.testcases.AddCustomerTest_results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/xml/com.example.testcases.AddCustomerTest_results.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/xml/com.example.testcases.BankManagerLoginTest_results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/xml/com.example.testcases.BankManagerLoginTest_results.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/extentconfig/ReportsConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-24-16-11" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-25-18-23" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-25-18-24" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/xml/com.example.testcases.OpenAccountTest_results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/xml/com.example.testcases.OpenAccountTest_results.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/properties/Config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/properties/Config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/properties/OR.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/properties/OR.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/properties/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/properties/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/runner/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/runner/testng.xml" afterDir="false" />
     </list>
+    <ignored path="$PROJECT_DIR$/target/" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,11 +49,48 @@
       <file leaf-file-name="TestBase.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/example/base/TestBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="49" selection-start-line="2" selection-end-line="2" selection-end-column="11" />
+            <state relative-caret-position="645">
+              <caret line="92" column="52" selection-start-line="92" selection-start-column="52" selection-end-line="92" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EmailUtility.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/example/utilities/EmailUtility.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="576">
+              <caret line="32" column="61" selection-start-line="32" selection-start-column="61" selection-end-line="32" selection-end-column="61" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#712#933#0" expanded="true" />
+                <element signature="e#932#933#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestEmail.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/example/utilities/TestEmail.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="558">
+              <caret line="31" column="50" lean-forward="true" selection-start-line="31" selection-start-column="50" selection-end-line="31" selection-end-column="50" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#651#885#0" expanded="true" />
+                <element signature="e#884#885#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="482">
+              <caret line="69" column="28" selection-start-line="69" selection-start-column="28" selection-end-line="69" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -144,12 +140,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>mail</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -158,6 +161,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/resources/properties/Config.properties" />
+        <option value="$PROJECT_DIR$/src/test/java/com/example/utilities/TestEmail.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/example/utilities/SMTPJavaMailUtility.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/example/utilities/EmailUtility.java" />
       </list>
     </option>
   </component>
@@ -186,6 +194,12 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="1991" />
+    <option name="y" value="41" />
+    <option name="width" value="1810" />
+    <option name="height" value="1080" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -198,11 +212,6 @@
             <path>
               <item name="DataDrivenFramework" type="b2602c69:ProjectViewProjectNode" />
               <item name="DataDrivenFramework" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DataDrivenFramework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataDrivenFramework" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DataDrivenFramework" type="b2602c69:ProjectViewProjectNode" />
@@ -255,7 +264,7 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="testcases" type="462c0819:PsiDirectoryNode" />
+              <item name="utilities" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DataDrivenFramework" type="b2602c69:ProjectViewProjectNode" />
@@ -270,15 +279,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="executables" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DataDrivenFramework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataDrivenFramework" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="logs" type="462c0819:PsiDirectoryNode" />
+              <item name="properties" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DataDrivenFramework" type="b2602c69:ProjectViewProjectNode" />
@@ -308,9 +309,42 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.EmailUtility">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+    </configuration>
+    <configuration name="EmailUtility" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.utilities.EmailUtility" />
+      <module name="DataDrivenFramework" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.utilities.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="SMTPJavaMailUtility" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.utilities.SMTPJavaMailUtility" />
+      <module name="DataDrivenFramework" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.utilities.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="TestEmail" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.utilities.TestEmail" />
+      <module name="DataDrivenFramework" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.utilities.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -353,6 +387,18 @@
       <properties />
       <listeners />
     </configuration>
+    <list>
+      <item itemvalue="Application.SMTPJavaMailUtility" />
+      <item itemvalue="Application.TestEmail" />
+      <item itemvalue="Application.EmailUtility" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.EmailUtility" />
+        <item itemvalue="Application.TestEmail" />
+        <item itemvalue="Application.SMTPJavaMailUtility" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -366,31 +412,31 @@
       <updated>1540406352569</updated>
       <workItem from="1540406353730" duration="5768000" />
       <workItem from="1540447178395" duration="3219000" />
-      <workItem from="1540802766582" duration="128000" />
+      <workItem from="1540802766582" duration="9893000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9000" />
+    <option name="totallyTimeSpent" value="9774000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="23" y="2" width="1810" height="1080" extended-state="0" />
-    <editor active="true" />
+    <frame x="1991" y="41" width="1810" height="1080" extended-state="1" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32952183" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32947975" />
       <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.11875" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" x="60" y="46" width="1695" height="977" id="Run" order="2" type="WINDOWED" weight="0.32952183" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32952183" />
+      <window_info active="true" anchor="bottom" x="60" y="46" width="1695" height="977" id="Run" order="2" type="WINDOWED" visible="true" weight="0.32952183" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32952183" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19375" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19375" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -400,7 +446,6 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Messages" order="7" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -488,13 +533,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/example/utilities/ExtentManager.java" />
     <entry file="file://$PROJECT_DIR$/src/test/resources/extentconfig/ReportsConfig.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -511,16 +549,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/example/listeners/CustomListeners.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/base/TestBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="49" selection-start-line="2" selection-end-line="2" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/example/testcases/BankManagerLoginTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -555,6 +583,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/base/TestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="92" column="52" selection-start-line="92" selection-start-column="52" selection-end-line="92" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/properties/OR.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="482">
+          <caret line="69" column="28" selection-start-line="69" selection-start-column="28" selection-end-line="69" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/properties/Config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/runner/testng.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="468">
@@ -562,8 +620,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/utilities/TestEmail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="31" column="50" lean-forward="true" selection-start-line="31" selection-start-column="50" selection-end-line="31" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#651#885#0" expanded="true" />
+            <element signature="e#884#885#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/utilities/EmailUtility.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="32" column="61" selection-start-line="32" selection-start-column="61" selection-end-line="32" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#712#933#0" expanded="true" />
+            <element signature="e#932#933#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
 </project>

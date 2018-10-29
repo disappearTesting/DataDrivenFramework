@@ -1,0 +1,38 @@
+[INFO] 10-29-2018 10:49:04 TestBase.java setUp - WebDriver init.
+[INFO] 10-29-2018 10:49:04 TestBase.java setUp - Load Config.properties file.
+[INFO] 10-29-2018 10:49:04 TestBase.java setUp - Load OR.properties file.
+[INFO] 10-29-2018 10:49:07 TestBase.java setUp - Launch Chrome browser!
+[INFO] 10-29-2018 10:49:09 BankManagerLoginTest.java loginAsBankManagerTest - Test is started.
+[INFO] 10-29-2018 10:49:10 BankManagerLoginTest.java loginAsBankManagerTest - Success. Test is passed.
+[INFO] 10-29-2018 10:49:10 AddCustomerTest.java addCustomerTest - Test is started.
+[INFO] 10-29-2018 10:49:11 AddCustomerTest.java addCustomerTest - Set the First Name.
+[INFO] 10-29-2018 10:49:11 AddCustomerTest.java addCustomerTest - Set the Last Name.
+[INFO] 10-29-2018 10:49:11 AddCustomerTest.java addCustomerTest - Set the Post Code.
+[INFO] 10-29-2018 10:49:11 AddCustomerTest.java addCustomerTest - Submit data.
+[INFO] 10-29-2018 10:49:11 AddCustomerTest.java addCustomerTest - Alert is present. Alert do Accept.
+[INFO] 10-29-2018 10:49:11 AddCustomerTest.java addCustomerTest - Success. Test is passed.
+[INFO] 10-29-2018 10:49:11 OpenAccountTest.java openAccountTest - Test is started.
+[INFO] 10-29-2018 10:49:12 OpenAccountTest.java openAccountTest - Open a dropdown list 'Customer'.
+[INFO] 10-29-2018 10:49:12 OpenAccountTest.java openAccountTest - Select the Customer.
+[INFO] 10-29-2018 10:49:12 OpenAccountTest.java openAccountTest - Open a dropdown list 'Currency'.
+[INFO] 10-29-2018 10:49:12 OpenAccountTest.java openAccountTest - Select the Currency.
+[INFO] 10-29-2018 10:49:13 OpenAccountTest.java openAccountTest - Submit data.
+[INFO] 10-29-2018 10:49:13 OpenAccountTest.java openAccountTest - Alert is present. Alert do Accept.
+[INFO] 10-29-2018 10:49:13 OpenAccountTest.java openAccountTest - Success. Test is passed.
+[INFO] 10-29-2018 10:49:13 OpenAccountTest.java openAccountTest - Test is started.
+[INFO] 10-29-2018 10:49:13 OpenAccountTest.java openAccountTest - Open a dropdown list 'Customer'.
+[INFO] 10-29-2018 10:49:13 OpenAccountTest.java openAccountTest - Select the Customer.
+[INFO] 10-29-2018 10:49:13 OpenAccountTest.java openAccountTest - Open a dropdown list 'Currency'.
+[INFO] 10-29-2018 10:49:13 OpenAccountTest.java openAccountTest - Select the Currency.
+[INFO] 10-29-2018 10:49:13 OpenAccountTest.java openAccountTest - Submit data.
+[INFO] 10-29-2018 10:49:13 OpenAccountTest.java openAccountTest - Alert is present. Alert do Accept.
+[INFO] 10-29-2018 10:49:13 OpenAccountTest.java openAccountTest - Success. Test is passed.
+[INFO] 10-29-2018 10:49:13 OpenAccountTest.java openAccountTest - Test is started.
+[INFO] 10-29-2018 10:49:13 OpenAccountTest.java openAccountTest - Open a dropdown list 'Customer'.
+[INFO] 10-29-2018 10:49:13 OpenAccountTest.java openAccountTest - Select the Customer.
+[INFO] 10-29-2018 10:49:13 OpenAccountTest.java openAccountTest - Open a dropdown list 'Currency'.
+[INFO] 10-29-2018 10:49:13 OpenAccountTest.java openAccountTest - Select the Currency.
+[INFO] 10-29-2018 10:49:14 OpenAccountTest.java openAccountTest - Submit data.
+[INFO] 10-29-2018 10:49:14 OpenAccountTest.java openAccountTest - Alert is present. Alert do Accept.
+[INFO] 10-29-2018 10:49:14 OpenAccountTest.java openAccountTest - Success. Test is passed.
+[INFO] 10-29-2018 10:49:14 TestBase.java tearDown - WebDriver quit.

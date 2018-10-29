@@ -4,12 +4,12 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="3,662">
+           time="3,131">
   <properties />
   
   
-            <testcase name="openAccountTest" time="1,221" classname="com.example.testcases.OpenAccountTest" />
-                <testcase name="openAccountTest" time="1,209" classname="com.example.testcases.OpenAccountTest" />
-                <testcase name="openAccountTest" time="1,232" classname="com.example.testcases.OpenAccountTest" />
+            <testcase name="openAccountTest" time="1,028" classname="com.example.testcases.OpenAccountTest" />
+                <testcase name="openAccountTest" time="1,038" classname="com.example.testcases.OpenAccountTest" />
+                <testcase name="openAccountTest" time="1,065" classname="com.example.testcases.OpenAccountTest" />
       
 </testsuite>
