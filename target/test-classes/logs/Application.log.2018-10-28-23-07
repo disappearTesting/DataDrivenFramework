@@ -1,0 +1,3 @@
+[INFO] 10-28-2018 23:07:37 TestBase.java setUp - WebDriver init.
+[INFO] 10-28-2018 23:07:37 TestBase.java setUp - Load Config.properties file.
+[INFO] 10-28-2018 23:07:37 TestBase.java setUp - Load OR.properties file.

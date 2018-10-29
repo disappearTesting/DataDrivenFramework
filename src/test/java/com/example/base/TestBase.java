@@ -7,6 +7,7 @@ import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.openqa.selenium.opera.OperaDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -40,7 +41,7 @@ public class TestBase {
 
     protected static Properties config = new Properties();
     protected static Properties OR = new Properties();
-    protected static String browser;
+    public static String browser;
 
     private FileInputStream sourceStreamConfig;
     private FileInputStream sourceStreamOR;
