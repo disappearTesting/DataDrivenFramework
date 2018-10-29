@@ -1,7 +1,6 @@
 package com.example.utilities;
 
 import com.example.base.TestBase;
-import com.relevantcodes.extentreports.ExtentReports;
 import org.apache.log4j.PropertyConfigurator;
 import java.text.SimpleDateFormat;
 import java.util.Date;
