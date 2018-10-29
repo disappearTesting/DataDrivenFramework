@@ -1,22 +1,20 @@
 package com.example.listeners;
 
 import com.example.base.TestBase;
+import com.example.utilities.SendEmailSMTP_TLSAuthentication;
 import com.relevantcodes.extentreports.ExtentReports;
-import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
-import org.testng.ITestContext;
-import org.testng.ITestListener;
-import org.testng.ITestResult;
+import org.testng.*;
 
 import java.io.File;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-public class ExtentReportListener extends TestBase implements ITestListener {
+public class ExtentReportListener extends TestBase implements ITestListener, ISuiteListener {
 
     // reports file location
     private String reportsPath = System.getProperty("user.dir") + "\\src\\test\\resources\\reports\\";
@@ -62,7 +60,7 @@ public class ExtentReportListener extends TestBase implements ITestListener {
 
     @Override
     public void onStart(ITestContext context) {
-        extentReports = new ExtentReports(reportsPath + new SimpleDateFormat("yyyy-MM-dd hh-mm-ss").format(new Date()) + "_reports.html");
+        extentReports = new ExtentReports(reportsPath + new SimpleDateFormat("yyyy-MM-dd_HH-mm-ss").format(new Date()) + "_reports.html");
     }
 
     @Override
@@ -70,5 +68,16 @@ public class ExtentReportListener extends TestBase implements ITestListener {
         extentTest.log(LogStatus.INFO, "Test is finished.");
         extentReports.endTest(extentTest);
         extentReports.flush();
+    }
+
+    @Override
+    public void onStart(ISuite iSuite) {
+
+    }
+
+    @Override
+    public void onFinish(ISuite iSuite) {
+        SendEmailSMTP_TLSAuthentication sendEmail = new SendEmailSMTP_TLSAuthentication();
+        sendEmail.sendEmail();
     }
 }
