@@ -1,4 +1,4 @@
-com\example\utilities\ExtentReportManager.class
+com\example\testcases\OpenAccountTest.class
 com\example\testcases\BankManagerLoginTest.class
 com\example\rough\TestTimestamp.class
 com\example\rough\TestProperties.class

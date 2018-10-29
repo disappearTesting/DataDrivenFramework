@@ -18,8 +18,9 @@ import java.util.Date;
 
 public class ExtentReportListener extends TestBase implements ITestListener {
 
-    //public static ExtentReports extentReports;
-    //public static ExtentTest extentTest;
+    // reports file location
+    private String reportsPath = System.getProperty("user.dir") + "\\src\\test\\resources\\reports\\";
+    private String screenshotsPath = System.getProperty("user.dir") + "\\src\\test\\resources\\screenshots\\";
 
     @Override
     public void onTestStart(ITestResult result) {
@@ -40,10 +41,10 @@ public class ExtentReportListener extends TestBase implements ITestListener {
 
         try {
             // /will save the screenshot in the drive
-            FileUtils.copyFile(screenshotFile, new File(System.getProperty("user.dir") + result.getMethod().getMethodName() + ".png"));
-            String screenCapture = extentTest.addScreenCapture(System.getProperty("user.dir") + result.getMethod().getMethodName() + ".png");
+            FileUtils.copyFile(screenshotFile, new File(screenshotsPath + result.getMethod().getMethodName() + ".png"));
+            String screenCapture = extentTest.addScreenCapture(screenshotsPath + result.getMethod().getMethodName() + ".png");
             extentTest.log(LogStatus.FAIL, "Test is failed: " + result.getMethod().getMethodName() + ".png", screenCapture);
-            extentTest.log(LogStatus.FAIL, result.getMethod().getMethodName());
+            extentTest.log(LogStatus.FAIL, result.getThrowable());
         } catch (IOException ioe) {
             ioe.printStackTrace();
         }
@@ -61,11 +62,12 @@ public class ExtentReportListener extends TestBase implements ITestListener {
 
     @Override
     public void onStart(ITestContext context) {
-        extentReports = new ExtentReports(new SimpleDateFormat("yyyy-MM-dd hh-mm-ss").format(new Date()) + "reports.html");
+        extentReports = new ExtentReports(reportsPath + new SimpleDateFormat("yyyy-MM-dd hh-mm-ss").format(new Date()) + "_reports.html");
     }
 
     @Override
     public void onFinish(ITestContext context) {
+        extentTest.log(LogStatus.INFO, "Test is finished.");
         extentReports.endTest(extentTest);
         extentReports.flush();
     }

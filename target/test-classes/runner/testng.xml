@@ -18,4 +18,10 @@
             <class name="com.example.testcases.AddCustomerTest" />
         </classes>
     </test> <!-- Test -->
+
+    <test name="Open Account">
+        <classes>
+            <class name="com.example.testcases.OpenAccountTest" />
+        </classes>
+    </test> <!-- Test -->
 </suite> <!-- Suite -->

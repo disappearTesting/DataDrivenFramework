@@ -4,46 +4,44 @@ import com.example.base.TestBase;
 import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.Assert;
-import org.testng.Reporter;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-public class AddCustomerTest extends TestBase{
+public class AddCustomerTest extends TestBase {
 
     @DataProvider
-    public static Object[][] getTestData() {
+    public static Object[][] getTestData_AddCustomer() {
         return new Object[][] {
             {"Kyryl", "Makarov", "95W66S"}
         };
     }
 
-    @Test(dataProvider = "getTestData")
-    public void addCustomer(String firstName, String lastName, String postCode) {
-        log.info("Test start.");
-        explicitWait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector(OR.getProperty("ButtonAddCustomer"))));
+    @Test(dataProvider = "getTestData_AddCustomer")
+    public void addCustomerTest(String firstName, String lastName, String postCode) {
+        log.info("Test is started.");
+        explicitWait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector(OR.getProperty("ButtonAddCustomer_CSS"))));
 
-        driver.findElement(By.cssSelector(OR.getProperty("ButtonAddCustomer"))).click();
-        explicitWait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector(OR.getProperty("ButtonAddCustomerSubmit"))));
+        driver.findElement(By.cssSelector(OR.getProperty("ButtonAddCustomer_CSS"))).click();
+        explicitWait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector(OR.getProperty("ButtonAddCustomerSubmit_CSS"))));
 
+        driver.findElement(By.cssSelector(OR.getProperty("InputFirstName_CSS"))).clear();
+        driver.findElement(By.cssSelector(OR.getProperty("InputFirstName_CSS"))).sendKeys(firstName);
         log.info("Set the First Name.");
-        driver.findElement(By.cssSelector(OR.getProperty("InputFirstName"))).clear();
-        driver.findElement(By.cssSelector(OR.getProperty("InputFirstName"))).sendKeys(firstName);
-        log.info("Set the Last Name.");
-        driver.findElement(By.cssSelector(OR.getProperty("InputLastName"))).clear();
-        driver.findElement(By.cssSelector(OR.getProperty("InputLastName"))).sendKeys(lastName);
-        log.info("Set the Post Code.");
-        driver.findElement(By.cssSelector(OR.getProperty("InputPostCode"))).clear();
-        driver.findElement(By.cssSelector(OR.getProperty("InputPostCode"))).sendKeys(postCode);
+        driver.findElement(By.cssSelector(OR.getProperty("InputLastName_CSS"))).clear();
+        driver.findElement(By.cssSelector(OR.getProperty("InputLastName_CSS"))).sendKeys(lastName);
 
-        driver.findElement(By.cssSelector(OR.getProperty("ButtonAddCustomerSubmit"))).submit();
+        log.info("Set the Last Name.");
+        driver.findElement(By.cssSelector(OR.getProperty("InputPostCode_CSS"))).clear();
+        driver.findElement(By.cssSelector(OR.getProperty("InputPostCode_CSS"))).sendKeys(postCode);
+        log.info("Set the Post Code.");
+
+        driver.findElement(By.cssSelector(OR.getProperty("ButtonAddCustomerSubmit_CSS"))).submit();
+        log.info("Submit data.");
 
         explicitWait.until(ExpectedConditions.alertIsPresent());
-        log.info("Alert is present.");
-
-        Assert.assertTrue(driver.switchTo().alert().getText().contains(OR.getProperty("TextAlertSuccessfully")), "Failure. Alert isn't contains expected text.");
+        Assert.assertTrue(isAlertPresent(OR.getProperty("TextAlertAddCustomer")), "Failure. Alert isn't contains expected text.");
         driver.switchTo().alert().accept();
-        log.info("Alert do Accept.");
-        log.info("Success. Test Pass.");
-        Assert.fail();
+        log.info("Alert is present. Alert do Accept.");
+        log.info("Success. Test is passed.");
     }
 }

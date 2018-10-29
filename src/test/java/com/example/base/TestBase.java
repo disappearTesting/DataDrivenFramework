@@ -1,17 +1,14 @@
 package com.example.base;
 
-import com.example.utilities.ExtentReportManager;
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 import org.apache.log4j.PropertyConfigurator;
-import org.openqa.selenium.By;
-import org.openqa.selenium.NoAlertPresentException;
-import org.openqa.selenium.NoSuchElementException;
-import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
@@ -43,19 +40,18 @@ public class TestBase {
 
     protected static Properties config = new Properties();
     protected static Properties OR = new Properties();
+    protected static String browser;
 
     private FileInputStream sourceStreamConfig;
     private FileInputStream sourceStreamOR;
     private String filePathConfig = System.getProperty("user.dir") + "\\src\\test\\resources\\properties\\Config.properties";
     private String filePathOR = System.getProperty("user.dir") + "\\src\\test\\resources\\properties\\OR.properties";
+    private String driversPath = System.getProperty("user.dir") + "\\src\\test\\resources\\executables\\";
     protected static Logger log = Logger.getLogger("rootLogger");
 
-    //public static ExtentReports report = ExtentReportManager.getInstanceOfReport();
+    protected static ExtentReports extentReports;
     // Defines a node in the report file.
-    //public static ExtentTest test;
-
-    public static ExtentReports extentReports;
-    public static ExtentTest extentTest;
+    protected static ExtentTest extentTest;
 
     @BeforeSuite
     public void setUp() {
@@ -87,20 +83,29 @@ public class TestBase {
                 ioe.printStackTrace();
             }
 
-            String browser = config.getProperty("browser");
+            // Jenkins global Environment
+            if(System.getenv("browser") != null && !System.getenv("browser").isEmpty()) {
+                browser = System.getenv("browser");
+            } else {
+                browser = config.getProperty("browser");
+            }
+
+            // set the new value of browser property
+            config.setProperty("browser", browser);
+
             switch (browser) {
                 case "firefox":
-                    System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir") + "\\src\\test\\resources\\executables\\geckodriver.exe");
+                    System.setProperty("webdriver.gecko.driver", driversPath + "geckodriver.exe");
                     driver = new FirefoxDriver();
                     log.info("Launch Firefox browser!");
                     break;
                 case "chrome":
-                    System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "\\src\\test\\resources\\executables\\chromedriver.exe");
+                    System.setProperty("webdriver.chrome.driver",  driversPath + "chromedriver.exe");
                     driver = new ChromeDriver();
                     log.info("Launch Chrome browser!");
                     break;
                 case "ie":
-                    System.setProperty("webdriver.ie.driver", System.getProperty("user.dir") + "\\src\\test\\resources\\executables\\IEDriverServer.exe");
+                    System.setProperty("webdriver.ie.driver",  driversPath + "IEDriverServer.exe");
                     driver = new InternetExplorerDriver();
                     log.info("Launch IE browser!");
                     break;
@@ -131,13 +136,30 @@ public class TestBase {
         }
     }
 
-    protected boolean isAlertPresent() {
+    protected boolean isAlertPresent(String textAlert) {
         try {
-            driver.switchTo().alert();
-            return true;
+            Alert alert = driver.switchTo().alert();
+            if(alert.getText().contains(textAlert)) {
+                return true;
+            }
         } catch (NoAlertPresentException nape) {
             nape.printStackTrace();
-            return false;
         }
+        return false;
+    }
+
+    protected boolean isElementSelect(By by, String visibleText) {
+        try {
+            Select select = new Select(driver.findElement(by));
+            for(WebElement option : select.getOptions()) {
+                if(option.getText().equals(visibleText) && option.isEnabled()) {
+                    select.selectByVisibleText(visibleText);
+                    return true;
+                }
+            }
+        } catch (NoSuchElementException nsee) {
+            nsee.printStackTrace();
+        }
+        return false;
     }
 }
