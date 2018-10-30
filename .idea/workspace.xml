@@ -1,69 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3f9ede95-0364-46f4-a9b2-4d62b9cfdab6" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_mail_javax_mail_1_6_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_mail_mail_1_4.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/example/utilities/SendEmailSMTP_TLSAuthentication.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/DataDrivenFramework.iml" afterPath="$PROJECT_DIR$/DataDrivenFramework.iml" />
-      <change beforePath="$PROJECT_DIR$/docs.txt" afterPath="$PROJECT_DIR$/docs.txt" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/listeners/ExtentReportListener.java" afterPath="$PROJECT_DIR$/src/test/java/com/example/listeners/ExtentReportListener.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/properties/Config.properties" afterPath="$PROJECT_DIR$/src/test/resources/properties/Config.properties" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/properties/log4j.properties" afterPath="$PROJECT_DIR$/src/test/resources/properties/log4j.properties" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/addCustomerTest.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/loginAsBankManagerTest.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/openAccountTest.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Data Driven Basics/Add Customer.html" afterPath="$PROJECT_DIR$/target/surefire-reports/Data Driven Basics/Add Customer.html" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Data Driven Basics/Add Customer.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/Data Driven Basics/Add Customer.xml" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Data Driven Basics/Bank Manager Login.html" afterPath="$PROJECT_DIR$/target/surefire-reports/Data Driven Basics/Bank Manager Login.html" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Data Driven Basics/Bank Manager Login.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/Data Driven Basics/Bank Manager Login.xml" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Data Driven Basics/Open Account.html" afterPath="$PROJECT_DIR$/target/surefire-reports/Data Driven Basics/Open Account.html" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Data Driven Basics/Open Account.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/Data Driven Basics/Open Account.xml" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/html/overview.html" afterPath="$PROJECT_DIR$/target/surefire-reports/html/overview.html" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/html/suite1_test1_results.html" afterPath="$PROJECT_DIR$/target/surefire-reports/html/suite1_test1_results.html" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/html/suite1_test2_results.html" afterPath="$PROJECT_DIR$/target/surefire-reports/html/suite1_test2_results.html" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/html/suite1_test3_results.html" afterPath="$PROJECT_DIR$/target/surefire-reports/html/suite1_test3_results.html" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.example.testcases.AddCustomerTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.example.testcases.AddCustomerTest.xml" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.example.testcases.BankManagerLoginTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.example.testcases.BankManagerLoginTest.xml" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.example.testcases.OpenAccountTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.example.testcases.OpenAccountTest.xml" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Data Driven Basics/methods-alphabetical.html" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Data Driven Basics/methods-alphabetical.html" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Data Driven Basics/methods.html" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Data Driven Basics/methods.html" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng.css" afterPath="$PROJECT_DIR$/target/surefire-reports/testng.css" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/xml/com.example.testcases.AddCustomerTest_results.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/xml/com.example.testcases.AddCustomerTest_results.xml" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/xml/com.example.testcases.BankManagerLoginTest_results.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/xml/com.example.testcases.BankManagerLoginTest_results.xml" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/xml/com.example.testcases.OpenAccountTest_results.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/xml/com.example.testcases.OpenAccountTest_results.xml" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/executables/sha512_sum" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-28-22-51" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-28-22-58" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-28-23-01" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-28-23-02" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-28-23-05" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-28-23-07" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-28-23-08" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/properties/Config.properties" afterPath="$PROJECT_DIR$/target/test-classes/properties/Config.properties" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/properties/log4j.properties" afterPath="$PROJECT_DIR$/target/test-classes/properties/log4j.properties" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/reports/2018-10-28 10-40-43_reports.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/reports/2018-10-28 10-40-45_reports.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/reports/2018-10-28 10-58-42_reports.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/reports/2018-10-28 11-01-51_reports.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/reports/2018-10-28 11-02-23_reports.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/reports/2018-10-29 10-49-11_reports.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/reports/2018-10-29 11-14-39_reports.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/addCustomerTest.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/loginAsBankManagerTest.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/openAccountTest.png" afterPath="" />
-    </list>
+    <list default="true" id="3f9ede95-0364-46f4-a9b2-4d62b9cfdab6" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -84,7 +22,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BankManagerLoginTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="BankManagerLoginTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/example/testcases/BankManagerLoginTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="189">
@@ -99,22 +37,22 @@
       <file leaf-file-name="SendEmailSMTP_TLSAuthentication.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/example/utilities/SendEmailSMTP_TLSAuthentication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="768">
-              <caret line="47" column="51" lean-forward="false" selection-start-line="47" selection-start-column="51" selection-end-line="47" selection-end-column="51" />
+            <state relative-caret-position="147">
+              <caret line="22" column="49" lean-forward="false" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1483#1681#0" expanded="true" />
-                <element signature="e#1680#1681#0" expanded="true" />
+                <element signature="e#1429#1627#0" expanded="true" />
+                <element signature="e#1626#1627#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ExtentReportListener.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ExtentReportListener.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/example/listeners/ExtentReportListener.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="474">
-              <caret line="67" column="138" lean-forward="false" selection-start-line="67" selection-start-column="138" selection-end-line="67" selection-end-column="138" />
+            <state relative-caret-position="607">
+              <caret line="80" column="0" lean-forward="false" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -163,8 +101,8 @@
         <option value="$PROJECT_DIR$/src/test/java/com/example/rough/TestSendEmail.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/example/base/TestBase.java" />
         <option value="$PROJECT_DIR$/src/test/resources/properties/log4j.properties" />
-        <option value="$PROJECT_DIR$/src/test/java/com/example/utilities/SendEmailSMTP_TLSAuthentication.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/example/listeners/ExtentReportListener.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/example/utilities/SendEmailSMTP_TLSAuthentication.java" />
       </list>
     </option>
   </component>
@@ -305,14 +243,6 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="properties" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DataDrivenFramework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataDrivenFramework" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="reports" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -516,7 +446,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1540840499365</updated>
-      <workItem from="1540840500521" duration="11084000" />
+      <workItem from="1540840500521" duration="11294000" />
     </task>
     <servers />
   </component>
@@ -526,10 +456,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11084000" />
+    <option name="totallyTimeSpent" value="11294000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="35" y="2" width="1876" height="1080" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -540,8 +471,8 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11993428" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="WINDOWED" visible="true" show_stripe_button="true" weight="0.32952183" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" x="60" y="51" width="1826" height="819" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="WINDOWED" visible="false" show_stripe_button="true" weight="0.32952183" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" x="60" y="51" width="1826" height="819" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32952183" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18346111" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
@@ -680,41 +611,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/properties/Config.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="25" lean-forward="false" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/testcases/BankManagerLoginTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/reports/2018-10-29_23-54-27_reports.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/utilities/SendEmailSMTP_TLSAuthentication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="768">
-          <caret line="47" column="51" lean-forward="false" selection-start-line="47" selection-start-column="51" selection-end-line="47" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1483#1681#0" expanded="true" />
-            <element signature="e#1680#1681#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -726,11 +627,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/properties/Config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="25" lean-forward="false" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/example/listeners/ExtentReportListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="474">
-          <caret line="67" column="138" lean-forward="false" selection-start-line="67" selection-start-column="138" selection-end-line="67" selection-end-column="138" />
+        <state relative-caret-position="607">
+          <caret line="80" column="0" lean-forward="false" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/utilities/SendEmailSMTP_TLSAuthentication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="22" column="49" lean-forward="false" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1429#1627#0" expanded="true" />
+            <element signature="e#1626#1627#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/testcases/BankManagerLoginTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
