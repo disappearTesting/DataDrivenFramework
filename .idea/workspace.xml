@@ -1,7 +1,130 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e72906c1-c377-4077-8d71-1b59a08cfa2c" name="Default" comment="" />
+    <list default="true" id="b1855bc7-fa6f-4aa2-9d41-9177005352f4" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/utilities/SendEmailSMTP_TLSAuthentication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_mail_javax_mail_1_6_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_mail_javax_mail_api_1_6_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataDrivenFramework.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DataDrivenFramework.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/base/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/base/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/listeners/ExtentReportListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/listeners/ExtentReportListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/utilities/EmailUtility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/rough/TestSendEmail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/utilities/TestEmail.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/logs/Application.log.2018-10-25-18-35" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/logs/Application.log.2018-10-28-22-20" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/logs/Application.log.2018-10-28-22-39" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/logs/Application.log.2018-10-29-10-49" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/logs/Application.log.2018-10-29-11-03" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/logs/Application.log.2018-10-29-11-08" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/properties/Config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/properties/Config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/properties/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/properties/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/reports/2018-10-28 10-39-51_reports.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/reports/2018-10-28 10-39-52_reports.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/reports/2018-10-28 10-39-53_reports.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/reports/2018-10-28 10-40-43_reports.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/reports/2018-10-28 10-40-44_reports.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/reports/2018-10-28 10-40-45_reports.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/reports/2018-10-29 10-49-09_reports.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/reports/2018-10-29 10-49-10_reports.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/reports/2018-10-29 10-49-11_reports.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/reports/2018-10-29 11-03-11_reports.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/reports/2018-10-29 11-03-13_reports.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/reports/2018-10-29 11-03-14_reports.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/reports/2018-10-29 11-08-25_reports.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/reports/2018-10-29 11-08-26_reports.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/reports/2018-10-29 11-14-38_reports.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/reports/2018-10-29 11-14-39_reports.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/addCustomerTest.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/loginAsBankManagerTest.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/openAccountTest.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Data Driven Basics/Add Customer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Data Driven Basics/Add Customer.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Data Driven Basics/Bank Manager Login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Data Driven Basics/Bank Manager Login.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Data Driven Basics/Open Account.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Data Driven Basics/Open Account.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/bullet_point.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/collapseall.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/failed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/html/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/html/overview.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/html/reportng.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/html/reportng.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/html/sorttable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/html/suite1_test1_results.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/html/suite1_test2_results.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/html/suite1_test3_results.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/html/suites.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/jquery-1.7.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.example.testcases.AddCustomerTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.example.testcases.BankManagerLoginTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.example.testcases.OpenAccountTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/navigator-bullet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Data Driven Basics/Add Customer.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Data Driven Basics/Bank Manager Login.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Data Driven Basics/Open Account.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Data Driven Basics/classes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Data Driven Basics/groups.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Data Driven Basics/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Data Driven Basics/main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Data Driven Basics/methods-alphabetical.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Data Driven Basics/methods-not-run.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Data Driven Basics/methods.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Data Driven Basics/reporter-output.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Data Driven Basics/testng.xml.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Data Driven Basics/toc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/passed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/skipped.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/xml/com.example.testcases.AddCustomerTest_results.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/xml/com.example.testcases.BankManagerLoginTest_results.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/xml/com.example.testcases.OpenAccountTest_results.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/executables/IEDriverServer.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/executables/chromedriver.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/executables/geckodriver.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-25-18-35" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-28-22-20" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-28-22-39" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-29-10-49" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-29-11-03" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-29-11-08" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/properties/Config.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/properties/OR.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/properties/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/reports/2018-10-28 10-39-51_reports.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/reports/2018-10-28 10-39-52_reports.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/reports/2018-10-28 10-39-53_reports.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/reports/2018-10-28 10-40-43_reports.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/reports/2018-10-28 10-40-44_reports.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/reports/2018-10-28 10-40-45_reports.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/reports/2018-10-29 10-49-09_reports.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/reports/2018-10-29 10-49-10_reports.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/reports/2018-10-29 10-49-11_reports.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/reports/2018-10-29 11-03-11_reports.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/reports/2018-10-29 11-03-13_reports.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/reports/2018-10-29 11-03-14_reports.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/reports/2018-10-29 11-08-25_reports.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/reports/2018-10-29 11-08-26_reports.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/reports/2018-10-29 11-14-38_reports.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/reports/2018-10-29 11-14-39_reports.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/runner/testng.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/addCustomerTest.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/loginAsBankManagerTest.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/openAccountTest.png" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,66 +134,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TestBase.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="TestBase.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/example/base/TestBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="645">
-              <caret line="92" column="52" selection-start-line="92" selection-start-column="52" selection-end-line="92" selection-end-column="52" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EmailUtility.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/example/utilities/EmailUtility.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="7" column="25" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#712#933#0" expanded="true" />
-                <element signature="e#932#933#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestEmail.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/example/utilities/TestEmail.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="558">
-              <caret line="31" column="50" lean-forward="true" selection-start-line="31" selection-start-column="50" selection-end-line="31" selection-end-column="50" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#651#885#0" expanded="true" />
-                <element signature="e#884#885#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BankManagerLoginTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/example/testcases/BankManagerLoginTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AddCustomerTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/example/testcases/AddCustomerTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="756">
-              <caret line="46" column="1" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="504">
+              <caret line="57" column="34" lean-forward="true" selection-start-line="57" selection-start-column="34" selection-end-line="57" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -78,32 +146,22 @@
       <file leaf-file-name="ExtentReportListener.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/example/listeners/ExtentReportListener.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="25" column="49" selection-start-line="25" selection-start-column="49" selection-end-line="25" selection-end-column="49" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="54">
+              <caret line="3" column="61" selection-start-line="3" selection-start-column="61" selection-end-line="3" selection-end-column="61" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="testng.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/runner/testng.xml">
+      <file leaf-file-name="SendEmailSMTP_TLSAuthentication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/example/utilities/SendEmailSMTP_TLSAuthentication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+            <state relative-caret-position="180">
+              <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -118,10 +176,9 @@
       <list>
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/resources/properties/Config.properties" />
-        <option value="$PROJECT_DIR$/src/test/java/com/example/utilities/TestEmail.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/example/utilities/SMTPJavaMailUtility.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/example/utilities/EmailUtility.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/example/utilities/SendEmailSMTP_TLSAuthentication.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/example/listeners/ExtentReportListener.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/example/base/TestBase.java" />
       </list>
     </option>
   </component>
@@ -151,17 +208,18 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1991" />
-    <option name="y" value="41" />
-    <option name="width" value="1810" />
-    <option name="height" value="1080" />
+    <option name="x" value="69" />
+    <option name="width" value="1847" />
+    <option name="height" value="1156" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -249,13 +307,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
-  </component>
-  <component name="PropertiesComponent">
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -365,7 +417,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="b156b2f8-4c88-43b2-a77e-a89669e69608" name="Default" comment="" />
+      <changelist id="e72906c1-c377-4077-8d71-1b59a08cfa2c" name="Default" comment="" />
       <created>1540406352569</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -373,31 +425,31 @@
       <workItem from="1540406353730" duration="5768000" />
       <workItem from="1540447178395" duration="3219000" />
       <workItem from="1540802766582" duration="10235000" />
+      <workItem from="1540880971484" duration="13260000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10116000" />
+    <option name="totallyTimeSpent" value="13199000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1991" y="41" width="1810" height="1080" extended-state="0" />
+    <frame x="69" y="0" width="1847" height="1156" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32952183" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32947975" />
-      <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.11875" />
+      <window_info active="true" anchor="right" id="Maven Projects" order="3" visible="true" weight="0.11630496" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" x="60" y="46" width="1695" height="977" id="Run" order="2" type="WINDOWED" weight="0.32952183" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32952183" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32947975" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19375" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19198665" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -412,7 +464,11 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" weight="0.32968238" />
       <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32952183" />
     </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -420,11 +476,69 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/java/com/example/base/TestBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="49" selection-start-line="2" selection-end-line="3" />
+        <state relative-caret-position="1314">
+          <caret line="92" column="52" selection-start-line="92" selection-start-column="52" selection-end-line="92" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/utilities/EmailUtility.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="25" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/testcases/BankManagerLoginTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/testcases/AddCustomerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="738">
+          <caret line="46" column="1" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/listeners/ExtentReportListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="25" column="49" selection-start-line="25" selection-start-column="49" selection-end-line="25" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/runner/testng.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/utilities/TestEmail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="31" column="50" lean-forward="true" selection-start-line="31" selection-start-column="50" selection-end-line="31" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/base/TestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="49" selection-start-line="2" selection-end-line="3" />
         </state>
       </provider>
     </entry>
@@ -452,9 +566,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="24" column="49" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -495,49 +606,27 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/example/utilities/ExtentManager.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/resources/extentconfig/ReportsConfig.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="25" column="39" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/utilities/ExtentReportManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/extentconfig/ReportsConfig.xml" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/utilities/ExtentReportManager.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/com/example/listeners/CustomListeners.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/testcases/BankManagerLoginTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/testcases/AddCustomerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="46" column="1" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DataDrivenFramework.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/example/utilities/TestUtil.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/listeners/ExtentReportListener.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/utilities/EmailUtility.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="25" column="49" selection-start-line="25" selection-start-column="49" selection-end-line="25" selection-end-column="49" />
+        <state relative-caret-position="72">
+          <caret line="7" column="25" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/utilities/TestEmail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" column="70" selection-start-line="20" selection-start-column="70" selection-end-line="20" selection-end-column="70" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -545,25 +634,30 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/base/TestBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="92" column="52" selection-start-line="92" selection-start-column="52" selection-end-line="92" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="432">
+          <caret line="24" column="49" lean-forward="true" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/properties/OR.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/properties/Config.properties">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        <state relative-caret-position="180">
+          <caret line="58" column="21" selection-start-line="58" selection-start-column="21" selection-end-line="58" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/uncommons/reportng/1.1.4/reportng-1.1.4.jar!/org/uncommons/reportng/HTMLReporter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="84" selection-start-line="84" selection-end-line="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_152/src.zip!/java/io/FileOutputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="269" selection-start-line="269" selection-end-line="269" />
         </state>
       </provider>
     </entry>
@@ -574,34 +668,71 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/utilities/EmailUtility.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/testcases/OpenAccountTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="25" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="25" />
+        <state relative-caret-position="72">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/testcases/AddCustomerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="828">
+          <caret line="46" column="1" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#712#933#0" expanded="true" />
-            <element signature="e#932#933#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/testcases/BankManagerLoginTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="482">
-          <caret line="69" column="28" selection-start-line="69" selection-start-column="28" selection-end-line="69" selection-end-column="28" />
+        <state relative-caret-position="180">
+          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/utilities/TestEmail.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/rough/TestSendEmail.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="31" column="50" lean-forward="true" selection-start-line="31" selection-start-column="50" selection-end-line="31" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#651#885#0" expanded="true" />
-            <element signature="e#884#885#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="72">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/properties/OR.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/properties/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/properties/Config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/utilities/SendEmailSMTP_TLSAuthentication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/listeners/ExtentReportListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="61" selection-start-line="3" selection-start-column="61" selection-end-line="3" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/base/TestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="57" column="34" lean-forward="true" selection-start-line="57" selection-start-column="34" selection-end-line="57" selection-end-column="34" />
         </state>
       </provider>
     </entry>
