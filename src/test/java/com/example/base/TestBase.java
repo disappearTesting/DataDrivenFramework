@@ -50,11 +50,12 @@ public class TestBase {
     private static final String PATH_PROPERTIES_OR = System.getProperty("user.dir") + "\\src\\test\\resources\\properties\\OR.properties";
     // NOT final, for rewriting
     private static String PATH_HTML_REPORT = System.getProperty("user.dir") + "\\target\\surefire-reports\\html\\";
+    private static String NAME_HTML_REPORT = "extent_reports.html";
     private static final String PATH_EXECUTABLES_DRIVERS = System.getProperty("user.dir") + "\\src\\test\\resources\\executables\\";
     protected static Logger log = Logger.getLogger("rootLogger");
 
     // Defines a node in the report file.
-    protected ExtentReports extentReports = new ExtentReports(PATH_HTML_REPORT + "extent_reports.html");;
+    protected ExtentReports extentReports = new ExtentReports(PATH_HTML_REPORT + NAME_HTML_REPORT);;
     protected ExtentTest extentTest;
 
     @BeforeSuite

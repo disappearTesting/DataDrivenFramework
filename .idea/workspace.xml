@@ -2,43 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1855bc7-fa6f-4aa2-9d41-9177005352f4" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/utilities/SendEmailSMTP_TLSAuthentication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_mail_javax_mail_1_6_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_mail_javax_mail_api_1_6_2.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataDrivenFramework.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DataDrivenFramework.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/example/base/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/base/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/listeners/ExtentReportListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/listeners/ExtentReportListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/utilities/EmailUtility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/rough/TestSendEmail.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/utilities/TestEmail.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/logs/Application.log.2018-10-25-18-35" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/logs/Application.log.2018-10-28-22-20" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/logs/Application.log.2018-10-28-22-39" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/logs/Application.log.2018-10-29-10-49" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/logs/Application.log.2018-10-29-11-03" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/logs/Application.log.2018-10-29-11-08" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/properties/Config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/properties/Config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/properties/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/properties/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/reports/2018-10-28 10-39-51_reports.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/reports/2018-10-28 10-39-52_reports.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/reports/2018-10-28 10-39-53_reports.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/reports/2018-10-28 10-40-43_reports.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/reports/2018-10-28 10-40-44_reports.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/reports/2018-10-28 10-40-45_reports.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/reports/2018-10-29 10-49-09_reports.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/reports/2018-10-29 10-49-10_reports.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/reports/2018-10-29 10-49-11_reports.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/reports/2018-10-29 11-03-11_reports.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/reports/2018-10-29 11-03-13_reports.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/reports/2018-10-29 11-03-14_reports.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/reports/2018-10-29 11-08-25_reports.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/reports/2018-10-29 11-08-26_reports.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/reports/2018-10-29 11-14-38_reports.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/reports/2018-10-29 11-14-39_reports.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/addCustomerTest.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/loginAsBankManagerTest.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/openAccountTest.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/utilities/SendEmailSMTP_TLSAuthentication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/utilities/SendEmailSMTP_TLSAuthentication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
@@ -54,6 +20,7 @@
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/collapseall.gif" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/failed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/html/extent_reports.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/html/index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/html/overview.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/html/reportng.css" beforeDir="false" />
@@ -95,35 +62,45 @@
       <change beforePath="$PROJECT_DIR$/target/test-classes/executables/IEDriverServer.exe" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/executables/chromedriver.exe" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/executables/geckodriver.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-25-18-35" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-28-22-20" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-28-22-39" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-29-10-49" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-29-11-03" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-29-11-08" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-30_11-25" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-30_11-30" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-30_11-31" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-30_11-33" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-30_11-52" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-30_12-08" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-30_12-09" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-30_12-14" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-30_14-04" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-30_14-08" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-30_14-10" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-30_14-11" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-30_14-13" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-30_14-18" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-30_14-19" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-30_14-20" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-30_14-22" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-30_14-24" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-30_14-27" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-30_14-28" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-30_14-29" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-30_14-32" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-30_14-34" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-30_14-37" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-30_14-39" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-30_14-40" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-30_14-41" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-30_14-43" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-30_14-47" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-30_14-49" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-30_14-52" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-30_14-54" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-30_15-04" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-30_15-06" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/logs/Application.log.2018-10-30_15-07" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/properties/Config.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/properties/OR.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/properties/log4j.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/reports/2018-10-28 10-39-51_reports.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/reports/2018-10-28 10-39-52_reports.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/reports/2018-10-28 10-39-53_reports.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/reports/2018-10-28 10-40-43_reports.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/reports/2018-10-28 10-40-44_reports.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/reports/2018-10-28 10-40-45_reports.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/reports/2018-10-29 10-49-09_reports.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/reports/2018-10-29 10-49-10_reports.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/reports/2018-10-29 10-49-11_reports.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/reports/2018-10-29 11-03-11_reports.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/reports/2018-10-29 11-03-13_reports.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/reports/2018-10-29 11-03-14_reports.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/reports/2018-10-29 11-08-25_reports.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/reports/2018-10-29 11-08-26_reports.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/reports/2018-10-29 11-14-38_reports.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/reports/2018-10-29 11-14-39_reports.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/runner/testng.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/addCustomerTest.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/loginAsBankManagerTest.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshots/openAccountTest.png" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -134,29 +111,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TestBase.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TestBase.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/example/base/TestBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="57" column="34" lean-forward="true" selection-start-line="57" selection-start-column="34" selection-end-line="57" selection-end-column="34" />
+            <state relative-caret-position="468">
+              <caret line="61" column="25" selection-start-line="61" selection-start-column="25" selection-end-line="61" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ExtentReportListener.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/example/listeners/ExtentReportListener.java">
+      <file leaf-file-name="Config.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/properties/Config.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="3" column="61" selection-start-line="3" selection-start-column="61" selection-end-line="3" selection-end-column="61" />
+            <state relative-caret-position="36">
+              <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SendEmailSMTP_TLSAuthentication.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SendEmailSMTP_TLSAuthentication.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/example/utilities/SendEmailSMTP_TLSAuthentication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+            <state relative-caret-position="666">
+              <caret line="46" selection-start-line="46" selection-end-line="46" />
             </state>
           </provider>
         </entry>
@@ -176,9 +153,9 @@
       <list>
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/com/example/utilities/SendEmailSMTP_TLSAuthentication.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/example/listeners/ExtentReportListener.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/example/base/TestBase.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/example/utilities/SendEmailSMTP_TLSAuthentication.java" />
       </list>
     </option>
   </component>
@@ -270,6 +247,15 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="example" type="462c0819:PsiDirectoryNode" />
               <item name="listeners" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DataDrivenFramework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DataDrivenFramework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="testcases" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DataDrivenFramework" type="b2602c69:ProjectViewProjectNode" />
@@ -425,16 +411,15 @@
       <workItem from="1540406353730" duration="5768000" />
       <workItem from="1540447178395" duration="3219000" />
       <workItem from="1540802766582" duration="10235000" />
-      <workItem from="1540880971484" duration="13260000" />
+      <workItem from="1540880971484" duration="15683000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13199000" />
+    <option name="totallyTimeSpent" value="15622000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="69" y="0" width="1847" height="1156" extended-state="0" />
-    <editor active="true" />
+    <frame x="69" y="0" width="1847" height="1156" extended-state="1" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -446,7 +431,7 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" x="60" y="46" width="1695" height="977" id="Run" order="2" type="WINDOWED" weight="0.32952183" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32947975" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32851636" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19198665" />
@@ -515,6 +500,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="25" column="49" selection-start-line="25" selection-start-column="49" selection-end-line="25" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -566,6 +554,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="24" column="49" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -685,16 +676,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/testcases/BankManagerLoginTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/example/rough/TestSendEmail.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -708,6 +689,26 @@
     <entry file="file://$PROJECT_DIR$/src/test/resources/properties/log4j.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/testcases/BankManagerLoginTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/listeners/ExtentReportListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="13" column="33" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/properties/Config.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
@@ -715,24 +716,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/utilities/SendEmailSMTP_TLSAuthentication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/listeners/ExtentReportListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="61" selection-start-line="3" selection-start-column="61" selection-end-line="3" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/example/base/TestBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="57" column="34" lean-forward="true" selection-start-line="57" selection-start-column="34" selection-end-line="57" selection-end-column="34" />
+        <state relative-caret-position="468">
+          <caret line="61" column="25" selection-start-line="61" selection-start-column="25" selection-end-line="61" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/utilities/SendEmailSMTP_TLSAuthentication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="666">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
         </state>
       </provider>
     </entry>

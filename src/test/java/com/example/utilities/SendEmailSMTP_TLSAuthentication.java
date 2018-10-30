@@ -11,11 +11,10 @@ import javax.mail.internet.MimeMessage;
 
 public class SendEmailSMTP_TLSAuthentication extends TestBase {
 
-    private String FROM_EMAIL = "makarov@smartproject.ua";
-    private String FROM_PASSWORD = "chimaira";
-    //private String TO_EMAIL = "support@socialgames.bz";
-    private String TO_EMAIL = "disappear.arnie@gmail.com";
-    private String JenkinsHTMLReport = "http://localhost:8080/job/DataDrivenFramework/HTML_20Report/";
+    private String FROM_EMAIL = config.getProperty("from");
+    private String FROM_PASSWORD = config.getProperty("password");
+    private String TO_EMAIL = config.getProperty("to");
+    private static final String URL_JENKINS_EXTENTREPORT = "http://localhost:8080/job/DataDrivenFramework/Extent_20Report_20HTML/";
 
     public void sendEmail() {
         // Create a Properties object to contain connection configuration information.
@@ -43,7 +42,7 @@ public class SendEmailSMTP_TLSAuthentication extends TestBase {
             message.setRecipients(Message.RecipientType.TO, TO_EMAIL);
             message.setSubject("Send Email SMTP Report: " + new SimpleDateFormat("yyyy-MM-dd_HH-mm-ss").format(new Date()));
             message.setSentDate(new Date());
-            message.setText("Jenkins HTML Report: ");
+            message.setText("Jenkins HTML Report: " + URL_JENKINS_EXTENTREPORT);
             log.info("Message Generated.");
 
             Transport.send(message);

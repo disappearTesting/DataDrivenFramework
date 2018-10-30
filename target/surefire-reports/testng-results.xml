@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results total="5" passed="5" failed="0" skipped="0">
+<testng-results skipped="0" failed="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2018-10-30T13:12:18Z" name="Data Driven Basics" finished-at="2018-10-30T13:12:23Z" duration-ms="4983">
+  <suite name="Data Driven Basics" duration-ms="4886" started-at="2018-10-30T14:10:17Z" finished-at="2018-10-30T14:10:22Z">
     <groups>
     </groups>
-    <test started-at="2018-10-30T13:12:18Z" name="Bank Manager Login" finished-at="2018-10-30T13:12:19Z" duration-ms="1217">
+    <test name="Bank Manager Login" duration-ms="1617" started-at="2018-10-30T14:10:17Z" finished-at="2018-10-30T14:10:19Z">
       <class name="com.example.testcases.BankManagerLoginTest">
-        <test-method signature="loginAsBankManagerTest()[pri:0, instance:com.example.testcases.BankManagerLoginTest@7eecb5b8]" started-at="2018-10-30T15:12:18Z" name="loginAsBankManagerTest" finished-at="2018-10-30T15:12:19Z" duration-ms="1206" status="PASS">
+        <test-method status="PASS" signature="loginAsBankManagerTest()[pri:0, instance:com.example.testcases.BankManagerLoginTest@757942a1]" name="loginAsBankManagerTest" duration-ms="1609" started-at="2018-10-30T16:10:17Z" finished-at="2018-10-30T16:10:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginAsBankManagerTest -->
       </class> <!-- com.example.testcases.BankManagerLoginTest -->
     </test> <!-- Bank Manager Login -->
-    <test started-at="2018-10-30T13:12:19Z" name="Add Customer" finished-at="2018-10-30T13:12:20Z" duration-ms="1151">
+    <test name="Add Customer" duration-ms="918" started-at="2018-10-30T14:10:19Z" finished-at="2018-10-30T14:10:20Z">
       <class name="com.example.testcases.AddCustomerTest">
-        <test-method signature="addCustomerTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.example.testcases.AddCustomerTest@29f7cefd]" started-at="2018-10-30T15:12:19Z" name="addCustomerTest" data-provider="getTestData_AddCustomer" finished-at="2018-10-30T15:12:20Z" duration-ms="1150" status="PASS">
+        <test-method status="PASS" signature="addCustomerTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.example.testcases.AddCustomerTest@782663d3]" name="addCustomerTest" duration-ms="917" started-at="2018-10-30T16:10:19Z" data-provider="getTestData_AddCustomer" finished-at="2018-10-30T16:10:20Z">
           <params>
             <param index="0">
               <value>
@@ -38,13 +38,13 @@
         </test-method> <!-- addCustomerTest -->
       </class> <!-- com.example.testcases.AddCustomerTest -->
     </test> <!-- Add Customer -->
-    <test started-at="2018-10-30T13:12:21Z" name="Open Account" finished-at="2018-10-30T13:12:23Z" duration-ms="2313">
+    <test name="Open Account" duration-ms="1984" started-at="2018-10-30T14:10:20Z" finished-at="2018-10-30T14:10:22Z">
       <class name="com.example.testcases.OpenAccountTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.example.testcases.OpenAccountTest@49b2a47d]" started-at="2018-10-30T15:12:14Z" name="setUp" finished-at="2018-10-30T15:12:18Z" duration-ms="4157" status="PASS">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.example.testcases.OpenAccountTest@4524411f]" name="setUp" is-config="true" duration-ms="6115" started-at="2018-10-30T16:10:11Z" finished-at="2018-10-30T16:10:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="openAccountTest(java.lang.String, java.lang.String)[pri:0, instance:com.example.testcases.OpenAccountTest@49b2a47d]" started-at="2018-10-30T15:12:21Z" name="openAccountTest" data-provider="getTestData_OpenAccountTest" finished-at="2018-10-30T15:12:22Z" duration-ms="1325" status="PASS">
+        <test-method status="PASS" signature="openAccountTest(java.lang.String, java.lang.String)[pri:0, instance:com.example.testcases.OpenAccountTest@4524411f]" name="openAccountTest" duration-ms="1060" started-at="2018-10-30T16:10:20Z" data-provider="getTestData_OpenAccountTest" finished-at="2018-10-30T16:10:21Z">
           <params>
             <param index="0">
               <value>
@@ -60,7 +60,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openAccountTest -->
-        <test-method signature="openAccountTest(java.lang.String, java.lang.String)[pri:0, instance:com.example.testcases.OpenAccountTest@49b2a47d]" started-at="2018-10-30T15:12:22Z" name="openAccountTest" data-provider="getTestData_OpenAccountTest" finished-at="2018-10-30T15:12:22Z" duration-ms="456" status="PASS">
+        <test-method status="PASS" signature="openAccountTest(java.lang.String, java.lang.String)[pri:0, instance:com.example.testcases.OpenAccountTest@4524411f]" name="openAccountTest" duration-ms="449" started-at="2018-10-30T16:10:21Z" data-provider="getTestData_OpenAccountTest" finished-at="2018-10-30T16:10:22Z">
           <params>
             <param index="0">
               <value>
@@ -76,7 +76,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openAccountTest -->
-        <test-method signature="openAccountTest(java.lang.String, java.lang.String)[pri:0, instance:com.example.testcases.OpenAccountTest@49b2a47d]" started-at="2018-10-30T15:12:22Z" name="openAccountTest" data-provider="getTestData_OpenAccountTest" finished-at="2018-10-30T15:12:23Z" duration-ms="531" status="PASS">
+        <test-method status="PASS" signature="openAccountTest(java.lang.String, java.lang.String)[pri:0, instance:com.example.testcases.OpenAccountTest@4524411f]" name="openAccountTest" duration-ms="475" started-at="2018-10-30T16:10:22Z" data-provider="getTestData_OpenAccountTest" finished-at="2018-10-30T16:10:22Z">
           <params>
             <param index="0">
               <value>
@@ -92,7 +92,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openAccountTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.testcases.OpenAccountTest@49b2a47d]" started-at="2018-10-30T15:12:23Z" name="tearDown" finished-at="2018-10-30T15:12:23Z" duration-ms="604" status="PASS">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.example.testcases.OpenAccountTest@4524411f]" name="tearDown" is-config="true" duration-ms="575" started-at="2018-10-30T16:10:22Z" finished-at="2018-10-30T16:10:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
