@@ -1,5 +1,6 @@
 package com.example.base;
 
+import com.relevantcodes.extentreports.DisplayOrder;
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 import org.apache.log4j.PropertyConfigurator;
@@ -45,14 +46,17 @@ public class TestBase {
 
     private FileInputStream sourceStreamConfig;
     private FileInputStream sourceStreamOR;
-    private String filePathConfig = System.getProperty("user.dir") + "\\src\\test\\resources\\properties\\Config.properties";
-    private String filePathOR = System.getProperty("user.dir") + "\\src\\test\\resources\\properties\\OR.properties";
-    private String driversPath = System.getProperty("user.dir") + "\\src\\test\\resources\\executables\\";
+    private static final String PATH_PROPERTIES_CONFIG = System.getProperty("user.dir") + "\\src\\test\\resources\\properties\\Config.properties";
+    private static final String PATH_PROPERTIES_OR = System.getProperty("user.dir") + "\\src\\test\\resources\\properties\\OR.properties";
+    // NOT final, for rewriting
+    private static String PATH_HTML_REPORT = System.getProperty("user.dir") + "\\target\\surefire-reports\\html\\";
+    private static String NAME_HTML_REPORT = "extent_reports.html";
+    private static final String PATH_EXECUTABLES_DRIVERS = System.getProperty("user.dir") + "\\src\\test\\resources\\executables\\";
     protected static Logger log = Logger.getLogger("rootLogger");
 
-    protected static ExtentReports extentReports;
     // Defines a node in the report file.
-    protected static ExtentTest extentTest;
+    protected ExtentReports extentReports = new ExtentReports(PATH_HTML_REPORT + NAME_HTML_REPORT);;
+    protected ExtentTest extentTest;
 
     @BeforeSuite
     public void setUp() {
@@ -61,7 +65,7 @@ public class TestBase {
             log.info("WebDriver init.");
 
             try {
-                sourceStreamConfig = new FileInputStream(filePathConfig);
+                sourceStreamConfig = new FileInputStream(PATH_PROPERTIES_CONFIG);
             } catch (FileNotFoundException fe) {
                 fe.printStackTrace();
             }
@@ -73,7 +77,7 @@ public class TestBase {
             }
 
             try {
-                sourceStreamOR = new FileInputStream(filePathOR);
+                sourceStreamOR = new FileInputStream(PATH_PROPERTIES_OR);
             } catch (IOException e) {
                 e.printStackTrace();
             }
@@ -96,17 +100,17 @@ public class TestBase {
 
             switch (browser) {
                 case "firefox":
-                    System.setProperty("webdriver.gecko.driver", driversPath + "geckodriver.exe");
+                    System.setProperty("webdriver.gecko.driver", PATH_EXECUTABLES_DRIVERS + "geckodriver.exe");
                     driver = new FirefoxDriver();
                     log.info("Launch Firefox browser!");
                     break;
                 case "chrome":
-                    System.setProperty("webdriver.chrome.driver",  driversPath + "chromedriver.exe");
+                    System.setProperty("webdriver.chrome.driver",  PATH_EXECUTABLES_DRIVERS + "chromedriver.exe");
                     driver = new ChromeDriver();
                     log.info("Launch Chrome browser!");
                     break;
                 case "ie":
-                    System.setProperty("webdriver.ie.driver",  driversPath + "IEDriverServer.exe");
+                    System.setProperty("webdriver.ie.driver",  PATH_EXECUTABLES_DRIVERS + "IEDriverServer.exe");
                     driver = new InternetExplorerDriver();
                     log.info("Launch IE browser!");
                     break;
