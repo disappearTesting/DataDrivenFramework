@@ -1,9 +1,12 @@
+com\example\webpages\toptal\HomePage.class
+com\example\webpages\toptal\DeveloperPortalPage.class
 com\example\rough\TestProperties.class
 com\example\base\TestBase.class
 com\example\utilities\SendEmailSMTP_TLSAuthentication.class
 com\example\listeners\ExtentReportListener.class
 com\example\rough\TestTimestamp.class
 com\example\rough\TestSendEmail$1.class
+com\example\webpages\toptal\DeveloperApplyPage.class
 com\example\testcases\OpenAccountTest.class
 com\example\rough\TestSendEmail.class
 com\example\utilities\SendEmailSMTP_TLSAuthentication$1.class

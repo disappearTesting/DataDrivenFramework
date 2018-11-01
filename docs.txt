@@ -13,6 +13,15 @@
 		//	Selenium API
 		https://seleniumhq.github.io/selenium/docs/api/java/
 		
+		//	Selenium PO design pattern
+		
+		https://www.toptal.com/selenium/test-automation-in-selenium-using-page-object-model-and-page-factory
+		https://www.seleniumeasy.com/selenium-tutorials/simple-page-object-model-framework-example
+		https://dzone.com/articles/what-is-the-page-object-in-selenium
+		https://dzone.com/articles/selenium-design-patterns
+		https://www.swtestacademy.com/page-object-model-java/
+		http://toolsqa.com/selenium-webdriver/page-object-pattern-model-page-factory/
+		
 		https://developers.perfectomobile.com/display/TT/Manage+TestNG+execution+and+Data
 		
 		//	Creating Extent Reports in Selenium Using the Extent API
@@ -24,4 +33,12 @@
 		
 		https://docs.aws.amazon.com/ses/latest/DeveloperGuide/send-using-smtp-java.html
 		https://dzone.com/articles/sending-mail-using-javamail-api-for-gmail-server
-	
+		
+		
+		//	JAVA
+		https://www.geeksforgeeks.org/md5-hash-in-java/
+		https://www.mkyong.com/java/java-md5-hashing-example/
+		https://www.baeldung.com/java-md5
+		https://devcolibri.com/md5-%D0%BF%D1%80%D0%B8%D0%BC%D0%B5%D1%80-%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F-%D0%B2-java/
+		
+		

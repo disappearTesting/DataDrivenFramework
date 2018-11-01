@@ -19,17 +19,17 @@ public class ExtentReportListener extends TestBase implements ITestListener, ISu
     @Override
     public void onTestStart(ITestResult result) {
         extentTest = extentReports.startTest(result.getMethod().getMethodName());
-        extentTest.log(LogStatus.INFO, "Test is started: " + result.getMethod().getMethodName());
+        extentTest.log(LogStatus.INFO, "Test has Started: " + result.getMethod().getMethodName());
     }
 
     @Override
     public void onTestSuccess(ITestResult result) {
-        extentTest.log(LogStatus.PASS, "Test is passed: " + result.getMethod().getMethodName());
+        extentTest.log(LogStatus.PASS, "Test is Pass: " + result.getMethod().getMethodName());
     }
 
     @Override
     public void onTestFailure(ITestResult result) {
-        extentTest.log(LogStatus.FAIL, "Test is failed: " + result.getMethod().getMethodName());
+        extentTest.log(LogStatus.FAIL, "Failure. Test is Fail: " + result.getMethod().getMethodName());
 
         File screenshotFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 
@@ -37,7 +37,7 @@ public class ExtentReportListener extends TestBase implements ITestListener, ISu
             // /will save the screenshot in the drive
             FileUtils.copyFile(screenshotFile, new File(PATH_SCREENSHOTS + result.getMethod().getMethodName() + ".png"));
             String screenCapture = extentTest.addScreenCapture(PATH_SCREENSHOTS + result.getMethod().getMethodName() + ".png");
-            extentTest.log(LogStatus.FAIL, "Test is failed: " + result.getMethod().getMethodName() + ".png", screenCapture);
+            extentTest.log(LogStatus.FAIL, "Failure. Test is Fail: " + result.getMethod().getMethodName() + ".png", screenCapture);
             extentTest.log(LogStatus.FAIL, result.getThrowable());
         } catch (IOException ioe) {
             ioe.printStackTrace();
@@ -46,7 +46,7 @@ public class ExtentReportListener extends TestBase implements ITestListener, ISu
 
     @Override
     public void onTestSkipped(ITestResult result) {
-        extentTest.log(LogStatus.SKIP, "Test is skipped" + result.getMethod().getMethodName());
+        extentTest.log(LogStatus.SKIP, "Test is Skipped" + result.getMethod().getMethodName());
     }
 
     @Override
@@ -61,7 +61,7 @@ public class ExtentReportListener extends TestBase implements ITestListener, ISu
 
     @Override
     public void onFinish(ITestContext context) {
-        extentTest.log(LogStatus.INFO, "Test is finished.");
+        extentTest.log(LogStatus.INFO, "Test is Finished.");
         extentReports.endTest(extentTest);
         extentReports.flush();
     }

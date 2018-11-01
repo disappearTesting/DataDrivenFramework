@@ -1,7 +1,6 @@
 package com.example.utilities;
 
 import com.example.base.TestBase;
-import org.apache.log4j.PropertyConfigurator;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Properties;
@@ -24,7 +23,7 @@ public class SendEmailSMTP_TLSAuthentication extends TestBase {
         properties.put("mail.smtp.host", "smtp.gmail.com");
         properties.put("mail.smtp.port", "587");
         properties.put("mail.smtp.auth", "true");
-        log.info("Created a Properties object.");
+        log.info("Create a Properties object.");
 
         // Create a Session object to represent a mail session with the specified properties.
         Session session = Session.getInstance(properties, new Authenticator() {
@@ -32,7 +31,7 @@ public class SendEmailSMTP_TLSAuthentication extends TestBase {
                 return new PasswordAuthentication(FROM_EMAIL, FROM_PASSWORD);
             }
         });
-        log.info("Created a Session object.");
+        log.info("Create a Session object.");
 
         // Creating a Message object to set the email content.
         try {
@@ -48,8 +47,8 @@ public class SendEmailSMTP_TLSAuthentication extends TestBase {
             Transport.send(message);
             log.info("Success. Message sent successfully.");
         } catch (MessagingException mex) {
+            log.info("Failure. Message has't sent.");
             mex.printStackTrace();
-            log.info("Failure. Message has not sent.");
         }
     }
 }

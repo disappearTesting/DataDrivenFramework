@@ -18,10 +18,11 @@ public class AddCustomerTest extends TestBase {
 
     @Test(dataProvider = "getTestData_AddCustomer")
     public void addCustomerTest(String firstName, String lastName, String postCode) {
-        log.info("Test is started.");
+        log.info("Start test.");
         explicitWait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector(OR.getProperty("ButtonAddCustomer_CSS"))));
 
         driver.findElement(By.cssSelector(OR.getProperty("ButtonAddCustomer_CSS"))).click();
+        log.info("Click ButtonAddCustomer button.");
         explicitWait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector(OR.getProperty("ButtonAddCustomerSubmit_CSS"))));
 
         driver.findElement(By.cssSelector(OR.getProperty("InputFirstName_CSS"))).clear();
@@ -29,7 +30,6 @@ public class AddCustomerTest extends TestBase {
         log.info("Set the First Name.");
         driver.findElement(By.cssSelector(OR.getProperty("InputLastName_CSS"))).clear();
         driver.findElement(By.cssSelector(OR.getProperty("InputLastName_CSS"))).sendKeys(lastName);
-
         log.info("Set the Last Name.");
         driver.findElement(By.cssSelector(OR.getProperty("InputPostCode_CSS"))).clear();
         driver.findElement(By.cssSelector(OR.getProperty("InputPostCode_CSS"))).sendKeys(postCode);
@@ -42,6 +42,6 @@ public class AddCustomerTest extends TestBase {
         Assert.assertTrue(isAlertPresent(OR.getProperty("TextAlertAddCustomer")), "Failure. Alert isn't contains expected text.");
         driver.switchTo().alert().accept();
         log.info("Alert is present. Alert do Accept.");
-        log.info("Success. Test is passed.");
+        log.info("Success. Test is Pass.");
     }
 }
