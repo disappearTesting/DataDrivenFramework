@@ -23,5 +23,16 @@
 		https://scrumcrazy.wordpress.com/2018/09/06/scrum-org-professional-scrum-master-i-psm-i-exam-study-tips/
 		
 		https://docs.aws.amazon.com/ses/latest/DeveloperGuide/send-using-smtp-java.html
-		https://dzone.com/articles/sending-mail-using-javamail-api-for-gmail-server
+		
+		//	ZOHO
+		
+		login: disappear.arnie@gmail.com
+		pass: 321@Chimaira
+		https://accounts.zoho.eu/signin?servicename=ZohoHome&serviceurl=https://home.zoho.eu&signupurl=https://www.zoho.eu/signup.html
+		
+		//	Page Objects Pattern
+		
+		https://www.pluralsight.com/guides/getting-started-with-page-object-pattern-for-your-selenium-tests
+		https://www.swtestacademy.com/page-object-model-java/
+		https://www.guru99.com/page-object-model-pom-page-factory-in-selenium-ultimate-guide.html
 	

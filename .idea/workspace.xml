@@ -2,78 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4bba79ed-ee97-4a60-8008-d0d422e82f1e" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/bash.exe.stackdump" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/Data Driven Basics/Add Customer.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/Data Driven Basics/Add Customer.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/Data Driven Basics/Bank Manager Login.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/Data Driven Basics/Bank Manager Login.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/Data Driven Basics/Open Account.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/Data Driven Basics/Open Account.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/bullet_point.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/collapseall.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/failed.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/html/extent_reports.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/html/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/html/overview.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/html/reportng.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/html/reportng.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/html/sorttable.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/html/suite1_test1_results.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/html/suite1_test2_results.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/html/suite1_test3_results.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/html/suites.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/jquery-1.7.1.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.example.testcases.AddCustomerTest.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.example.testcases.BankManagerLoginTest.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.example.testcases.OpenAccountTest.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/navigator-bullet.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Data Driven Basics/Add Customer.properties" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Data Driven Basics/Bank Manager Login.properties" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Data Driven Basics/Open Account.properties" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Data Driven Basics/classes.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Data Driven Basics/groups.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Data Driven Basics/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Data Driven Basics/main.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Data Driven Basics/methods-alphabetical.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Data Driven Basics/methods-not-run.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Data Driven Basics/methods.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Data Driven Basics/reporter-output.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Data Driven Basics/testng.xml.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Data Driven Basics/toc.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/old/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/passed.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/skipped.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-reports.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-reports.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/testng.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/xml/com.example.testcases.AddCustomerTest_results.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/xml/com.example.testcases.BankManagerLoginTest_results.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/xml/com.example.testcases.OpenAccountTest_results.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/executables/IEDriverServer.exe" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/executables/chromedriver.exe" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/executables/geckodriver.exe" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/properties/Config.properties" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/properties/OR.properties" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/properties/log4j.properties" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/runner/testng.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_mail_javax_mail_api_1_6_2.xml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/DataDrivenFramework.iml" afterPath="$PROJECT_DIR$/DataDrivenFramework.iml" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/base/TestBase.java" afterPath="$PROJECT_DIR$/src/test/java/com/example/base/TestBase.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/listeners/ExtentReportListener.java" afterPath="$PROJECT_DIR$/src/test/java/com/example/listeners/ExtentReportListener.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/utilities/SendEmailSMTP_TLSAuthentication.java" afterPath="$PROJECT_DIR$/src/test/java/com/example/utilities/SendEmailSMTP_TLSAuthentication.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/executables/operadriver.exe" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/addCustomerTest.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/loginAsBankManagerTest.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/openAccountTest.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs.txt" afterPath="$PROJECT_DIR$/docs.txt" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Data Driven Basics/Add Customer.html" afterPath="$PROJECT_DIR$/target/surefire-reports/Data Driven Basics/Add Customer.html" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Data Driven Basics/Add Customer.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/Data Driven Basics/Add Customer.xml" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Data Driven Basics/Bank Manager Login.html" afterPath="$PROJECT_DIR$/target/surefire-reports/Data Driven Basics/Bank Manager Login.html" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Data Driven Basics/Bank Manager Login.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/Data Driven Basics/Bank Manager Login.xml" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Data Driven Basics/Open Account.html" afterPath="$PROJECT_DIR$/target/surefire-reports/Data Driven Basics/Open Account.html" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Data Driven Basics/Open Account.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/Data Driven Basics/Open Account.xml" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/html/extent_reports.html" afterPath="$PROJECT_DIR$/target/surefire-reports/html/extent_reports.html" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/html/overview.html" afterPath="$PROJECT_DIR$/target/surefire-reports/html/overview.html" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/html/suite1_test1_results.html" afterPath="$PROJECT_DIR$/target/surefire-reports/html/suite1_test1_results.html" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/html/suite1_test2_results.html" afterPath="$PROJECT_DIR$/target/surefire-reports/html/suite1_test2_results.html" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/html/suite1_test3_results.html" afterPath="$PROJECT_DIR$/target/surefire-reports/html/suite1_test3_results.html" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.example.testcases.AddCustomerTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.example.testcases.AddCustomerTest.xml" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.example.testcases.BankManagerLoginTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.example.testcases.BankManagerLoginTest.xml" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.example.testcases.OpenAccountTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.example.testcases.OpenAccountTest.xml" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Data Driven Basics/methods-alphabetical.html" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Data Driven Basics/methods-alphabetical.html" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Data Driven Basics/methods.html" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Data Driven Basics/methods.html" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/xml/com.example.testcases.AddCustomerTest_results.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/xml/com.example.testcases.AddCustomerTest_results.xml" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/xml/com.example.testcases.BankManagerLoginTest_results.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/xml/com.example.testcases.BankManagerLoginTest_results.xml" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/xml/com.example.testcases.OpenAccountTest_results.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/xml/com.example.testcases.OpenAccountTest_results.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -84,12 +39,32 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="ExtentReportListener.java" pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="ExtentReportListener.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/example/listeners/ExtentReportListener.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="30" column="51" lean-forward="false" selection-start-line="30" selection-start-column="51" selection-end-line="30" selection-end-column="51" />
+            <state relative-caret-position="357">
+              <caret line="26" column="69" lean-forward="false" selection-start-line="26" selection-start-column="69" selection-end-line="26" selection-end-column="69" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BankManagerLoginTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/example/testcases/BankManagerLoginTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="20" column="1" lean-forward="false" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestBase.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/example/base/TestBase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="714">
+              <caret line="58" column="36" lean-forward="false" selection-start-line="58" selection-start-column="36" selection-end-line="58" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -156,7 +131,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -197,7 +171,34 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DataDrivenFramework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DataDrivenFramework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
               <item name="listeners" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DataDrivenFramework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DataDrivenFramework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="testcases" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DataDrivenFramework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DataDrivenFramework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="utilities" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DataDrivenFramework" type="b2602c69:ProjectViewProjectNode" />
@@ -214,12 +215,21 @@
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="logs" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="DataDrivenFramework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DataDrivenFramework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="runner" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -336,44 +346,46 @@
       <option name="presentableId" value="Default" />
       <updated>1540934386615</updated>
       <workItem from="1540934387794" duration="226000" />
+      <workItem from="1541012121195" duration="2004000" />
+      <workItem from="1541103054707" duration="4000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="226000" />
+    <option name="totallyTimeSpent" value="2234000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="35" y="2" width="1876" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18127054" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1177437" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="WINDOWED" visible="false" show_stripe_button="true" weight="0.32952183" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="60" y="38" width="1544" height="1025" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17305586" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952183" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17634173" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -387,7 +399,31 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/listeners/ExtentReportListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="26" column="69" lean-forward="false" selection-start-line="26" selection-start-column="69" selection-end-line="26" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/testcases/BankManagerLoginTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="20" column="1" lean-forward="false" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/base/TestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="25" column="13" lean-forward="false" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/listeners/ExtentReportListener.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -397,8 +433,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/example/listeners/ExtentReportListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="30" column="51" lean-forward="false" selection-start-line="30" selection-start-column="51" selection-end-line="30" selection-end-column="51" />
+        <state relative-caret-position="357">
+          <caret line="26" column="69" lean-forward="false" selection-start-line="26" selection-start-column="69" selection-end-line="26" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/testcases/BankManagerLoginTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="20" column="1" lean-forward="false" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/base/TestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="58" column="36" lean-forward="false" selection-start-line="58" selection-start-column="36" selection-end-line="58" selection-end-column="36" />
           <folding />
         </state>
       </provider>
