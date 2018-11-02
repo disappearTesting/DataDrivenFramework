@@ -1,0 +1,50 @@
+[INFO] 11-01-2018 14:13:25 TestBase.java setUp - WebDriver init.
+[INFO] 11-01-2018 14:13:25 TestBase.java setUp - Load Config.properties file.
+[INFO] 11-01-2018 14:13:25 TestBase.java setUp - Load OR.properties file.
+[INFO] 11-01-2018 14:13:28 TestBase.java setUp - Launch Chrome browser!
+[INFO] 11-01-2018 14:13:29 BankManagerLoginTest.java loginAsBankManagerTest - Test has Started.
+[INFO] 11-01-2018 14:13:30 BankManagerLoginTest.java loginAsBankManagerTest - Click ButtonBankManagerLogin button.
+[INFO] 11-01-2018 14:13:31 BankManagerLoginTest.java loginAsBankManagerTest - Success. Test is Pass.
+[INFO] 11-01-2018 14:13:31 AddCustomerTest.java addCustomerTest - Start test.
+[INFO] 11-01-2018 14:13:31 AddCustomerTest.java addCustomerTest - Click ButtonAddCustomer button.
+[INFO] 11-01-2018 14:13:32 AddCustomerTest.java addCustomerTest - Set the First Name.
+[INFO] 11-01-2018 14:13:32 AddCustomerTest.java addCustomerTest - Set the Last Name.
+[INFO] 11-01-2018 14:13:32 AddCustomerTest.java addCustomerTest - Set the Post Code.
+[INFO] 11-01-2018 14:13:32 AddCustomerTest.java addCustomerTest - Submit data.
+[INFO] 11-01-2018 14:13:32 AddCustomerTest.java addCustomerTest - Alert is present. Alert do Accept.
+[INFO] 11-01-2018 14:13:32 AddCustomerTest.java addCustomerTest - Success. Test is Pass.
+[INFO] 11-01-2018 14:13:32 OpenAccountTest.java openAccountTest - Test has Started.
+[INFO] 11-01-2018 14:13:33 OpenAccountTest.java openAccountTest - Click SelectCustomer select.
+[INFO] 11-01-2018 14:13:33 OpenAccountTest.java openAccountTest - Open a dropdown list 'Customer'.
+[INFO] 11-01-2018 14:13:33 OpenAccountTest.java openAccountTest - Select the Customer value.
+[INFO] 11-01-2018 14:13:33 OpenAccountTest.java openAccountTest - Click SelectCurrency select.
+[INFO] 11-01-2018 14:13:33 OpenAccountTest.java openAccountTest - Open a dropdown list 'Currency'.
+[INFO] 11-01-2018 14:13:33 OpenAccountTest.java openAccountTest - Select the Currency value.
+[INFO] 11-01-2018 14:13:33 OpenAccountTest.java openAccountTest - Submit data.
+[INFO] 11-01-2018 14:13:33 OpenAccountTest.java openAccountTest - Alert is present. Alert do Accept.
+[INFO] 11-01-2018 14:13:33 OpenAccountTest.java openAccountTest - Success. Test is Pass.
+[INFO] 11-01-2018 14:13:33 OpenAccountTest.java openAccountTest - Test has Started.
+[INFO] 11-01-2018 14:13:33 OpenAccountTest.java openAccountTest - Click SelectCustomer select.
+[INFO] 11-01-2018 14:13:33 OpenAccountTest.java openAccountTest - Open a dropdown list 'Customer'.
+[INFO] 11-01-2018 14:13:33 OpenAccountTest.java openAccountTest - Select the Customer value.
+[INFO] 11-01-2018 14:13:33 OpenAccountTest.java openAccountTest - Click SelectCurrency select.
+[INFO] 11-01-2018 14:13:33 OpenAccountTest.java openAccountTest - Open a dropdown list 'Currency'.
+[INFO] 11-01-2018 14:13:33 OpenAccountTest.java openAccountTest - Select the Currency value.
+[INFO] 11-01-2018 14:13:33 OpenAccountTest.java openAccountTest - Submit data.
+[INFO] 11-01-2018 14:13:33 OpenAccountTest.java openAccountTest - Alert is present. Alert do Accept.
+[INFO] 11-01-2018 14:13:33 OpenAccountTest.java openAccountTest - Success. Test is Pass.
+[INFO] 11-01-2018 14:13:33 OpenAccountTest.java openAccountTest - Test has Started.
+[INFO] 11-01-2018 14:13:34 OpenAccountTest.java openAccountTest - Click SelectCustomer select.
+[INFO] 11-01-2018 14:13:34 OpenAccountTest.java openAccountTest - Open a dropdown list 'Customer'.
+[INFO] 11-01-2018 14:13:34 OpenAccountTest.java openAccountTest - Select the Customer value.
+[INFO] 11-01-2018 14:13:34 OpenAccountTest.java openAccountTest - Click SelectCurrency select.
+[INFO] 11-01-2018 14:13:34 OpenAccountTest.java openAccountTest - Open a dropdown list 'Currency'.
+[INFO] 11-01-2018 14:13:34 OpenAccountTest.java openAccountTest - Select the Currency value.
+[INFO] 11-01-2018 14:13:34 OpenAccountTest.java openAccountTest - Submit data.
+[INFO] 11-01-2018 14:13:34 OpenAccountTest.java openAccountTest - Alert is present. Alert do Accept.
+[INFO] 11-01-2018 14:13:34 OpenAccountTest.java openAccountTest - Success. Test is Pass.
+[INFO] 11-01-2018 14:13:34 TestBase.java tearDown - WebDriver quit.
+[INFO] 11-01-2018 14:13:34 SendEmailSMTP_TLSAuthentication.java sendEmail - Create a Properties object.
+[INFO] 11-01-2018 14:13:35 SendEmailSMTP_TLSAuthentication.java sendEmail - Create a Session object.
+[INFO] 11-01-2018 14:13:35 SendEmailSMTP_TLSAuthentication.java sendEmail - Message Generated.
+[INFO] 11-01-2018 14:13:37 SendEmailSMTP_TLSAuthentication.java sendEmail - Success. Message sent successfully.

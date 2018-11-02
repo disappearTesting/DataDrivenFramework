@@ -1,0 +1,7 @@
+[INFO] 11-02-2018 11:36:00 TestBase.java tearDown - WebDriver quit.
+[INFO] 11-02-2018 11:36:30 TestBase.java setUp - WebDriver init.
+[INFO] 11-02-2018 11:36:30 TestBase.java setUp - Load Config.properties file.
+[INFO] 11-02-2018 11:36:30 TestBase.java setUp - Load OR.properties file.
+[INFO] 11-02-2018 11:36:33 TestBase.java setUp - Launch Chrome browser!
+[INFO] 11-02-2018 11:36:36 HomePage.java <init> - Navigate to: https://www.toptal.com/developers
+[INFO] 11-02-2018 11:36:41 TestBase.java tearDown - WebDriver quit.

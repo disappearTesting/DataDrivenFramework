@@ -1,8 +1,0 @@
-[INFO] 10-30-2018 14:39:21 TestBase.java setUp - WebDriver init.
-[INFO] 10-30-2018 14:39:21 TestBase.java setUp - Load Config.properties file.
-[INFO] 10-30-2018 14:39:21 TestBase.java setUp - Load OR.properties file.
-[INFO] 10-30-2018 14:39:24 TestBase.java setUp - Launch Chrome browser!
-[INFO] 10-30-2018 14:39:25 SendEmailSMTP_TLSAuthentication.java sendEmail - Created a Properties object.
-[INFO] 10-30-2018 14:39:25 SendEmailSMTP_TLSAuthentication.java sendEmail - Created a Session object.
-[INFO] 10-30-2018 14:39:25 SendEmailSMTP_TLSAuthentication.java sendEmail - Message Generated.
-[INFO] 10-30-2018 14:39:27 SendEmailSMTP_TLSAuthentication.java sendEmail - Success. Message sent successfully.

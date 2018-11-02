@@ -7,19 +7,24 @@ import org.openqa.selenium.support.PageFactory;
 
 public class DeveloperPortalPage extends TestBase {
 
+    // web page - as class
+
+    // various elements on the page - as variables on the class
     // Define Locators
-    @FindBy(xpath = "/html/body/div[1]/div/div/header/div/h1")
+    @FindBy(className = "portal_body-title")
     private WebElement heading;
 
     @FindBy(linkText = "JOIN TOPTAL")
     private WebElement joinToptalButton;
 
+    // Constructor
     public DeveloperPortalPage() {
         PageFactory.initElements(driver, this);
     }
 
+    // user interactions - as methods on the class
     public boolean isPageOpened() {
-        return heading.getText().toString().contains("developer portal");
+        return heading.getText().contains("Developer Portal");
     }
 
     public void clickOnJoin() {
