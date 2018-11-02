@@ -112,10 +112,10 @@ public class TestBase {
                     break;
             }
 
-            //driver.get(config.getProperty("testsiteurl"));
-            //log.debug("Navigate to:" + config.getProperty("testsiteurl"));
+            driver.get(config.getProperty("testsiteurl"));
+            log.debug("Navigate to:" + config.getProperty("testsiteurl"));
             explicitWait = new WebDriverWait(driver, 5);
-            //explicitWait.until(ExpectedConditions.urlContains(config.getProperty("testsiteurl")));
+            explicitWait.until(ExpectedConditions.urlContains(config.getProperty("testsiteurl")));
             //driver.manage().window().maximize();
             //driver.manage().timeouts().implicitlyWait(Integer.parseInt(config.getProperty("implicit.wait")), TimeUnit.SECONDS);
         }
