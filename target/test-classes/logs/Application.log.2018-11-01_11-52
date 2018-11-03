@@ -1,0 +1,4 @@
+[INFO] 11-01-2018 11:52:50 TestBase.java setUp - WebDriver init.
+[INFO] 11-01-2018 11:52:50 TestBase.java setUp - Load Config.properties file.
+[INFO] 11-01-2018 11:52:50 TestBase.java setUp - Load OR.properties file.
+[INFO] 11-01-2018 11:52:53 TestBase.java setUp - Launch Chrome browser!

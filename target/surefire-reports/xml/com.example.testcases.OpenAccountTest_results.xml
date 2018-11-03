@@ -4,6 +4,7 @@
            failures="0"
            errors="0"
            skipped="0"
+<<<<<<< HEAD
            time="1,629">
   <properties />
   
@@ -11,5 +12,14 @@
             <testcase name="openAccountTest" time="0,974" classname="com.example.testcases.OpenAccountTest" />
                 <testcase name="openAccountTest" time="0,330" classname="com.example.testcases.OpenAccountTest" />
                 <testcase name="openAccountTest" time="0,325" classname="com.example.testcases.OpenAccountTest" />
+=======
+           time="1,916">
+  <properties />
+  
+  
+            <testcase name="openAccountTest" time="0,424" classname="com.example.testcases.OpenAccountTest" />
+                <testcase name="openAccountTest" time="1,065" classname="com.example.testcases.OpenAccountTest" />
+                <testcase name="openAccountTest" time="0,427" classname="com.example.testcases.OpenAccountTest" />
+>>>>>>> 8f29ee8025a6b794e4d000980f43024bb0b8082a
       
 </testsuite>

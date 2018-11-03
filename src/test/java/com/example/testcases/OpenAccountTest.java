@@ -20,21 +20,23 @@ public class OpenAccountTest extends TestBase {
 
     @Test(dataProvider = "getTestData_OpenAccountTest")
     public void openAccountTest(String customer, String currency) {
-        log.info("Test is started.");
+        log.info("Test has Started.");
         explicitWait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector(OR.getProperty("ButtonOpenAccount_CSS"))));
         driver.findElement(By.cssSelector(OR.getProperty("ButtonOpenAccount_CSS"))).click();
         explicitWait.until(ExpectedConditions.presenceOfElementLocated(By.name(OR.getProperty("SelectCustomer_NAME"))));
         driver.findElement(By.name(OR.getProperty("SelectCustomer_NAME"))).click();
+        log.info("Click SelectCustomer select.");
         log.info("Open a dropdown list 'Customer'.");
 
         Assert.assertTrue(isElementSelect(By.name(OR.getProperty("SelectCustomer_NAME")), customer));
-        log.info("Select the Customer.");
+        log.info("Select the Customer value.");
 
         explicitWait.until(ExpectedConditions.presenceOfElementLocated(By.name(OR.getProperty("SelectCurrency_NAME"))));
         driver.findElement(By.name(OR.getProperty("SelectCurrency_NAME")));
+        log.info("Click SelectCurrency select.");
         log.info("Open a dropdown list 'Currency'.");
         Assert.assertTrue(isElementSelect(By.name(OR.getProperty("SelectCurrency_NAME")), currency));
-        log.info("Select the Currency.");
+        log.info("Select the Currency value.");
 
         driver.findElement(By.cssSelector(OR.getProperty("ButtonProcess_CSS"))).submit();
         log.info("Submit data.");
@@ -43,6 +45,6 @@ public class OpenAccountTest extends TestBase {
         Assert.assertTrue(isAlertPresent(OR.getProperty("TextAlertOpenAccount")));
         driver.switchTo().alert().accept();
         log.info("Alert is present. Alert do Accept.");
-        log.info("Success. Test is passed.");
+        log.info("Success. Test is Pass.");
     }
 }

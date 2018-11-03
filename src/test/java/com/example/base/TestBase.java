@@ -1,6 +1,5 @@
 package com.example.base;
 
-import com.relevantcodes.extentreports.DisplayOrder;
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 import org.apache.log4j.PropertyConfigurator;
@@ -8,7 +7,6 @@ import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
-import org.openqa.selenium.opera.OperaDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -19,7 +17,6 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Properties;
-import java.util.concurrent.TimeUnit;
 
 import org.apache.log4j.Logger;
 
@@ -42,20 +39,19 @@ public class TestBase {
 
     protected static Properties config = new Properties();
     protected static Properties OR = new Properties();
+    protected static Logger log = Logger.getLogger("rootLogger");
     public static String browser;
 
     private FileInputStream sourceStreamConfig;
     private FileInputStream sourceStreamOR;
+    private static final String PATH_EXECUTABLES_DRIVERS = System.getProperty("user.dir") + "\\src\\test\\resources\\executables\\";
     private static final String PATH_PROPERTIES_CONFIG = System.getProperty("user.dir") + "\\src\\test\\resources\\properties\\Config.properties";
     private static final String PATH_PROPERTIES_OR = System.getProperty("user.dir") + "\\src\\test\\resources\\properties\\OR.properties";
     // NOT final, for rewriting
     private static String PATH_HTML_REPORT = System.getProperty("user.dir") + "\\target\\surefire-reports\\html\\";
     private static String NAME_HTML_REPORT = "extent_reports.html";
-    private static final String PATH_EXECUTABLES_DRIVERS = System.getProperty("user.dir") + "\\src\\test\\resources\\executables\\";
-    protected static Logger log = Logger.getLogger("rootLogger");
-
     // Defines a node in the report file.
-    protected ExtentReports extentReports = new ExtentReports(PATH_HTML_REPORT + NAME_HTML_REPORT);;
+    protected ExtentReports extentReports = new ExtentReports(PATH_HTML_REPORT + NAME_HTML_REPORT);
     protected ExtentTest extentTest;
 
     @BeforeSuite
@@ -117,7 +113,7 @@ public class TestBase {
             }
 
             driver.get(config.getProperty("testsiteurl"));
-            log.debug("Navigated to:" + config.getProperty("testsiteurl"));
+            log.debug("Navigate to:" + config.getProperty("testsiteurl"));
             explicitWait = new WebDriverWait(driver, 5);
             explicitWait.until(ExpectedConditions.urlContains(config.getProperty("testsiteurl")));
             //driver.manage().window().maximize();
@@ -138,6 +134,16 @@ public class TestBase {
         } catch(NoSuchElementException nsee) {
             nsee.printStackTrace();
             return false;
+        }
+    }
+
+    protected void navigateToWebPage() {
+        try {
+            driver.get(config.getProperty("testsiteurl"));
+            log.debug("Navigate to:" + config.getProperty("testsiteurl"));
+            explicitWait.until(ExpectedConditions.urlContains(config.getProperty("testsiteurl")));
+        } catch (Exception e) {
+            e.printStackTrace();
         }
     }
 

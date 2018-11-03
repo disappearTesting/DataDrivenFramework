@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 C:\Users\hookie\UdemyCources\DataDrivenFramework\src\test\java\com\example\utilities\SendEmailSMTP_TLSAuthentication.java
 C:\Users\hookie\UdemyCources\DataDrivenFramework\src\test\java\com\example\base\TestBase.java
 C:\Users\hookie\UdemyCources\DataDrivenFramework\src\test\java\com\example\testcases\AddCustomerTest.java
@@ -7,3 +8,17 @@ C:\Users\hookie\UdemyCources\DataDrivenFramework\src\test\java\com\example\testc
 C:\Users\hookie\UdemyCources\DataDrivenFramework\src\test\java\com\example\rough\TestProperties.java
 C:\Users\hookie\UdemyCources\DataDrivenFramework\src\test\java\com\example\rough\TestSendEmail.java
 C:\Users\hookie\UdemyCources\DataDrivenFramework\src\test\java\com\example\testcases\OpenAccountTest.java
+=======
+C:\Users\Makarov_K\UdemyCources\DataDrivenFramework\src\test\java\com\example\rough\TestSendEmail.java
+C:\Users\Makarov_K\UdemyCources\DataDrivenFramework\src\test\java\com\example\webpages\toptal\DeveloperApplyPage.java
+C:\Users\Makarov_K\UdemyCources\DataDrivenFramework\src\test\java\com\example\webpages\toptal\DeveloperPortalPage.java
+C:\Users\Makarov_K\UdemyCources\DataDrivenFramework\src\test\java\com\example\listeners\ExtentReportListener.java
+C:\Users\Makarov_K\UdemyCources\DataDrivenFramework\src\test\java\com\example\base\TestBase.java
+C:\Users\Makarov_K\UdemyCources\DataDrivenFramework\src\test\java\com\example\rough\TestProperties.java
+C:\Users\Makarov_K\UdemyCources\DataDrivenFramework\src\test\java\com\example\testcases\AddCustomerTest.java
+C:\Users\Makarov_K\UdemyCources\DataDrivenFramework\src\test\java\com\example\rough\TestTimestamp.java
+C:\Users\Makarov_K\UdemyCources\DataDrivenFramework\src\test\java\com\example\testcases\BankManagerLoginTest.java
+C:\Users\Makarov_K\UdemyCources\DataDrivenFramework\src\test\java\com\example\testcases\OpenAccountTest.java
+C:\Users\Makarov_K\UdemyCources\DataDrivenFramework\src\test\java\com\example\utilities\SendEmailSMTP_TLSAuthentication.java
+C:\Users\Makarov_K\UdemyCources\DataDrivenFramework\src\test\java\com\example\webpages\toptal\HomePage.java
+>>>>>>> 8f29ee8025a6b794e4d000980f43024bb0b8082a
