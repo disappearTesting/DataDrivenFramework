@@ -1,3 +1,0 @@
-[INFO] 11-01-2018 11:44:01 TestBase.java setUp - Launch Chrome browser!
-[INFO] 11-01-2018 11:44:01 BankManagerLoginTest.java loginAsBankManagerTest - Test has Started.
-[INFO] 11-01-2018 11:44:06 TestBase.java tearDown - WebDriver quit.

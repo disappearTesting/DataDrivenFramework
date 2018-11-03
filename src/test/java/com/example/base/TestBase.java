@@ -44,9 +44,9 @@ public class TestBase {
 
     private FileInputStream sourceStreamConfig;
     private FileInputStream sourceStreamOR;
-    private static final String PATH_EXECUTABLES_DRIVERS = System.getProperty("user.dir") + "\\src\\test\\resources\\executables\\";
-    private static final String PATH_PROPERTIES_CONFIG = System.getProperty("user.dir") + "\\src\\test\\resources\\properties\\Config.properties";
-    private static final String PATH_PROPERTIES_OR = System.getProperty("user.dir") + "\\src\\test\\resources\\properties\\OR.properties";
+    private static final String PATH_EXECUTABLES_DRIVERS = System.getProperty("user.dir") + "\\src\\test\\resources\\com.example\\executables\\";
+    private static final String PATH_PROPERTIES_CONFIG = System.getProperty("user.dir") + "\\src\\test\\resources\\com.example\\properties\\Config.properties";
+    private static final String PATH_PROPERTIES_OR = System.getProperty("user.dir") + "\\src\\test\\resources\\com.example\\properties\\OR.properties";
     // NOT final, for rewriting
     private static String PATH_HTML_REPORT = System.getProperty("user.dir") + "\\target\\surefire-reports\\html\\";
     private static String NAME_HTML_REPORT = "extent_reports.html";
@@ -57,7 +57,7 @@ public class TestBase {
     @BeforeSuite
     public void setUp() {
         if(driver == null) {
-            PropertyConfigurator.configure("./src/test/resources/properties/log4j.properties");
+            PropertyConfigurator.configure("./src/test/resources/com.example/properties/log4j.properties");
             log.info("WebDriver init.");
 
             try {

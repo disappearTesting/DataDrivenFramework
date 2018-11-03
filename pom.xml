@@ -150,7 +150,7 @@
                 <version>2.22.1</version>
                 <configuration>
                     <testFailureIgnore>false</testFailureIgnore>
-                    <suiteXmlFiles>src/test/resources/runner/testng.xml</suiteXmlFiles>
+                    <suiteXmlFiles>src/test/resources/com.example/runner/testng.xml</suiteXmlFiles>
                 </configuration>
             </plugin>
             <plugin>

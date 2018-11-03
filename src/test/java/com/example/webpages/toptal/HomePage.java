@@ -7,11 +7,14 @@ import org.openqa.selenium.support.PageFactory;
 
 public class HomePage extends TestBase {
 
-    // Page URL
-    private static String PAGE_URL = "https://toptal.com";
+    // web page - as class
 
+    // Page URL
+    private static String PAGE_URL = "https://www.toptal.com/developers";
+
+    // various elements on the page - as variables on the class
     // Define Locators
-    @FindBy(name = "")
+    @FindBy(linkText = "APPLY AS A DEVELOPER")
     private WebElement developerApplyButton;
 
     // Constructor
@@ -23,6 +26,7 @@ public class HomePage extends TestBase {
         PageFactory.initElements(driver, this);
     }
 
+    // user interactions - as methods on the class
     public void clickOnDeveloperApplyButton() {
         developerApplyButton.click();
     }

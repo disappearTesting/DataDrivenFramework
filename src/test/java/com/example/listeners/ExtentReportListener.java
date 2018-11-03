@@ -14,7 +14,7 @@ import java.io.IOException;
 public class ExtentReportListener extends TestBase implements ITestListener, ISuiteListener {
 
     // screenshots file location
-    private static final String PATH_SCREENSHOTS = System.getProperty("user.dir") + "\\src\\test\\resources\\screenshots\\";
+    private static final String PATH_SCREENSHOTS = System.getProperty("user.dir") + "\\src\\test\\resources\\com.example\\screenshots\\";
 
     @Override
     public void onTestStart(ITestResult result) {
